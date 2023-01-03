@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "postcss-cli": "^10.1.0",
-    "preline": "^1.6.0"
+    "preline": "^1.6.0",
+    "vanilla-cookieconsent": "^2.8.9"
   }
 }
