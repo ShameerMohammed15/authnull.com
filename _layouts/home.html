@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
+    <link rel="stylesheet" href="{{ "/assets/css/cookieconsent.css" | relative_url }}" media="print" onload="this.media='all'">
   </head>
-  <body>
+  <body class="antialiased">
+<script defer src="/assets/js/cookieconsent.js"></script>
+<script defer src="/assets/js/cookieconsent-init.js"></script>
+
 {% include header.html %}
 {% include decentralcover.html %}
 {% include decentralfeatures.html %}
