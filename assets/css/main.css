@@ -30,3 +30,12 @@ html {
     background: rgba(243, 254, 255, 1);
 
   }
+  .custom-bg-pink{
+    background: rgba(255, 239, 239, 1);
+
+  }
+
+  .custom-bg-green{
+    background: rgba(236, 253, 251, 1);
+
+  }
