@@ -10,11 +10,42 @@
     <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
        </head>
   <body class=" subpixel-antialiased" >
+<div class="bg-gradient-to-r from-purple-600 to-blue-400">
+  <div class="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
+    <!-- Grid -->
+    <div class="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2">
+      <div class="text-center md:text-left md:order-2 md:flex md:justify-end md:items-center">
+        <p class="mr-5 inline-block text-sm font-semibold text-white">
+          Ready to get started?
+        </p>
+        <a class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border-2 border-white font-medium text-white hover:bg-white hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all text-sm" href="#">
+          Sign up
+        </a>
+      </div>
+      <!-- End Col -->
+
+      <div class="flex items-center">
+        <a class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md font-medium text-white hover:bg-white/[.1] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all text-sm" href="#">
+          <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+          </svg>
+          Watch demo
+        </a>
+        <span class="inline-block border-r border-white/[.3] w-px h-5 mx-2"></span>
+        <a class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md font-medium text-white hover:bg-white/[.1] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all text-sm" href="#">
+          Explore what's new
+        </a>
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Grid -->
+  </div>
+</div>
 <header class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white text-sm py-3 md:py-0">
     <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
       <div class="relative md:flex md:items-center md:justify-between">
         <div class="flex items-center justify-between">
-          <a class="flex-none text-xl font-semibold" href="#" aria-label="Brand">Authnull</a>
+          <a class="flex-none text-xl font-semibold" href="#" aria-label="Brand"><img class="w-44" src="../assets/images/authnull-logo-blue.png" /></a>
           <div class="md:hidden">
             <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
               <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -52,8 +83,8 @@
                           <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
                         </svg>
                         <div>
-                          <p class="font-medium text-gray-800">Technology - Decentralied ID</p>
-                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Explore advice and explanations for all of Decentralied ID features.</p>
+                          <p class="font-medium text-gray-800">Technology - decentralized ID</p>
+                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Explore advice and explanations for all of decentralized ID features.</p>
                         </div>
                       </a>
                       <a class="group flex gap-x-5 hover:bg-gray-50 md p-4" href="/pam">
@@ -63,21 +94,22 @@
                         </svg>
                         <div>
                           <p class="font-medium text-gray-800">PAM</p>
-                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Learn how to install, set up, and use Preline.</p>
+                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Simple lightweight PAM.</p>
                         </div>
                       </a>
        
   
-                      <a class="group flex gap-x-5 hover:bg-gray-50 md p-4" href="#">
+                      <a class="group flex gap-x-5 hover:bg-gray-50 md p-4" href="/passwordlesslinux">
                         <svg class="flex-shrink-0 w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                          <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
-                          <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
+                          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
                         </svg>
                         <div>
-                          <p class="font-medium text-gray-800">API Reference</p>
-                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Build custom integrations with our first-class API.</p>
+                          <p class="font-medium text-gray-800">Passwordless for Linux</p>
+                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Learn, share, and connect with other Preline users.</p>
                         </div>
                       </a>
+  
+                     
                     </div>
   
                     <div class="flex flex-col mx-1 md:mx-0">
@@ -98,28 +130,33 @@
                         </svg>
                         <div>
                           <p class="font-medium text-gray-800">Passwordless for Apps</p>
-                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Learn how to integrate or build on top of Preline.</p>
+                          <p class="text-sm text-gray-500 group-hover:text-gray-800">FIDO3 / Passkey webauthn for your apps.</p>
                         </div>
                       </a>
   
-                      <a class="group flex gap-x-5 hover:bg-gray-50 md p-4" href="#">
+                      <a class="group flex gap-x-5 hover:bg-gray-50 md p-4" href="/blog">
                         <svg class="flex-shrink-0 w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                          <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+                          <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
                         </svg>
                         <div>
-                          <p class="font-medium text-gray-800">Community Forum</p>
-                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Learn, share, and connect with other Preline users.</p>
+                          <p class="font-medium text-gray-800">Blogs</p>
+                          <p class="text-sm text-gray-500 group-hover:text-gray-800">Build custom integrations with our first-class API.</p>
                         </div>
                       </a>
+                    
                     </div>
                   </div>
                 </div>
               </div>
   
+
+
+              
             
   
               <!-- <div class="pt-3 md:pt-0">
-                <a class="inline-flex justify-center items-center gap-x-2 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white text-sm md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-2.5 px-3" href="#">
+                <a class="inline-flex justify-center items-center gap-x-2 text-center bg-slate-900 hover:bg-slate-900 border border-transparent text-white text-sm md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-2.5 px-3" href="#">
                   <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                   </svg>
@@ -132,7 +169,471 @@
       </div>
     </nav>
   </header>
+<div class="text-center py-20 items-center px-4 sm:px-6 lg:px-8 bg-black h-screen">
+    <h1 class="block text-2xl font-bold text-white sm:text-4xl">Technology - decentralized ID</h1>
+    <p class="mt-3 text-lg text-gray-300">Authnull enables passwordless for legacy using Decentralized ID as one of its </p>
+    <p class=" text-lg text-gray-300">authenticators</p>
+    <img src="../assets/images/cover.png" class="w-5/12 mx-auto mt-20" />
+  </div>
+<main class="custom-bg-pink  h-screen">
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <!-- Grid -->
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="lg:w-3/4">
+            <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl">
+                Why decentralized identifier for passwordless?
+            </h2>
+            <!-- <p class="mt-3 text-gray-800">
+              We help businesses bring ideas to life in the digital world, by designing and implementing the technology tools that they need to win.
+            </p> -->
+            <!-- <p class="mt-5 inline-flex items-center gap-x-2 font-medium text-blue-600">
+              Contact sales to learn more
+              <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
+              </svg>
+            </p> -->
+            <!-- <img class="h-100 mt-20 lg" src="../assets/images/pro.jpg" /> -->
+          </div>
+          <!-- End Col -->
+      
+          <div class="space-y-6 lg:space-y-10">
+            <!-- Icon Block -->
+            <div class="flex">
+              <!-- <svg class="flex-shrink-0 mt-2 h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+              </svg> -->
+              <img src="../assets/images/reduce.svg" class="flex-shrink-0 h-36 w-40 text-gray-800" />
+              <div class="ml-5 sm:ml-8">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Reduced / No attack surface
+                </h3>
+                <p class="mt-1 text-gray-600">
+                    Although in legacy infrastructure, local passwords will continue to exist for local accounts, they are managed by the machines. Authnull provides a PAM solution with a decentralized identifier enabled to reduce the attack surface as credentials are delegated to the users wallet.
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Block -->
+      
+            <!-- Icon Block -->
+            <div class="flex">
+              <img src="../assets/images/fraud.svg" class="flex-shrink-0 h-36 w-40 text-gray-800" />
+              <div class="ml-5 sm:ml-8">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Fraud proof credentials
+                </h3>
+                <p class="mt-1 text-gray-600">
+                    Issuing organizations can provide fraud-proof credentials and verifying organizations can instantly check the authenticity of credentials.
+                </p>
+              </div>
+            </div>
+            <div class="flex">
+              <img src="../assets/images/self.svg" class="flex-shrink-0 h-36 w-40 text-gray-800" />
+              <div class="ml-5 sm:ml-8">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Self Sovereign Identity
+                </h3>
+                <p class="mt-1 text-gray-600">
+                    Helps implement self owned, self managed identity as opposed to management of third parties
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Block -->
+      
+            <!-- Icon Block -->
+           
+            
+            <!-- End Icon Block -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+      </div>
+</main>
 
+  <!-- End Icon Blocks -->
+<main class=" custom-bg-green  h-screen">
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-xl mx-auto">
+        <div class="text-center">
+          <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
+           Platform Features
+          </h1>
+          <p class="mt-3 text-blue-600 mb-20 text-xl">
+            Our platform is lightweight, easy-to-use, and cost effective to roll out standards based passwordless in your organization.
+ 
+          </p>
+        </div>
+      </div>
+    <!-- Grid -->
+    <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+      <!-- Card -->
+      <a class="group xl overflow-hidden" href="#">
+        <div class="sm:flex">
+          <div class="flex-shrink-0 relative xl overflow-hidden w-full sm:w-56 h-44">
+            <img class="shadow-2xl group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover xl" src="../assets/images/verified.svg" alt="Image Description">
+          </div>
+  
+          <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
+            <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
+              Verified Credentials
+            </h3>
+            <p class="mt-3 text-gray-600 ">
+              Verifiable Credentials to verify documents instantly. Verifiable Credentials are documents that contain a crypto signature: a permanent stamp that allows anyone to confirm you issued that credential
+            </p>
+            <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
+              Read more
+              <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </p>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group xl overflow-hidden" href="#">
+        <div class="sm:flex">
+          <div class="flex-shrink-0 relative xl overflow-hidden w-full sm:w-56 h-44">
+            <img class="shadow-2xl group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover xl" src="../assets/images/blockchain.svg" alt="Image Description">
+          </div>
+  
+          <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
+            <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
+              Blockchain based authentication
+            </h3>
+            <p class="mt-3 text-gray-600 ">
+              DIDs are cryptographically verifiable identifiers stored on the blockchain, and independent of any organization. DIDs contain no personal data or wallet information.
+            </p>
+            <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
+              Read more
+              <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </p>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group xl overflow-hidden" href="#">
+        <div class="sm:flex">
+          <div class="flex-shrink-0 relative xl overflow-hidden w-full sm:w-56 h-44">
+            <img class="shadow-2xl group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover xl" src="../assets/images/authorized.svg" alt="Image Description">
+          </div>
+  
+          <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
+            <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
+              Authorization using Zero-Knowledge Proofs
+            </h3>
+            <p class="mt-3 text-gray-600 ">
+              Verifiable Credentials contain cryptographically verified user data and are only stored in the user’s non-custodial identity wallet app
+            </p>
+            <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
+              Read more
+              <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </p>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+  
+      <!-- Card -->
+      <a class="group xl overflow-hidden" href="#">
+        <div class="sm:flex">
+          <div class="flex-shrink-0 relative xl overflow-hidden w-full sm:w-56 h-44">
+            <img class="shadow-2xl group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover xl" src="../assets/images/wallet.svg" alt="Image Description">
+          </div>
+  
+          <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
+            <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
+              Wallet
+            </h3>
+            <p class="mt-3 text-gray-600 ">
+              A key part of decentralized infrastructure is the user wallet.
+            </p>
+            <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
+              Read more
+              <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </p>
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Grid -->
+  </div>
+</main>
+
+<main class="custom-bg-dark-blue  h-screen">
+  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div class="max-w-xl mx-auto">
+        <div class="text-center">
+          <h1 class="text-3xl font-bold text-white sm:text-4xl">
+            Get A Demo
+          </h1>
+          <p class="mt-1 text-white">
+          Begin your journey to passwordless
+          </p>
+        </div>
+      </div>
+    
+      <div class="bg-white mt-12 max-w-lg mx-auto">
+        <!-- Card -->
+        <div class="flex flex-col border xl p-4 sm:p-6 lg:p-8">
+          <h2 class="mb-8 text-xl font-semibold text-gray-800">
+       How can we contact you?
+          </h2>
+    
+          <form>
+            <div class="grid gap-4 lg:gap-6">
+              <!-- Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                <div>
+                  <label for="hs-firstname-contacts-1" class="block text-sm text-gray-700 font-medium">First Name</label>
+                  <input type="text" name="hs-firstname-contacts-1" id="hs-firstname-contacts-1" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                </div>
+    
+                <div>
+                  <label for="hs-lastname-contacts-1" class="block text-sm text-gray-700 font-medium">Last Name</label>
+                  <input type="text" name="hs-lastname-contacts-1" id="hs-lastname-contacts-1" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 ">
+                </div>
+              </div>
+              <!-- End Grid -->
+    
+              <!-- Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                <div>
+                  <label for="hs-email-contacts-1" class="block text-sm text-gray-700 font-medium">Email</label>
+                  <input type="email" name="hs-email-contacts-1" id="hs-email-contacts-1" autocomplete="email" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                </div>
+    
+                <div>
+                  <label for="hs-phone-number-1" class="block text-sm text-gray-700 font-medium ">Phone Number</label>
+                  <input type="text" name="hs-phone-number-1" id="hs-phone-number-1" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                </div>
+              </div>
+              <!-- End Grid -->
+    
+              <div>
+                  <label for="hs-lastname-contacts-1" class="block text-sm text-gray-700 font-medium">Organization Name</label>
+                  <input type="text" name="hs-lastname-contacts-1" id="hs-lastname-contacts-1" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                </div>
+            </div>
+            <!-- End Grid -->
+    
+            <div class="mt-6 grid">
+              <button type="submit" class="inline-flex justify-center items-center gap-x-3 text-center bg-slate-900 hover:bg-slate-900 border border-transparent text-sm lg:text-base text-white font-medium  focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 ">Send inquiry</button>
+            </div>
+    
+            <div class="mt-3 text-center">
+              <p class="text-sm text-gray-500">
+                We'll get back to you in 1-2 business days.
+              </p>
+            </div>
+          </form>
+        </div>
+        <!-- End Card -->
+      </div>
+    
+    
+    </div>
+</main>
+
+<main class="custom-bg-light-blue h-screen">
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto h-screen mb-10">
+        <!-- Title -->
+        <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+          <h2 class="text-2xl font-bold md:text-4xl md:leading-tight "> Blogs</h2>
+
+        </div>
+        <!-- End Title -->
+      
+        <!-- Grid -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 xl p-5   " href="#">
+                <div class="aspect-w-16 aspect-h-11">
+                  <img class="w-full max-h-56 object-cover xl" src="../assets/images/authorized.svg" alt="Image Description">
+                </div>
+                <div class="my-6">
+                  <h3 class="text-xl font-semibold text-gray-800  ">
+                    Embed with SSO
+                  </h3>
+                  <p class="mt-5 text-gray-600 ">
+                    Embed the passwordless forms with any existing SSO solution.
+                  </p>
+                </div>
+                <div class="mt-auto flex items-center gap-x-3">
+                    <img class="w-8 h-8 full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+                  <div>
+                    <h5 class="text-sm text-gray-800 ">By Asif Ali</h5>
+                  </div>
+                </div>
+              </a>
+          <!-- Card -->
+          <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 xl p-5   " href="#">
+            <div class="aspect-w-16 aspect-h-11">
+              <img class="w-full max-h-56 object-cover xl" src="../assets/images/verified.svg" alt="Image Description">
+            </div>
+            <div class="my-6">
+              <h3 class="text-xl font-semibold text-gray-800  ">
+                User sync through SCIM and Active Directory
+              </h3>
+              <p class="mt-5 text-gray-600 ">
+                Synchronize existing users through SCIM and active directory
+              </p>
+            </div>
+            <div class="mt-auto flex items-center gap-x-3">
+                <img class="w-8 h-8 full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+              <div>
+                <h5 class="text-sm text-gray-800 ">Inam Habib</h5>
+              </div>
+            </div>
+          </a>
+          <!-- End Card -->
+      
+          <!-- Card -->
+          <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 xl p-5   " href="#">
+            <div class="aspect-w-16 aspect-h-11">
+              <img class="w-full max-h-56 object-cover xl" src="../assets/images/blockchain.svg" alt="Image Description">
+            </div>
+            <div class="my-6">
+              <h3 class="text-xl font-semibold text-gray-800  ">
+                Support for various authenticators
+              </h3>
+              <p class="mt-5 text-gray-600 ">
+                Authnull provides support for various platform authenticators including fingerprint, face id, mobile apps., MOTP and through Passkeys.
+              </p>
+            </div>
+            <div class="mt-auto flex items-center gap-x-3">
+              <img class="w-8 h-8 full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+              <div>
+                <h5 class="text-sm text-gray-800 ">By Hussain</h5>
+              </div>
+            </div>
+          </a>
+          <!-- End Card -->
+      
+          <!-- Card -->
+
+          <!-- End Card -->
+        </div>
+        <!-- End Grid -->
+      
+        <!-- Card -->
+        <div class="mt-12 text-center">
+          <a class="inline-flex justify-center items-center gap-x-2 text-center bg-white border hover:border-gray-300 text-sm text-blue-600 hover:text-blue-700 font-medium hover:shadow-sm full focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4" href="#">
+            Read more
+            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+        <!-- End Card -->
+      </div>
+</main>
+
+<footer class="bg-gray-900 ">
+    <div class="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
+      <!-- Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <div class="col-span-full lg:col-span-1">
+          <a class="flex-none text-xl font-semibold text-white" href="#" aria-label="Brand">Authnull</a>
+        </div>
+        <!-- End Col -->
+  
+        <div class="col-span-1">
+          <h4 class="font-semibold text-gray-100">Product</h4>
+  
+          <div class="mt-3 grid space-y-3">
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Pricing</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Changelog</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Docs</a></p>
+          </div>
+        </div>
+        <div class="col-span-1">
+            <h4 class="font-semibold text-gray-100">Company</h4>
+    
+            <div class="mt-3 grid space-y-3">
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">About us</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Blog</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Service Status</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Careers</a> <span class="inline ml-1 text-xs bg-blue-700 text-white py-1 px-2 md">We're hiring</span></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Leadership</a></p>
+            </div>
+          </div>
+        <!-- End Col -->
+  
+        <div class="col-span-1">
+          <h4 class="font-semibold text-gray-100">Resources</h4>
+  
+          <div class="mt-3 grid space-y-3">
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Help Section</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Webinars</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Podcast</a></p>
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Case Studies</a></p>
+
+          </div>
+        </div>
+        <!-- End Col -->
+        <div class="col-span-1">
+            <h4 class="font-semibold text-gray-100">Developers</h4>
+    
+            <div class="mt-3 grid space-y-3">
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Sitemap</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Developer Apis</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Release Notes</a></p>
+  
+            </div>
+          </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Grid -->
+  
+      <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
+        <div class="flex justify-between items-center">
+          <p class="text-sm text-gray-400">© 2022 Authnull. All rights reserved.</p>
+        </div>
+        <!-- End Col -->
+  
+        <!-- Social Brands -->
+        <div>
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+            </svg>
+          </a>
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </a>
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
+            </svg>
+          </a>
+        </div>
+        <!-- End Social Brands -->
+      </div>
+    </div>
+  </footer>
 <script defer src="/assets/js/cookieconsent.js"></script>
 <script defer src="/assets/js/cookieconsent-init.js"></script>
 <script src="./preline/dist/preline.js"></script>

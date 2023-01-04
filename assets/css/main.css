@@ -5,7 +5,53 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'TT Norms Pro';
+  src:  url('/assets/fonts/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Medium.otf') format('opentype');
+}
+
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'TT Norms Pro';
     color:black;
+
+  }
+  .custom-bg-blue{
+    background: rgba(0, 17, 173, 1);
+  }
+  .custom-bg-peach{
+    background: rgba(255, 242, 226, 1)
+  }
+  .custom-bg-dark-blue{
+    background: rgba(91, 125, 176, 1);
+    
+  }
+
+  .custom-bg-light-blue{
+    background: rgba(243, 254, 255, 1);
+
+  }
+  .custom-bg-pink{
+    background: rgba(255, 239, 239, 1);
+
+  }
+
+  .custom-bg-green{
+    background: rgba(236, 253, 251, 1);
+
+  }
+
+  .custom-bg-bright-blue{
+    background:#2D5BFF
+  }
+  .custom-bg-pink-tea{
+   background:#ffd9d9
+  }
+  .custom-bg-ablastor{
+    background:#e3d9ff;
+  }
+  .custom-bg-beige{
+    background: beige;
+  }
+  .custom-bg-purple{
+    background: #bb2dff;
   }
