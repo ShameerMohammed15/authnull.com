@@ -13,4 +13,20 @@
 html {
     font-family: 'TT Norms Pro';
     color:black;
+
+  }
+  .custom-bg-blue{
+    background: rgba(0, 17, 173, 1);
+  }
+  .custom-bg-peach{
+    background: rgba(255, 242, 226, 1)
+  }
+  .custom-bg-dark-blue{
+    background: rgba(91, 125, 176, 1);
+    
+  }
+
+  .custom-bg-light-blue{
+    background: rgba(243, 254, 255, 1);
+
   }
