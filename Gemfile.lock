@@ -10,9 +10,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.12-x64-mingw-ucrt)
     google-protobuf (3.21.12-x86_64-darwin)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -33,9 +31,18 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-postcss-v2 (1.0.1)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -56,22 +63,24 @@ GEM
     rexml (3.2.5)
     rouge (4.0.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.57.1-x64-mingw-ucrt)
-      google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x86_64-darwin)
       google-protobuf (~> 3.21)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
-    unicode-display_width (2.3.0)
+    unicode-display_width (2.4.2)
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
   x86_64-darwin-19
 
 DEPENDENCIES
   jekyll
+  jekyll-archives
+  jekyll-feed
+  jekyll-paginate
   jekyll-postcss-v2
+  jekyll-seo-tag
+  jekyll-sitemap
   webrick
 
 BUNDLED WITH
