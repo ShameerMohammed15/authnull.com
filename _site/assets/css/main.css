@@ -1396,7 +1396,7 @@ html {
     background: beige;
   }
   .custom-bg-purple{
-    background: #cfa8df;
+    background: #e8d9ed;
   }
   .before\:absolute::before {
   content: var(--tw-content);
