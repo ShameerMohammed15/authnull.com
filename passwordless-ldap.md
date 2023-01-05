@@ -1,5 +1,5 @@
 ---
-layout: contactus
-title: "Contact Us"
+layout: ldap
+title: "LDAP"
 ---
 <!-- <script src="{{ "/node_modules/preline/dist/preline.js" | relative_url }}"></script> -->
