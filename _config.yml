@@ -7,3 +7,6 @@ plugins:
 
 postcss:
   cache: false
+
+posts:
+  permalink: /:title.html
