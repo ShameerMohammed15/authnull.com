@@ -695,9 +695,6 @@ video {
 .h-32 {
   height: 8rem;
 }
-.h-auto {
-  height: auto;
-}
 .h-7 {
   height: 1.75rem;
 }
@@ -745,9 +742,6 @@ video {
 }
 .w-px {
   width: 1px;
-}
-.w-16 {
-  width: 4rem;
 }
 .w-5 {
   width: 1.25rem;
@@ -890,11 +884,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-y-2\.5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -1440,10 +1429,6 @@ html {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
-  .hover\:border-slate-300:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
   .hover\:border-blue-600:hover {
   --tw-border-opacity: 1;
   border-color: rgb(37 99 235 / var(--tw-border-opacity));
@@ -1628,9 +1613,6 @@ html {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
-  .active.hs-tab-active\:hover\:border-transparent:hover {
-  border-color: transparent;
-}
   .active .hs-tab-active\:bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
@@ -1642,9 +1624,6 @@ html {
   .active .hs-tab-active\:text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-  .active .hs-tab-active\:hover\:border-transparent:hover {
-  border-color: transparent;
 }
   .open.hs-overlay-open\:mt-7 {
   margin-top: 1.75rem;
@@ -1685,15 +1664,6 @@ html {
     color: rgb(107 114 128 / var(--tw-text-opacity));
   }
 
-  .dark\:hover\:border-slate-700:hover {
-    --tw-border-opacity: 1;
-    border-color: rgb(51 65 85 / var(--tw-border-opacity));
-  }
-
-  .active.dark\:hs-tab-active\:border-transparent {
-    border-color: transparent;
-  }
-
   .active.dark\:hs-tab-active\:bg-white\/\[\.05\] {
     background-color: rgb(255 255 255 / .05);
   }
@@ -1701,10 +1671,6 @@ html {
   .active.dark\:hs-tab-active\:text-blue-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
-  }
-
-  .active .dark\:hs-tab-active\:border-transparent {
-    border-color: transparent;
   }
 
   .active .dark\:hs-tab-active\:bg-white\/\[\.05\] {
@@ -2007,10 +1973,6 @@ html {
     margin-bottom: 3.5rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .lg\:mt-32 {
     margin-top: 8rem;
   }
@@ -2094,6 +2056,10 @@ html {
 
   .lg\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .lg\:pb-14 {
+    padding-bottom: 3.5rem;
   }
 
   .lg\:text-center {
