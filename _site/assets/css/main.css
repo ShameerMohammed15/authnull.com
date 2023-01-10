@@ -2204,7 +2204,7 @@ html {
   }
 
   .custom-bg-green{
-    background: rgba(236, 253, 251, 1);
+    background: rgb(225, 210, 240);
 
   }
 
@@ -2215,7 +2215,11 @@ html {
    background:#ffd9d9
   }
   .custom-bg-ablastor{
-    background:#e3d9ff;
+    background:#cde4eb;
+  }
+
+  .custom-bg-why{
+    background:#e1e1f7;
   }
   .custom-bg-beige{
     background: beige;
@@ -2584,11 +2588,6 @@ html {
     --tw-bg-opacity: 0.8;
   }
 
-  .dark\:text-gray-600 {
-    --tw-text-opacity: 1;
-    color: rgb(75 85 99 / var(--tw-text-opacity));
-  }
-
   .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2602,6 +2601,11 @@ html {
   .dark\:text-gray-200 {
     --tw-text-opacity: 1;
     color: rgb(229 231 235 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
   }
 
   .dark\:text-gray-300 {
