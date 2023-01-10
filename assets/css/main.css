@@ -62,3 +62,13 @@ html {
   .custom-bg-purple-dark{
     background: #e79dff;
   }
+
+  #showMe {
+    animation: cssAnimation 0s 7s forwards;
+    visibility: hidden;
+  }
+  
+  @keyframes cssAnimation {
+    
+    to   { visibility: visible; }
+  }
