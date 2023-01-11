@@ -1,6 +1,8 @@
 ---
 layout: posts
-title:  "Welcome to Jekyll!"
+title:  "Comprehensive workflows"
+excerpt: "Customize your authentication flow with a single factor, 2 factor and more."
+image: /assets/images/legacy.png
 ---
 
 # Welcome

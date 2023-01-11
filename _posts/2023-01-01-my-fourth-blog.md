@@ -1,8 +1,8 @@
 ---
 layout: posts
-title:  "Welcome to Jekyll!"
-excerpt: "This is a fourth blog"
-image: /assets/images/blog2.png
+title:  "User sync through SCIM and Active Directory"
+excerpt: "Synchronize existing users through SCIM and active directory"
+image: /assets/images/scim.jpeg
 ---
 
 # Welcome
