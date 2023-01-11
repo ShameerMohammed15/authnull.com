@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+  </head>
+  <body>
+    {% include header.html %} 
+    {% include maps.html latitude="38.995972775842695" longitude=" -121.05367783785049" zoom="12" style="dark" %}
+    {% include footer.html %}
+
+<script src="./preline/dist/preline.js"></script>
+</body>
+</html>
