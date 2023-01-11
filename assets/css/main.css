@@ -64,8 +64,12 @@ html {
   }
 
   #showMe {
-    animation: cssAnimation 0s 7s forwards;
+    animation: cssAnimation 0s 10s forwards;
     visibility: hidden;
+    position: absolute;
+    position: absolute;
+    height: 50rem;
+    left: 55%;
   }
   
   @keyframes cssAnimation {
