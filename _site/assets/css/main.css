@@ -1274,6 +1274,9 @@ video {
 .ml-6 {
   margin-left: 1.5rem;
 }
+.mb-auto {
+  margin-bottom: auto;
+}
 .block {
   display: block;
 }
@@ -1456,6 +1459,12 @@ video {
 }
 .max-w-screen-md {
   max-width: 768px;
+}
+.max-w-\[50rem\] {
+  max-width: 50rem;
+}
+.max-w-7xl {
+  max-width: 80rem;
 }
 .flex-auto {
   flex: 1 1 auto;
@@ -1968,6 +1977,14 @@ video {
 }
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 .font-bold {
@@ -2997,6 +3014,21 @@ html {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }
   
