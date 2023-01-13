@@ -1256,6 +1256,9 @@ video {
 .ml-auto {
   margin-left: auto;
 }
+.mr-1 {
+  margin-right: 0.25rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1267,9 +1270,6 @@ video {
 }
 .mr-2 {
   margin-right: 0.5rem;
-}
-.mr-1 {
-  margin-right: 0.25rem;
 }
 .ml-6 {
   margin-left: 1.5rem;
@@ -1429,6 +1429,9 @@ video {
 }
 .w-36 {
   width: 9rem;
+}
+.w-3\/4 {
+  width: 75%;
 }
 .min-w-\[15rem\] {
   min-width: 15rem;
@@ -1929,6 +1932,15 @@ video {
 .pr-6 {
   padding-right: 1.5rem;
 }
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2225,7 +2237,8 @@ html {
   }
 
   #showMe {
-    animation: cssAnimation 0s 10s forwards;
+    animation: cssAnimation 0s 5s forwards;
+    animation-duration: 2s;
     visibility: hidden;
     position: absolute;
     height: 50rem;
@@ -2233,7 +2246,7 @@ html {
   }
   
   @keyframes cssAnimation {
-    
+    from {visibility: visible;}
     to   { visibility: visible; }
   }
   

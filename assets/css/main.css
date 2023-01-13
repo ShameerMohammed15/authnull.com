@@ -64,7 +64,8 @@ html {
   }
 
   #showMe {
-    animation: cssAnimation 0s 10s forwards;
+    animation: cssAnimation 0s 5s forwards;
+    animation-duration: 2s;
     visibility: hidden;
     position: absolute;
     position: absolute;
@@ -73,6 +74,6 @@ html {
   }
   
   @keyframes cssAnimation {
-    
+    from {visibility: visible;}
     to   { visibility: visible; }
   }

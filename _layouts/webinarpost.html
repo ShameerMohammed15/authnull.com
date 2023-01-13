@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -14,12 +15,38 @@
 <script defer src="/assets/js/cookieconsent-init.js"></script>
 
 {% include header.html %}
-{% include decentralcover.html %}
-{% include whatdowedo.html %}
-{% include decentralfeatures.html %}
-{% include decentralcontactus.html %}
-{% include decentralcasestudies.html %}
+<!-- Hero -->
+<div class="w-3/4 ...">    
+   
+ 
+    {{ content }}
+   
+  
+         
+  </div>
+  <!-- End Hero -->
+
+<h1 data-toc-skip>{{ page.title }}</h1>
+
+ 
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  {% if page.categories.size > 0 %}
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    {% for category in page.categories %}
+      <a href='{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/'>{{ category }}</a>
+      {%- unless forloop.last -%}, {%- endunless -%}
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+
+</div><!-- div.post-tail-wrapper -->
+
+{% include webinarlist.html %}
 {% include footer.html %}
+
 <script src="/preline/dist/preline.js"></script>
-  </body>
-</html>
