@@ -1301,9 +1301,6 @@ video {
 .hidden {
   display: none;
 }
-.h-screen {
-  height: 100vh;
-}
 .h-44 {
   height: 11rem;
 }
@@ -1372,6 +1369,9 @@ video {
 }
 .max-h-\[75vh\] {
   max-height: 75vh;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .min-h-\[15rem\] {
   min-height: 15rem;
