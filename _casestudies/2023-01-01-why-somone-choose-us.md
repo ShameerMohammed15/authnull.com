@@ -1,19 +1,20 @@
 ---
 layout: casestudypost
-title:  "User sync through SCIM and Active Directory"
-excerpt: "Synchronize existing users through SCIM and active directory"
+title:  "Coming soon"
+excerpt: "Case study placeholder"
 image: "/assets/images/ssologin.svg"
 categories: blog
-summary: "This is about PGE. The Shittiest electricity company in America"
-customer: "CEO of PGE"
+author: sal
+summary: "Case study summary"
+customer: "CEO of Placeholder co"
 customer-logo: "/assets/images/logo.png"
-casestudyresults: "PGE achieved awesome results by adopting Decentralized Identity"
-casestudyresults_summary: "Here are the results from PGE"
+casestudyresults: "Placeholder achieved awesome results by adopting Decentralized Identity"
+casestudyresults_summary: "Here are the results from Awesome co"
 stat1: "$1.234m"
 stat2: "500"
 stat3: "500k "
 stat4: "200"
+ 
 ---
 
-
-Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world 
+Place holder text. Case study coming soon.

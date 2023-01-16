@@ -1,15 +1,15 @@
 ---
 layout: casestudypost
-title:  "Comprehensive workflows"
-excerpt: "Customize your authentication flow with a single factor, 2 factor and more."
+title:  "Coming soon"
+excerpt: "Case study placeholder"
 image: "/assets/images/ssologin.svg"
 categories: blog
 author: sal
-summary: "This is about PGE. The worst electricity company in America"
-customer: "CEO of PGE"
+summary: "Case study summary"
+customer: "CEO of Placeholder co"
 customer-logo: "/assets/images/logo.png"
-casestudyresults: "PGE achieved awesome results by adopting Decentralized Identity"
-casestudyresults_summary: "Here are the results from PGE"
+casestudyresults: "Placeholder achieved awesome results by adopting Decentralized Identity"
+casestudyresults_summary: "Here are the results from Awesome co"
 stat1: "$1.234m"
 stat2: "500"
 stat3: "500k "
@@ -17,4 +17,4 @@ stat4: "200"
 highlight: "true"
 ---
 
-Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world 
+Place holder text. Case study coming soon.
