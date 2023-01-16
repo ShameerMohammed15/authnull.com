@@ -91,7 +91,11 @@
  
    <span class="blog-font">
     
+    Please wait while we load your webinar page...
+
       {{ content }}
+
+      
     </span>
     </div>
   
@@ -115,3 +119,6 @@
 {% include footer.html %}
 
 <script src="/preline/dist/preline.js"></script>
+<script>
+  setTimeout("location.href = '{{ page.webinarurl }};','_blank';",2000);
+  </script>
