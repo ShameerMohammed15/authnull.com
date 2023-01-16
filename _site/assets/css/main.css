@@ -1340,8 +1340,8 @@ video {
 .h-24 {
   height: 6rem;
 }
-.h-3\/6 {
-  height: 50%;
+.h-4\/6 {
+  height: 66.666667%;
 }
 .h-10 {
   height: 2.5rem;
@@ -2237,16 +2237,23 @@ html {
   }
 
   #showMe {
-    animation: cssAnimation 0s 5s forwards;
-    animation-duration: 2s;
+    animation: cssAnimation 0s 10s forwards;
     visibility: hidden;
     position: absolute;
-    height: 50rem;
-    left: 55%;
+    justify-content: center;
+    top: 44%;
+    height: 48rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(1);
+    transition: .3s ease;
+
+
   }
   
   @keyframes cssAnimation {
-    from {visibility: visible;}
+    
     to   { visibility: visible; }
   }
   
