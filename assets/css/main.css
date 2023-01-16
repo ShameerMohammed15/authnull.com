@@ -9,7 +9,7 @@
   font-family: 'TT Norms Pro';
   src:  url('/assets/fonts/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Medium.otf') format('opentype');
 }
-
+ 
 html {
     font-family: 'TT Norms Pro';
     color:black;
@@ -47,7 +47,7 @@ html {
    background:#ffd9d9
   }
   .custom-bg-ablastor{
-    background:#cde4eb;
+    background:#e0edf1;
   }
 
   .custom-bg-why{
