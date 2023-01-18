@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% include ga.html %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
@@ -13,6 +15,7 @@
        </head>
   <body class=" subpixel-antialiased" >
 {% include header.html %}
+
 {% include apikey.html %}
  
 {% include footer.html %}
