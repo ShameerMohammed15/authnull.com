@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "What is DID"
-excerpt: "What is a DID?"
+title:  "What is Decentralized Identifier"
 image: /assets/images/did.png
+excerpt: "Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID."
+
 categories: blog
 author: asif
 ---

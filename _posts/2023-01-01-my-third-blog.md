@@ -1,22 +1,30 @@
 ---
 layout: post
-title:  "Embedd SSO"
-excerpt: "Embed the passwordless forms with any existing SSO solution."
-image: /assets/images/embedd-sso.jpeg
+title:  "Users need to own their Identity"
+excerpt: "Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity."
+image: /assets/images/ssi2.jpg
 categories: blog
-tags: tag1 tag2
+tags: ssi decentralized-identity
 ---
 
  
+Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.  
+<br/>
+<br/>
 
-One of the most important aspects of website authentication is the focus on the user and human-to-computer interactions. As a result, user authentication is crucial to understand when creating or improving your website’s login procedure..
-Whether you’re looking to amp up your internal security, increase customer acquisition, or simply provide a better user experience for individuals exploring your site, it’s important to know how user authentication fits into the equation. That’s why we’ve created this guide. This way, organizations can understand: What user authentication is How user authentication works The importance of user authentication Top user authentication methods How to improve user authentication With a better understanding, your organization can look into more efficient registration and login processes that go past traditional offerings. Additionally, when you gain a full picture of the different types of user authentication, you’ll see that passwords aren’t the only option for your website and learn more about top passwordless alternatives. Let’s dive right into the first section.
-<br/><br/>
- Additionally, when you gain a full picture of the different types of user authentication, you’ll see that passwords aren’t the only option for your website and learn more about top passwordless alternatives. Let’s dive right into the first section.
-<br/><br/>
+The future as we see it<br/>
 
- Additionally, when you gain a full picture of the different types of user authentication, you’ll see that passwords aren’t the only option for your website and learn more about top passwordless alternatives. Let’s dive right into the first section.
-<br/><br/>
+-- Uses Own and control their Identity.  <br/>
+-- Privacy by design, built in from the ground up. <br/>
+-- Trust is earned and attested by individuals and systems that need to trust them<br/>
+-- Identity operates with Open and Interoperable Standards<br/>
 
- Additionally, when you gain a full picture of the different types of user authentication, you’ll see that passwords aren’t the only option for your website and learn more about top passwordless alternatives. Let’s dive right into the first section.
+<br/>
+<br/>
+
+<a style="color:blue" href="https://identity.foundation">The Decentralized Identity Foundation (DIF) </a>with individuals and organizations who are similarly motivated to take on this challenge.  We are building on top of the standards established by the DIF and are using the following constructs in our infrastructure<br/>
+-- <a href="https://www.w3.org/TR/did-core/" style="color:blue" > Decentralized Identifiers (DIDs) </a> – a W3C spec that defines a common document format for describing the state of a Decentralized Identifier<br/>
+-- <a href="https://identity.foundation/decentralized-web-node/spec/0.0.1-predraft/" style="color:blue" > Identity Hubs </a>– an encrypted identity datastore that features message/intent relay, attestation handling, and identity-specific compute endpoints. <br/>
+-- <a href="https://github.com/decentralized-identity/universal-resolver" style="color:blue" >  Universal DID Resolver – a server that resolves DIDs across blockchains <br/>
+-- <a href="https://www.w3.org/TR/vc-data-model/" style="color:blue"> Verifiable Credentials </a>– a W3C spec that defines a document format for encoding DID-based attestations.   <br/>
 
