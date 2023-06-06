@@ -1148,9 +1148,6 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.ml-4 {
-  margin-left: 1rem;
-}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -1162,6 +1159,9 @@ video {
 }
 .ml-2 {
   margin-left: 0.5rem;
+}
+.ml-4 {
+  margin-left: 1rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -2604,10 +2604,6 @@ html {
     margin-left: calc(2rem + 1px);
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .sm\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -2624,20 +2620,12 @@ html {
     display: inline-flex;
   }
 
-  .sm\:h-48 {
-    height: 12rem;
-  }
-
   .sm\:w-56 {
     width: 14rem;
   }
 
   .sm\:w-auto {
     width: auto;
-  }
-
-  .sm\:w-48 {
-    width: 12rem;
   }
 
   .sm\:max-w-3xl {
@@ -2758,11 +2746,6 @@ html {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .sm\:text-3xl {
@@ -2904,10 +2887,6 @@ html {
 
   .md\:gap-8 {
     gap: 2rem;
-  }
-
-  .md\:gap-10 {
-    gap: 2.5rem;
   }
 
   .md\:gap-12 {
@@ -3115,20 +3094,12 @@ html {
     display: grid;
   }
 
-  .lg\:h-60 {
-    height: 15rem;
-  }
-
   .lg\:w-3\/4 {
     width: 75%;
   }
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-60 {
-    width: 15rem;
   }
 
   .lg\:w-screen {
@@ -3263,11 +3234,6 @@ html {
     line-height: 2.25rem;
   }
 
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -3338,10 +3304,6 @@ html {
 
   .xl\:gap-20 {
     gap: 5rem;
-  }
-
-  .xl\:gap-16 {
-    gap: 4rem;
   }
 
   .xl\:gap-32 {

@@ -349,14 +349,13 @@
     </nav>
   </header>
 <div class="text-center py-20 items-center px-4 sm:px-6 lg:px-8 bg-slate-50 min-h-screen">
-    <h1 class="block text-2xl font-bold text-indigo sm:text-4xl">Passwordless authentication for Linux Infrastructure</h1>
-    <p class="mt-3 text-lg text-black">Authnull offers passwordless authentication for Linux <br /> infrastructure using Decentralized Identity </p>
+    <h1 class="block text-2xl font-bold text-indigo sm:text-4xl">Identity Aware + Passwordless Privileged Access Management</h1>
+    <p class="mt-3 text-lg text-black">Authnull offers passwordless PAM for Linux Infrastructure. AuthNull is  a decentralized solution that offers full benefits of vault-like storage of credentials.</p>
     <!-- <p class=" text-lg text-gray-300">authenticators</p> -->
     <div class="flex justify-center  mt-10 ">
-      <iframe class="bg-black" width="800" height="450" src="interactiveterminal.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-      </iframe>
-      <div id="showMe" class="flex align-center ml-4 mt-3">
-        <img src="../assets/images/mobile.png" class="h-4/6" />
+     
+      <div  class="flex justify-center  align-center ">
+        <img src="../assets/images/auth.png" class="h-4/6" />
       </div>
     </div>
    
@@ -367,11 +366,11 @@
         <div class="grid md:grid-cols-2 gap-5">
           <div class="lg:w-3/4">
             <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl">
-                Passwordless for Legacy infrastructure
+                Passwordless Privileged Access Management
             </h2>
           <img class="w-full mt-20" src="../assets/images/what.png" />
             <p class="mt-3 text-gray-800">
-                We primarily enable passwordless authentication for Legacy infrastructure i.e. Linux VM and baremetal machines.
+               AuthNull enables Passwordless Privileged Access Management with Identity Aware authentication.
             </p>
        
             <!-- <p class="mt-5 inline-flex items-center gap-x-2 font-medium text-blue-600">
@@ -396,7 +395,9 @@
                     Why is this a problem?
                 </h3>
                 <p class="mt-1 text-gray-600">
-                    SSH keys and passwords rely on user remembering / saving them somewhere and this represents a problem in attempts where users some machines are hijacked revealing a host of other credetials. Additionally, credential management done through centralized solutions exposes customers to hacks thanks to a centrally available attack vector. We aim to solve this problem by eliminating centrally stored passwords.
+Managing, remembering SSH Keys and passwords is neither easy nor safe. Vaults are great, until they get hacked of course. 
+A Privileged Access Management that does not have passwords to remember sure sounds like an oxymoron but that's exactly what is required to keep sensitive servers and data safe.
+
                 </p>
               </div>
             </div>
@@ -407,10 +408,10 @@
                 <!-- <img src="../assets/images/user-management.jpeg" class="flex-shrink-0 h-28 w-40 text-gray-800" /> -->
               <div class="ml-5 sm:ml-8">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-                    Why only support Linux?
+                    What does AuthNull do?
                 </h3>
                 <p class="mt-1 text-gray-600">
-                    Linux accounts for 70+% of the world's operating system for production workloads in enterprise servers. 
+                  AuthNull enables you to manage, secure and deliver Privileged Access to Critical infrastructure with a Decentralized Authentication solution.
                 </p>
               </div>
             </div>
@@ -418,10 +419,11 @@
                 <!-- <img src="../assets/images/rotation-policy.jpeg" class="flex-shrink-0 h-28 w-40 text-gray-800" /> -->
                 <div class="ml-5 sm:ml-8">
                   <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-                    What authentication factors are supported
+                  What kind of authentication support does AuthNull have?
                   </h3>
                   <p class="mt-1 text-gray-600">
-                    We support SMS OTP, Mobile App OTP (soon) and Decentralized Wallet based credentials.
+                    Protocols supported - SSH, LDAP, Telnet, VNC, and RDP. OS - Wide range if *NIX (Windows support coming soon).
+                    Authentication support - local privileged users, or active directory.
                   </p>
                 </div>
               </div>
@@ -443,7 +445,7 @@
                Platform Features
               </h1>
               <p class="mt-3 text-blue-600 mb-20 text-xl">
-                Our platform provides lightweight, and provides an accelerated rollout of passwordless authentication infrastructure.
+                Our platform provides lightweight, accelerated rollout of passwordless PAM on your infrastructure infrastructure.
               </p>
             </div>
           </div>
@@ -458,10 +460,10 @@
       
               <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
                 <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
-                    SSO Logins
+                    SAML2 SSO 
                 </h3>
                 <p class="mt-3 text-gray-600 ">
-                    Login with a SSO to manage PAM credentials, users and legacy infrastructure
+                    Login with a SSO Provider to enable administrators as well as end users to manage PAM infrastructure.
                 </p>
                 <!--<p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
@@ -485,10 +487,10 @@
       
               <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
                 <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
-                    User sync through SCIM and Active Directory
+                   Active Directory Authentication
                 </h3>
                 <p class="mt-3 text-gray-600 ">
-                    Synchronize existing users through SCIM and active directory.
+                  Enable Active Directory LDAP Authentication on your critical infrastructure while eliminating passwords and SSH Keys
                 </p>
                <!---<p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
@@ -509,10 +511,11 @@
           
                   <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
                     <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
-                        Support for various authenticators
+                       Authenticator App for Decentralized Credentials
                     </h3>
                     <p class="mt-3 text-gray-600 ">
-                        Authnull provides support for various platform authenticators including fingerprint, face id, mobile apps., MOTP and through Passkeys.
+                        Authnull provides a full blown customizable authenticator app that can be used for Decentralized credentials for your organization.
+                        AuthNull uses W3C Verified Credential Specification for its decentralized credentials.
                     </p>
                   <!--  <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
                       Read more
@@ -534,10 +537,10 @@
       
               <div class="mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
                 <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600  ">
-                    Comprehensive workflows
+                  Enable 1FA or 2FA Passwordless
                 </h3>
                 <p class="mt-3 text-gray-600 ">
-                    Customize your authentication flow with a single factor, 2 factor and more.
+                  Enable passwordless decentralized credentials as a 2nd factor. Or fully eliminate passwords to deliver it as the only factor of authentication.
                 </p>
                <!-- <p class="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
@@ -567,7 +570,7 @@
       <div class="grid md:grid-cols-2 gap-5">
         <div class="lg:w-3/4">
           <h2 class="text-3xl text-gray-800 fosupport for nt-bold lg:text-4xl">
-            Solutions
+            PAM Features
           </h2>
         <img class="w-full mt-20" src="../assets/images/ldap.png" />
           <p class="mt-3 text-gray-800">
@@ -591,10 +594,10 @@
               <!-- <img src="../assets/images/endpoint-management.jpeg" class="flex-shrink-0 h-28 w-40 text-gray-800" /> -->
             <div class="ml-5 sm:ml-8">
               <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-                Passwordless access to Linux Infrastructure
+               Privileged Access and Session Management
               </h3>
               <p class="mt-1 text-gray-600">
-                Authnull provides passwordless privileged access management for access and authentication to Linux infrastructure that use existing authentication mechanisms such as Active Directory
+                Privilged Access and Session Management including support to checkout users, escalate privileges just in time, record sessions, store audit logs, store and verify tamper evident logs.
               </p>
             </div>
           </div>
@@ -606,10 +609,11 @@
               <!-- <img src="../assets/images/rotation-policy.jpeg" class="flex-shrink-0 h-28 w-40 text-gray-800" /> -->
               <div class="ml-5 sm:ml-8">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-                  Passwordless PAM
+                Privileged Account and Credential Management
                 </h3>
                 <p class="mt-1 text-gray-600">
-                  Authnull provides PAM (user management, endpoint management, privilege escalation etc) for Linux devices with the added advantage of passwordless authentication.
+                 Privileged Account and Credential management enables accounts and credentials to be discovered, and managed by applying credential rotation policies.
+                 Additionally, AuthNull's decentralized nature ensures that credentials are not stored in a central location.
                 </p>
               </div>
             </div>
@@ -618,11 +622,10 @@
             <!-- <img src="../assets/images/rotation-policy.jpeg" class="flex-shrink-0 h-28 w-40 text-gray-800" /> -->
             <div class="ml-5 sm:ml-8">
               <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-                Decentralized identity
+                Decentralized Storage of Credentials
               </h3>
               <p class="mt-1 text-gray-600">
-                Authnull’s primary method of authentication is a decentralized id. Issued to a wallet with verified user credentials.
-              </p>
+               AuthNull does not store credentials anywhere but in decentralized wallets, preventing the formation of a major attack surface.
             </div>
           </div>
         </div>
