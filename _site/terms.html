@@ -1,32 +1,14 @@
- 
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>What is Decentralized Identifier - </title>
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png" >
-
+    <title>Authnull - </title>
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=DM+Sans" />
 
-    <style>
-      .blog-font{
-        font-family:"DM Sans";
-        font-size: 18px;
-        line-height: 33px;
-        font-weight: 400;
-        color:rgb(36, 36, 36);
-        
-      }
-    </style>
   </head>
-  <body class="antialiased">
-<script defer src="/assets/js/cookieconsent.js"></script>
-<script defer src="/assets/js/cookieconsent-init.js"></script>
-
-<div class="bg-gradient-to-r from-purple-600 to-blue-400">
+  <body>
+    <div class="bg-gradient-to-r from-purple-600 to-blue-400">
   <div class="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
     <!-- Grid -->
     <div class="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2">
@@ -322,223 +304,57 @@
         </div>
       </div>
     </nav>
-  </header>
-<!-- Hero -->
-
-<div class="container mx-auto md" style="width:75%; margin-top:10px;margin-bottom:10px;">
-  <h1 data-toc-skip class="text-3xl">What is Decentralized Identifier</h1>
-  
-    <span>
-      
-      
-<!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1642233600"
-    data-df="DD/MM/YYYY"
-    data-toggle="tooltip" data-placement="bottom">
-  15/01/2022
-</em>  
-    </span>
-
-    <!-- lastmod date -->
-    
-
-  
-    
-    
-    
-
-    
-
-    <div class="mt-3 mb-3">
-      <img src="/assets/images/did.png" class="preview-img" alt="Preview Image" w="1200" h="630" ></div>
-  
-
-  <div class="d-flex justify-content-between">
-    <!-- author(s) -->
-    <span>
-      
-
-      
-
-      <em>
-      
-        
-          <a href=""></a>
-          
-        
-      
-      </em>
-    </span>
-
-    
- 
-   <span class="blog-font">
-    
-      <p>Content heavily borrowed from: https://www.w3.org/TR/did-core/ in order to provide a spec definition of DID. 
-<br /><br />
- Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities. Specifically, while other parties might be used to help enable the discovery of information related to a DID, the design enables the controller of a DID to prove control over it without requiring permission from any other party. DIDs are URIs that associate a DID subject with a DID document allowing trustable interactions associated with that subject.
-<br /><br />
-Each DID document can express cryptographic material, verification methods, or services, which provide a set of mechanisms enabling a DID controller to prove control of the DID. Services enable trusted interactions associated with the DID subject. A DID might provide the means to return the DID subject itself, if the DID subject is an information resource such as a data model.
-<br /><br /></p>
-
-<p>As individuals and organizations, many of us use globally unique identifiers in a wide variety of contexts. They serve as communications addresses (telephone numbers, email addresses, usernames on social media), ID numbers (for passports, drivers licenses, tax IDs, health insurance), and product identifiers (serial numbers, barcodes, RFIDs). URIs (Uniform Resource Identifiers) are used for resources on the Web and each web page you view in a browser has a globally unique URL (Uniform Resource Locator).
-<br /><br />
-The vast majority of these globally unique identifiers are not under our control. They are issued by external authorities that decide who or what they refer to and when they can be revoked. They are useful only in certain contexts and recognized only by certain bodies not of our choosing. They might disappear or cease to be valid with the failure of an organization. They might unnecessarily reveal personal information. In many cases, they can be fraudulently replicated and asserted by a malicious third-party, which is more commonly known as “identity theft”.
-<br /><br />
-The Decentralized Identifiers (DIDs) defined in this specification are a new type of globally unique identifier. They are designed to enable individuals and organizations to generate their own identifiers using systems they trust. These new identifiers enable entities to prove control over them by authenticating using cryptographic proofs such as digital signatures.
-<br /><br />
-Since the generation and assertion of Decentralized Identifiers is entity-controlled, each entity can have as many DIDs as necessary to maintain their desired separation of identities, personas, and interactions. The use of these identifiers can be scoped appropriately to different contexts. They support interactions with other people, institutions, or systems that require entities to identify themselves, or things they control, while providing control over how much personal or private data should be revealed, all without depending on a central authority to guarantee the continued existence of the identifier. These ideas are explored in the DID Use Cases document [DID-USE-CASES].
-<br /><br />
-This specification does not presuppose any particular technology or cryptography to underpin the generation, persistence, resolution, or interpretation of DIDs. For example, implementers can create Decentralized Identifiers based on identifiers registered in federated or centralized identity management systems. Indeed, almost all types of identifier systems can add support for DIDs. This creates an interoperability bridge between the worlds of centralized, federated, and decentralized identifiers. This also enables implementers to design specific types of DIDs to work with the computing infrastructure they trust, such as distributed ledgers, decentralized file systems, distributed databases, and peer-to-peer networks.</p>
-
-<p><br /><br /></p>
-
-<p>– DIDs and DID URLs<br /> 
-    A Decentralized Identifier, or DID, is a URI composed of three parts: the scheme did:, a method identifier, and a unique, method-specific identifier specified by the DID method. DIDs are resolvable to DID documents. A DID URL extends the syntax of a basic DID to incorporate other standard URI components such as path, query, and fragment in order to locate a particular resource—for example, a cryptographic public key inside a DID document, or a resource external to the DID document. These concepts are elaborated upon in 3.1 DID Syntax and 3.2 DID URL Syntax. <br /><br />
-– DID subjects<br />
-    The subject of a DID is, by definition, the entity identified by the DID. The DID subject might also be the DID controller. Anything can be the subject of a DID: person, group, organization, thing, or concept. This is further defined in 5.1.1 DID Subject. <br /><br />
-– DID controllers<br />
-    The controller of a DID is the entity (person, organization, or autonomous software) that has the capability—as defined by a DID method—to make changes to a DID document. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms. Note that a DID might have more than one controller, and the DID subject can be the DID controller, or one of them. This concept is documented in 5.1.2 DID Controller. <br /><br />
-– Verifiable data registries
-    In order to be resolvable to DID documents, DIDs are typically recorded on an underlying system or network of some kind. Regardless of the specific technology used, any such system that supports recording DIDs and returning data necessary to produce DID documents is called a verifiable data registry. Examples include distributed ledgers, decentralized file systems, databases of any kind, peer-to-peer networks, and other forms of trusted data storage. This concept is further elaborated upon in 8. Methods. <br /><br />
-– DID documents<br />
-    DID documents contain information associated with a DID. They typically express verification methods, such as cryptographic public keys, and services relevant to interactions with the DID subject. The generic properties supported in a DID document are specified in 5. Core Properties. A DID document can be serialized to a byte stream (see 6. Representations). The properties present in a DID document can be updated according to the applicable operations outlined in 8. Methods. <br /><br />
-– DID methods<br />
-    DID methods are the mechanism by which a particular type of DID and its associated DID document are created, resolved, updated, and deactivated. DID methods are defined using separate DID method specifications as defined in 8. Methods.<br /><br /> 
-– DID resolvers and DID resolution<br />
-    A DID resolver is a system component that takes a DID as input and produces a conforming DID document as output. This process is called DID resolution. The steps for resolving a specific type of DID are defined by the relevant DID method specification. The process of DID resolution is elaborated upon in 7. Resolution. <br /><br />
-– DID URL dereferencers and DID URL dereferencing<br />
-    A DID URL dereferencer is a system component that takes a DID URL as input and produces a resource as output. This process is called DID URL dereferencing. The process of DID URL dereferencing is elaborated upon in 7.2 DID URL Dereferencing.</p>
-
-
-    </span>
+  </header> 
+    <main id="content" role="main">
+    <!-- Heading -->
+    <div class="md:max-w-screen-sm text-center px-4 sm:px-6 lg:px-8 pt-24 pb-6 mx-auto">
+      <h1 class="text-2xl font-bold md:text-4xl dark:text-black">Terms &amp; Conditions</h1>
     </div>
-  
- 
-  
-         
-  </div>
-  <!-- End Hero -->
+    <!-- End Heading -->
 
+    <!-- Content -->
+    <div class="md:max-w-screen-sm lg:max-w-[992px] px-4 sm:px-6 lg:px-8 pb-12 md:pt-6 sm:pb-20 mx-auto">
+      <div class="grid gap-4 md:gap-8">
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold mb-2 dark:text-black">General Terms</h2>
 
+          <p class="mb-5 dark:text-gray-600">By accessing and placing an order with Authnull, you confirm that you are in agreement with and bound by the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the entire website and any email or other type of communication between you and Authnull.</p>
 
- 
+          <p class="mb-5 dark:text-gray-600">Under no circumstances shall Authnull team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if Authnull team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
 
-<div class="post-tail-wrapper text-muted">
- 
-  
+          <p class="dark:text-gray-600">Authnull will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment.</p>
+        </div>
 
-</div><!-- div.post-tail-wrapper -->
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold mb-2 dark:text-black">Products</h2>
 
-<!-- Card Blog -->
-<main class="bg-white">
-   
+          <p class="mb-5 dark:text-gray-600">All products and services are delivered by Authnull electronically and you can access your downloads from your profile page.</p>
 
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <!-- Grid -->
-  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
-Blogs
-   </h1>
- 
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
-    <!-- Card -->
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password.jpg" alt="Image Description">
-       
-      </div>
+          <p class="dark:text-gray-600">Authnull is not responsible for any technological delays beyond our control. If your spam blocker blocks our emails from reaching you or you do not provide a valid email address where you can be reachable then you can access your download from the Downloads page.</p>
+        </div>
 
-      <div class="mt-7">
-        <h3 class="text-xl text-gray-600 group-hover:text-gray-800 ">
-          Passwords and the problems with centrlized credential management systems
-        </h3>
-        <p class="mt-3 text-gray group-hover:text-black ">
-          In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold mb-2 dark:text-black">Security</h2>
 
-   
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/my-third-blog.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ssi2.jpg" alt="Image Description">
-       
-      </div>
+          <p class="dark:text-gray-600">Authnull does not process any order payments through the website. All payments are processed securely through online payment provider (e.g. PayPal, Stripe), a third party online payment provider. Feel free to contact us about our security policies.</p>
+        </div>
 
-      <div class="mt-7">
-        <h3 class="text-xl text-gray-600 group-hover:text-gray-800 ">
-          Users need to own their Identity
-        </h3>
-        <p class="mt-3 text-gray group-hover:text-black ">
-          Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold mb-2 dark:text-black">Ownership</h2>
 
-   
-    
-    
-    
-    
-   
-    <!-- End Card -->
+          <p class="dark:text-gray-600">Ownership of the product is governed by the usage license selected by the seller.</p>
+        </div>
 
-    <!-- Card -->
-    <!-- End Card -->
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold mb-2 dark:text-black">Changes to terms</h2>
 
-    <!-- Card -->
-
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/did.png')]" href="/blog/2022/01/15/what-is-did.html">
-      <div class="flex-auto p-4 md:p-6">
-        <h3 class="text-xl text-black group-hover:text-black"><span class="font-bold">What is Decentralized Identifier</span></h3>
-        <h3 class="text-xl text-black group-hover:text-black mt-10"><span class="font-bold">Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</span></h3>
-      </div>
-      <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-600 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
+          <p class="dark:text-gray-600">If we change our terms of use we will post those changes on this page. Registered users will be sent an email that outlines changes made to the terms of use.</p>
         </div>
       </div>
-    </a>
-    
-    
-    <!-- End Card -->
-  </div>
-  <!-- End Grid -->
-</div>
-<!-- End Card Blog -->
-</main>
-<footer class="bg-gray-900 ">
+    </div>
+    <!-- End Content -->
+  </main>
+    <footer class="bg-gray-900 ">
     <div class="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
       <!-- Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
@@ -638,3 +454,5 @@ Blogs
 <!-- End of HubSpot Embed Code -->
 
 <script src="/preline/dist/preline.js"></script>
+</body>
+</html>
