@@ -7,12 +7,14 @@
 
 @font-face {
   font-family: 'TT Norms Pro';
-  src:  url('/assets/fonts/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Medium.otf') format('opentype');
+  src:  url('/assets/fonts/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Medium.otf') format('opentype'); font-size:16px;
+
 }
  
 html {
     font-family: 'TT Norms Pro';
     color:black;
+    font-size:16px;
 
   }
   .custom-bg-blue{
@@ -60,10 +62,10 @@ html {
     background: #e8d9ed;
   }
   .custom-bg-purple-dark{
-    background: #e79dff;
+    background: #000000;
   }
   .purple-gradiant{
-    background: linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 90%);
+    background: linear-gradient(to left top,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0.8) 30%,rgba(2, 8, 212, 0.8) 90%);
   }
 
   #showMe {
@@ -84,7 +86,10 @@ html {
 
 
   }
-  
+  .text-gray-600{
+    color:#151023;
+    font-size:17px;
+  }
   @keyframes cssAnimation {
     
     to   { visibility: visible; }
