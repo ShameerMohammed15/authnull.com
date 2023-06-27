@@ -11,6 +11,9 @@ postcss:
 posts:
   permalink: /:blog/:title.html
 
+announcements:
+  permalink: /:blog/:title.html
+
 webinar: 
   permalink: /:webinars/:year/:month/:day/:title:output_ext
 
@@ -71,6 +74,8 @@ collections:
    webinars:
       output: true 
    casestudies:
+      output: true
+   announcements:
       output: true
 
     
