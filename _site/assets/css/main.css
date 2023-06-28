@@ -1589,6 +1589,9 @@ video {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
 .whitespace-nowrap {
   white-space: nowrap;
 }

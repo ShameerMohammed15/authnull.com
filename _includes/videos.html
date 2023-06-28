@@ -8,7 +8,22 @@
 
 <main class="custom-bg-dark-purple">
 
-
+  <script>
+    window.onload = function() {
+     
+      var x = document.getElementById("hs-modal-signup").getAttribute("aria-overlay"); 
+  if (x == "true") 
+  {
+  x = "false"
+  } else {
+  x = "true"
+  }
+  document.getElementById("hs-modal-signup").setAttribute("aria-overlay", x);
+  document.getElementById("hs-modal-signup").setAttribute("tab-index", -1);
+  document.getElementById("hs-modal-signup").setAttribute("style", "background-color: rgba(0,0,0,0.7);");
+  document.getElementById('hs-modal-signup').className = 'hs-overlay w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-hidden open';
+    };
+  </script>
     <!-- Card Blog -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Title -->
@@ -59,8 +74,8 @@
       </div>
    
       
-      <div id="hs-modal-signup" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
-        <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto">
+      <div id="hs-modal-signup" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-hidden" aria-overlay="false">
+        <div class="hs-overlay-open hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto">
           <div class="bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
             <main class="custom-bg-dark-blue  min-h-screen">
               <script>
