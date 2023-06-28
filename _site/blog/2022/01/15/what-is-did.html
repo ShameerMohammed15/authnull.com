@@ -322,7 +322,17 @@
   </header>
 <!-- Hero -->
 
-  
+<style type="text/css">
+  .blog-text{
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-kerning: normal;
+    margin-top:1.5rem;
+    font-weight: 400;
+   font-display: block;
+
+  }
+</style>
    
 
  
@@ -334,7 +344,7 @@
    <span >
     <div class="bg-white px-2 py-1 lg:px-6">
         
-      <div class="mx-auto max-w-screen-xl text-base leading-7 text-gray-700">
+      <div class="mx-auto max-w-screen-xl leading-7 ">
         
    
       
@@ -354,12 +364,13 @@
             
             </em>
           </span>
-        <p class="text-base font-semibold leading-7 text-indigo-600">blog</p>
-        <h1 class="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl"> What is Decentralized Identifier </h1>
-        <div class="mt-10 max-w-4xl">
+        <p class="mt-4 font-semibold leading-7 text-indigo-600">Blog</p>
+        <h1 class="mt-2 text-3xl font-bold text-gray-900 max-w-4xl sm:text-4xl"> What is Decentralized Identifier </h1>
+        <div class="mt-10 max-w-4xl blog-text">
           <p>Content heavily borrowed from: https://www.w3.org/TR/did-core/ in order to provide a spec definition of DID. 
-<br /><br />
- Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities. Specifically, while other parties might be used to help enable the discovery of information related to a DID, the design enables the controller of a DID to prove control over it without requiring permission from any other party. DIDs are URIs that associate a DID subject with a DID document allowing trustable interactions associated with that subject.
+<br /><br /></p>
+<h3 id="what-are-decentralized-identifiers-dids">What are Decentralized Identifiers (DIDs)</h3>
+<p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities. Specifically, while other parties might be used to help enable the discovery of information related to a DID, the design enables the controller of a DID to prove control over it without requiring permission from any other party. DIDs are URIs that associate a DID subject with a DID document allowing trustable interactions associated with that subject.
 <br /><br />
 Each DID document can express cryptographic material, verification methods, or services, which provide a set of mechanisms enabling a DID controller to prove control of the DID. Services enable trusted interactions associated with the DID subject. A DID might provide the means to return the DID subject itself, if the DID subject is an information resource such as a data model.
 <br /><br /></p>
@@ -376,22 +387,30 @@ This specification does not presuppose any particular technology or cryptography
 
 <p><br /><br /></p>
 
-<p>– DIDs and DID URLs<br /> 
-    A Decentralized Identifier, or DID, is a URI composed of three parts: the scheme did:, a method identifier, and a unique, method-specific identifier specified by the DID method. DIDs are resolvable to DID documents. A DID URL extends the syntax of a basic DID to incorporate other standard URI components such as path, query, and fragment in order to locate a particular resource—for example, a cryptographic public key inside a DID document, or a resource external to the DID document. These concepts are elaborated upon in 3.1 DID Syntax and 3.2 DID URL Syntax. <br /><br />
-– DID subjects<br />
-    The subject of a DID is, by definition, the entity identified by the DID. The DID subject might also be the DID controller. Anything can be the subject of a DID: person, group, organization, thing, or concept. This is further defined in 5.1.1 DID Subject. <br /><br />
-– DID controllers<br />
-    The controller of a DID is the entity (person, organization, or autonomous software) that has the capability—as defined by a DID method—to make changes to a DID document. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms. Note that a DID might have more than one controller, and the DID subject can be the DID controller, or one of them. This concept is documented in 5.1.2 DID Controller. <br /><br />
-– Verifiable data registries
-    In order to be resolvable to DID documents, DIDs are typically recorded on an underlying system or network of some kind. Regardless of the specific technology used, any such system that supports recording DIDs and returning data necessary to produce DID documents is called a verifiable data registry. Examples include distributed ledgers, decentralized file systems, databases of any kind, peer-to-peer networks, and other forms of trusted data storage. This concept is further elaborated upon in 8. Methods. <br /><br />
-– DID documents<br />
-    DID documents contain information associated with a DID. They typically express verification methods, such as cryptographic public keys, and services relevant to interactions with the DID subject. The generic properties supported in a DID document are specified in 5. Core Properties. A DID document can be serialized to a byte stream (see 6. Representations). The properties present in a DID document can be updated according to the applicable operations outlined in 8. Methods. <br /><br />
-– DID methods<br />
-    DID methods are the mechanism by which a particular type of DID and its associated DID document are created, resolved, updated, and deactivated. DID methods are defined using separate DID method specifications as defined in 8. Methods.<br /><br /> 
-– DID resolvers and DID resolution<br />
-    A DID resolver is a system component that takes a DID as input and produces a conforming DID document as output. This process is called DID resolution. The steps for resolving a specific type of DID are defined by the relevant DID method specification. The process of DID resolution is elaborated upon in 7. Resolution. <br /><br />
-– DID URL dereferencers and DID URL dereferencing<br />
-    A DID URL dereferencer is a system component that takes a DID URL as input and produces a resource as output. This process is called DID URL dereferencing. The process of DID URL dereferencing is elaborated upon in 7.2 DID URL Dereferencing.</p>
+<h3 id="dids-and-did-urls">DIDs and DID URLs<br /></h3>
+
+<p>A Decentralized Identifier, or DID, is a URI composed of three parts: the scheme did:, a method identifier, and a unique, method-specific identifier specified by the DID method. DIDs are resolvable to DID documents. A DID URL extends the syntax of a basic DID to incorporate other standard URI components such as path, query, and fragment in order to locate a particular resource—for example, a cryptographic public key inside a DID document, or a resource external to the DID document. These concepts are elaborated upon in 3.1 DID Syntax and 3.2 DID URL Syntax. <br /><br /></p>
+<h3 id="did-subjects">DID subjects<br /></h3>
+
+<p>The subject of a DID is, by definition, the entity identified by the DID. The DID subject might also be the DID controller. Anything can be the subject of a DID: person, group, organization, thing, or concept. This is further defined in 5.1.1 DID Subject. <br /><br /></p>
+<h3 id="did-controllers">DID controllers<br /></h3>
+
+<p>The controller of a DID is the entity (person, organization, or autonomous software) that has the capability—as defined by a DID method—to make changes to a DID document. This capability is typically asserted by the control of a set of cryptographic keys used by software acting on behalf of the controller, though it might also be asserted via other mechanisms. Note that a DID might have more than one controller, and the DID subject can be the DID controller, or one of them. This concept is documented in 5.1.2 DID Controller. <br /><br /></p>
+<h3 id="verifiable-data-registries">Verifiable data registries</h3>
+
+<p>In order to be resolvable to DID documents, DIDs are typically recorded on an underlying system or network of some kind. Regardless of the specific technology used, any such system that supports recording DIDs and returning data necessary to produce DID documents is called a verifiable data registry. Examples include distributed ledgers, decentralized file systems, databases of any kind, peer-to-peer networks, and other forms of trusted data storage. This concept is further elaborated upon in 8. Methods. <br /><br /></p>
+<h3 id="did-documents">DID documents<br /></h3>
+
+<p>DID documents contain information associated with a DID. They typically express verification methods, such as cryptographic public keys, and services relevant to interactions with the DID subject. The generic properties supported in a DID document are specified in 5. Core Properties. A DID document can be serialized to a byte stream (see 6. Representations). The properties present in a DID document can be updated according to the applicable operations outlined in 8. Methods. <br /><br /></p>
+<h3 id="did-methods">DID methods<br /></h3>
+
+<p>DID methods are the mechanism by which a particular type of DID and its associated DID document are created, resolved, updated, and deactivated. DID methods are defined using separate DID method specifications as defined in 8. Methods.<br /><br /></p>
+<h3 id="did-resolvers-and-did-resolution">DID resolvers and DID resolution<br /></h3>
+
+<p>A DID resolver is a system component that takes a DID as input and produces a conforming DID document as output. This process is called DID resolution. The steps for resolving a specific type of DID are defined by the relevant DID method specification. The process of DID resolution is elaborated upon in 7. Resolution. <br /><br /></p>
+<h3 id="did-url-dereferencers-and-did-url-dereferencing">DID URL dereferencers and DID URL dereferencing<br /></h3>
+
+<p>A DID URL dereferencer is a system component that takes a DID URL as input and produces a resource as output. This process is called DID URL dereferencing. The process of DID URL dereferencing is elaborated upon in 7.2 DID URL Dereferencing.</p>
 
 
         </div>
@@ -434,18 +453,18 @@ Blogs
     
     
     
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
+    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/04/01/Self-soverign-identity.html">
       <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password.jpg" alt="Image Description">
+        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ssi2.jpg" alt="Image Description">
        
       </div>
 
       <div class="mt-7">
-        <h3 class="text-xl text-gray-600 group-hover:text-gray-800 ">
-          Passwords and the problems with centrlized credential management systems
-        </h3>
-        <p class="mt-3 text-gray group-hover:text-black ">
-          In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime
+        <h2 class="text-2xl text-black group-hover:text-blue-600 ">
+          Users need to own their Identity
+        </h2>
+        <p class="mt-5 text-gray group-hover:text-black ">
+          Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.
         </p>
         <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
           Read more
@@ -461,18 +480,18 @@ Blogs
     
     
     
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/my-third-blog.html">
+    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
       <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ssi2.jpg" alt="Image Description">
+        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password.jpg" alt="Image Description">
        
       </div>
 
       <div class="mt-7">
-        <h3 class="text-xl text-gray-600 group-hover:text-gray-800 ">
-          Users need to own their Identity
-        </h3>
-        <p class="mt-3 text-gray group-hover:text-black ">
-          Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.
+        <h2 class="text-2xl text-black group-hover:text-blue-600 ">
+          Passwords and the problems with centralized credential management systems
+        </h2>
+        <p class="mt-5 text-gray group-hover:text-black ">
+          In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime
         </p>
         <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
           Read more
@@ -499,7 +518,7 @@ Blogs
     <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/did.png')]" href="/blog/2022/01/15/what-is-did.html">
       <div class="flex-auto p-4 md:p-6">
         <h3 class="text-xl text-black group-hover:text-black"><span class="font-bold">What is Decentralized Identifier</span></h3>
-        <h3 class="text-xl text-black group-hover:text-black mt-10"><span class="font-bold">Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</span></h3>
+        <h3 class="text-xl text-black group-hover:text-black mt-10"><span class="">Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</span></h3>
       </div>
       <div class="pt-0 p-4 md:p-6">
         <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-600 group-hover:text-blue-600">
