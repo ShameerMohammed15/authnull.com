@@ -65,7 +65,7 @@ html {
     background: #000000;
   }
   .purple-gradiant{
-    background: linear-gradient(to left top,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0.8) 30%,rgba(2, 8, 212, 0.8) 90%);
+    background:  white;
   }
 
   #showMe {
