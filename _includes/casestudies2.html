@@ -1,0 +1,26 @@
+<section class="dark:bg-gray-200 dark:text-black">
+	<div class="container max-w-7xl p-6 mx-auto space-y-6 sm:space-y-12">
+		<a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900">
+			<img src="https://source.unsplash.com/random/480x360" alt="" class="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500">
+			<div class="p-6 space-y-2 lg:col-span-5">
+				<h3 class="text-2xl font-semibold text-white sm:text-4xl group-hover:underline group-focus:underline">What is Authnull</h3>
+				<span class="text-xs dark:text-white">February 19, 2021</span>
+				<p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+			</div>
+		</a>
+		<div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+            {% for post in site.casestudies %}
+			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-100">
+				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-black" src="{{post.image}}">
+				<div class="p-6 space-y-2">
+					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">{{post.title}}</h3>
+					<span class="text-xs dark:text-black">{{post.date_text}}</span>
+					<p>{{post.summary}}</p>
+				</div>
+			</a>
+            {% endfor %}
+		</div>
+	
+	</div>
+</section>

@@ -1,11 +1,12 @@
 ---
 layout: casestudypost
-title:  "Coming soon"
+title:  "Jump Servers"
+date_text: "January 21,2023"
 excerpt: "Case study placeholder"
-image: "/assets/images/ssologin.svg"
+image: "/assets/images/ssi2.jpg"
 categories: blog
 author: sal
-summary: "Case study summary"
+summary: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
 customer: "CEO of Placeholder co"
 customer-logo: "/assets/images/logo.png"
 casestudyresults: "Placeholder achieved awesome results by adopting Decentralized Identity"
