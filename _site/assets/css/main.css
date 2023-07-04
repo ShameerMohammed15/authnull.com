@@ -1589,9 +1589,6 @@ video {
 .overflow-x-hidden {
   overflow-x: hidden;
 }
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -2175,6 +2172,9 @@ video {
 .\[--adaptive\:none\] {
   --adaptive: none;
 }
+.\[--overlay-backdrop\:static\] {
+  --overlay-backdrop: static;
+}
 
 @font-face {
   font-family: 'TT Norms Pro';
@@ -2674,6 +2674,11 @@ h6 {
   .dark\:text-gray-600 {
     --tw-text-opacity: 1;
     color: rgb(75 85 99 / var(--tw-text-opacity));
+  }
+
+  .dark\:shadow-slate-700\/\[\.7\] {
+    --tw-shadow-color: rgb(51 65 85 / .7);
+    --tw-shadow: var(--tw-shadow-colored);
   }
 }
 
