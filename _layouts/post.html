@@ -39,10 +39,6 @@
 </style>
    
 
- 
-  
-   
-
    
  
    <span >
@@ -51,6 +47,8 @@
       <div class="mx-auto max-w-screen-xl leading-7 ">
         
    
+        
+         
       
         <div class="d-flex justify-content-between">
           <!-- author(s) -->
@@ -63,6 +61,20 @@
       
             {{ site.data.locales[site.lang].post.written_by }}
       
+<!--
+            <div class="text-center">
+              <img class="rounded-full w-24 h-24 mx-auto" src="{{ author.avatar }}" alt="Image Description">
+              <div class="mt-2 sm:mt-4">
+                <h3 class="font-medium text-gray-800 dark:text-gray-200">
+                Asif Ali
+                </h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">
+                  Founder / CEO
+                </p>
+              </div>
+            </div>
+          -->
+
             <em>
             {% if authors %}
               {% for author in authors %}
@@ -79,9 +91,12 @@
         <div class="mt-10 max-w-4xl blog-text">
           {{ content }}
         </div>
-      
        
       </div>
+
+      
+
+      <!--adding the blog subscribe section-->
     </div>
      
     </span>
@@ -102,8 +117,12 @@
   
 
 </div><!-- div.post-tail-wrapper -->
-
+{% include blog_bottom.html %}
 {% include postbox.html %}
 {% include footer.html %}
+
+
+
+
 
 <script src="/preline/dist/preline.js"></script>
