@@ -1,40 +1,38 @@
 <!-- Card Blog -->
-<main class="bg-white">
+<main class="bg-slate-50">
    
 
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 py-4 sm:px-4 lg:px-8 lg:py-4 mx-auto">
   <!-- Grid -->
-  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
-Resources
-   </h1>
- 
+
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
     <!-- Card -->
     {% for resource in site.resources %}
     {% assign value = forloop.index | modulo:3 %}
     {% if value != 0 %}
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="{{resource.url}}">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
+    <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-blue-100 md:p-6" href="{{resource.url}}">
+      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl ">
         <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="{{resource.imagedescription}}">
        
       </div>
 
       <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+        <h2 class="text-2xl mx-2 group-hover:text-blue-00 ">
           {{resource.title}}
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black  text-xl ">
+        <p class="mt-5 mx-2 text-gray group-hover:text-black  text-xl ">
           {{resource.excerpt}}
         </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5  decoration-2 text-xl">
-
-          <div class="inline-flex items-center gap-2 text-xl font-medium text-blue-600 group-hover:text-blue-600 mt-4">
-            Read more
-            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+        <p class=" inline-flex items-center   decoration-2 text-xl">
+         
+          <div class="  mx-2   text-xl font-medium text-blue-600 ">
+            <button type="button" class="   text-xl font-medium py-3  px-4 inline-flex justify-center items-center gap-2 rounded-md bg-blue-100 border border-transparent font-semibold text-blue-500 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800">
+              Read more
+            </button>
           </div>
+
         </p>
+        
       </div>
     </a>
 
@@ -48,7 +46,7 @@ Resources
 
     <!-- Card -->
 
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-100 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../..{{post.image}}')]" href="{{post.url}}">
+    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-50 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../..{{resource.image}}')]" href="{{resource.url}}">
       <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
         <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="Image Description">
        
@@ -60,11 +58,10 @@ Resources
         </p>
       </div>
       <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-400 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
+        <div class="  mx-2   text-xl font-medium text-blue-600 ">
+          <button type="button" class="   text-xl font-medium py-3  px-4 inline-flex justify-center items-center gap-2 rounded-md bg-blue-400 border border-transparent font-semibold text-white hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800">
+            Read more
+          </button>
         </div>
       </div>
     </a>
