@@ -10,7 +10,7 @@
     {% for resource in site.resources %}
     {% assign value = forloop.index | modulo:3 %}
     {% if value != 0 %}
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-blue-100 md:p-6" href="{{resource.url}}">
+    <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-slate-50 md:p-6" href="{{resource.url}}">
       <div class="relative pt-[50%] sm:pt-[70%] rounded-xl ">
         <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="{{resource.imagedescription}}">
        
