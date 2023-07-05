@@ -6,4 +6,4 @@ excerpt: "This slide deck provides an overview of authnull"
 categories: resources
 author: asif
 ---
-<embed src="/assets/resources/product-deck.pdf" width="1200px" height="1100px"  />
+<embed src="/assets/resources/product-overview.pdf" width="1200px" height="1100px"  />
