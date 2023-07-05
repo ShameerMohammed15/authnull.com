@@ -4,7 +4,9 @@ title:  "Users need to own their Identity"
 excerpt: "Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity."
 image: /assets/images/ssi2.jpg
 categories: blog
+author: asif
 tags: ssi decentralized-identity
+datePub: Jun 20th 2023
 ---
 
  
