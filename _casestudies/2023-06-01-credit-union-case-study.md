@@ -3,7 +3,7 @@ layout: casestudypost
 title:  "Credit Union"
 date_text: "June 01,2023"
 excerpt: "We were scrambling to meet the FTC safeguards criteria. While our existing vendors were providing some functionality, getting 2FA working on legacy servers was tricky at best."
-image: "/assets/images/credit-union.jpg"
+image: "/assets/images/creditunion.png"
 categories: blog
 author: sal
 summary: "We are a Sacramento based credit union that had to meet a compliance deadline  or FTC Safeguards. The deadline was approaching fast and had to be met by June 9th 2023. We chose to implement AuthNull to meet FTC safeguards and protect our critical infrastructure. "

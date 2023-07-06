@@ -3,7 +3,7 @@ layout: casestudypost
 title:  "Healthcare"
 date_text: "June 20,2023"
 excerpt: "Healthcare needed to enable secure access"
-image: "/assets/images/healthcare.jpg"
+image: "/assets/images/healthcare.png"
 categories: blog
 author: sal
 summary: "We were looking to implement a new PAM. AuthNull's simple yet cutting edge product help us save both time and money."
