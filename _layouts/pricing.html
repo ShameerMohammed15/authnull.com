@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% include ga.html %} 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta name="description" content="AuthNull Passwordless Privileged Access Management Pricing">
+      <meta name="keywords" content="Privileged,access,management,PAM,passwordless,passwordless-for-servers">
+      <meta name="robots" content="index">
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
   </head>
-  <body>
+  <body class="antialiased">
+    <script defer src="/assets/js/cookieconsent.js"></script>
+    <script defer src="/assets/js/cookieconsent-init.js"></script>
 {% include header.html %}
 {% include pricing.html %}
 {% include footer.html %}
