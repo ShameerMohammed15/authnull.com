@@ -1259,9 +1259,6 @@ video {
 .h-32 {
   height: 8rem;
 }
-.h-24 {
-  height: 6rem;
-}
 .max-h-\[75vh\] {
   max-height: 75vh;
 }
@@ -1331,9 +1328,6 @@ video {
 }
 .w-8 {
   width: 2rem;
-}
-.w-24 {
-  width: 6rem;
 }
 .min-w-\[15rem\] {
   min-width: 15rem;
@@ -1560,11 +1554,6 @@ video {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1576,9 +1565,6 @@ video {
 .divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-divide-opacity));
-}
-.self-center {
-  align-self: center;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1622,9 +1608,6 @@ video {
 }
 .border-r {
   border-right-width: 1px;
-}
-.border-t {
-  border-top-width: 1px;
 }
 .border-gray-200 {
   --tw-border-opacity: 1;
@@ -1768,9 +1751,6 @@ video {
 .fill-white {
   fill: #fff;
 }
-.fill-current {
-  fill: currentColor;
-}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1786,9 +1766,6 @@ video {
 }
 .p-1 {
   padding: 0.25rem;
-}
-.p-5 {
-  padding: 1.25rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -1903,9 +1880,6 @@ video {
 .pb-64 {
   padding-bottom: 16rem;
 }
-.pt-4 {
-  padding-top: 1rem;
-}
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1975,9 +1949,6 @@ video {
 }
 .font-normal {
   font-weight: 400;
-}
-.uppercase {
-  text-transform: uppercase;
 }
 .leading-tight {
   line-height: 1.25;
@@ -2190,9 +2161,6 @@ video {
 }
 .\[--adaptive\:none\] {
   --adaptive: none;
-}
-.\[--overlay-backdrop\:static\] {
-  --overlay-backdrop: static;
 }
 
 @font-face {
@@ -2639,19 +2607,9 @@ h6 {
     background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-gray-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-  }
-
   .dark\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-gray-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(107 114 128 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-opacity-80 {
@@ -2693,32 +2651,12 @@ h6 {
     color: rgb(75 85 99 / var(--tw-text-opacity));
   }
 
-  .dark\:text-violet-800 {
-    --tw-text-opacity: 1;
-    color: rgb(91 33 182 / var(--tw-text-opacity));
-  }
-
-  .dark\:shadow-slate-700\/\[\.7\] {
-    --tw-shadow-color: rgb(51 65 85 / .7);
-    --tw-shadow: var(--tw-shadow-colored);
-  }
-
-  .hover\:dark\:text-violet-400:hover {
-    --tw-text-opacity: 1;
-    color: rgb(167 139 250 / var(--tw-text-opacity));
-  }
-
   .dark\:focus\:ring-offset-gray-800:focus {
     --tw-ring-offset-color: #1f2937;
   }
 }
 
 @media (min-width: 640px) {
-
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .sm\:ml-8 {
     margin-left: 2rem;
@@ -2782,14 +2720,6 @@ h6 {
 
   .sm\:w-48 {
     width: 12rem;
-  }
-
-  .sm\:w-full {
-    width: 100%;
-  }
-
-  .sm\:max-w-lg {
-    max-width: 32rem;
   }
 
   .sm\:max-w-3xl {
@@ -3097,18 +3027,6 @@ h6 {
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
   }
 
-  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
     border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
@@ -3117,10 +3035,6 @@ h6 {
 
   .md\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
-  }
-
-  .md\:justify-self-start {
-    justify-self: start;
   }
 
   .md\:p-5 {
