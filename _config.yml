@@ -20,7 +20,8 @@ webinar:
 casestudy: 
   permalink: /:casestudies/:year/:month/:day/:title:output_ext
 
-
+videos: 
+  permalink: /:videos/:year/:month/:day/:title:output_ext
 
 resources: 
   permalink: /:resources/:year/:month/:day/:title:output_ext
@@ -84,6 +85,8 @@ collections:
    announcements:
       output: true
    resources:
+      output: true
+   videos:
       output: true
       
  
