@@ -6,14 +6,16 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'TT Norms Pro';
-  src:  url('/assets/fonts/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Medium.otf') format('opentype'); font-size:16px;
+  font-family: 'DM Sans Regular';
+  src:  url('/assets/fonts/DM_Sans/DMSans-regular.ttf') format('opentype'); font-size:18px;
+  
+
 
 }
  
 html {
-    font-family: 'TT Norms Pro';
-    color:black;
+  font-family: 'DM Sans Regular', sans-serif;
+    color:rgb(13, 15, 41);
     font-size:16px;
 
   }
@@ -88,20 +90,31 @@ html {
   }
   .text-gray-600{
     color:#151023;
-    font-size:17px;
+    font-size:19px;
   }
   @keyframes cssAnimation {
     
     to   { visibility: visible; }
   }
 
-h1,
+
+.text-2xl{
+  font-size: 48px;
+  font-weight: 300;
+}
+h1
+{
+  font-family: "DM Sans Regular";
+  font-size: 58px;
+  color: #0031e4;
+
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  
-  font-size:x-large;
+  color: #0031e4;
   font-weight: bold;
 }
