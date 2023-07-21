@@ -7,7 +7,7 @@ categories: announcementsapp
 author: asif
 ---
 
-Updates to the platform for June 2023
+Updates to the platform for July 2023
 
 <br/><br/>
 <h3 class="text-2xl ">Privileged Access Management</h3>
