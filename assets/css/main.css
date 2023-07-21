@@ -97,15 +97,18 @@ html {
     to   { visibility: visible; }
   }
 
-
+  .text-special{
+    font-size: 44px;
+    font-weight: 400;
+  }
 .text-2xl{
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 300;
 }
 h1
 {
   font-family: "DM Sans Regular";
-  font-size: 58px;
+  font-size: 44px;
   color: #0031e4;
 
 }
@@ -118,3 +121,4 @@ h6 {
   color: #0031e4;
   font-weight: bold;
 }
+
