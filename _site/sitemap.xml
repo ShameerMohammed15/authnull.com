@@ -78,11 +78,11 @@
 </url>
 <url>
 <loc>/webinars/02-02-2022-first-webinar.html</loc>
-<lastmod>2023-07-24T11:43:15-07:00</lastmod>
+<lastmod>2023-07-24T15:23:19-07:00</lastmod>
 </url>
 <url>
 <loc>/webinars/02-03-2022-second-webinar.html</loc>
-<lastmod>2023-07-24T11:43:15-07:00</lastmod>
+<lastmod>2023-07-24T15:23:19-07:00</lastmod>
 </url>
 <url>
 <loc>/apikey.html</loc>
@@ -188,6 +188,10 @@
 <url>
 <loc>/assets/resources/authnull-white-paper.pdf</loc>
 <lastmod>2023-07-18T09:26:29-07:00</lastmod>
+</url>
+<url>
+<loc>/assets/resources/comparison-with-okta-advanced-server-access-and-cyberark.pdf</loc>
+<lastmod>2023-07-24T15:22:01-07:00</lastmod>
 </url>
 <url>
 <loc>/assets/resources/comparison-with-okta-advanced-server-access.pdf</loc>
