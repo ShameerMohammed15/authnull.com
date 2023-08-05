@@ -45,13 +45,15 @@ There are a number of steps that can be taken to achieve FIPS compliance. These 
 FIPS compliance is an important requirement for all the agencies that are responsible for protecting sensitive data. Our passwordless PAM solution can help you achieve FIPS compliance by providing you with the strong cryptography, strong access controls, and other features that you need to meet the requirements of FIPS 140-2.
 
 We also offer a number of other features that can help you meet the requirements of FIPS compliance, including:
-Decentralized identity: Our solution uses decentralized identity to manage access to privileged accounts. This means that there are no passwords to manage, which eliminates a major attack vector.
+
+* Decentralized identity: Our solution uses decentralized identity to manage access to privileged accounts. This means that there are no passwords to manage, which eliminates a major attack vector.
 
 * Strong cryptography: Our solution uses strong cryptography to protect sensitive data. This means that your data is secure even if it is intercepted in transit or at rest.
 
 * Strong access controls: Our solution implements strong access controls to prevent unauthorized access to your systems. This means that only authorized users can access privileged accounts.
 
 * Session recording: Our solution records all sessions for auditing purposes. This means that you can track who accessed what and when, which can help you to investigate security incidents.
+
 In addition to the features mentioned above, our passwordless PAM solution also offers a number of other benefits, including:
 
 * Increased security: Our solution eliminates the risk of password-related attacks, such as phishing and credential stuffing.
