@@ -2,7 +2,7 @@
 layout: post
 title:  "Decentralized Identity: The Future of Identity Management for the Federal Government"
 excerpt: "The federal government is undergoing a shift in technology, with decentralized identity (DID) emerging as a promising solution for improving identity and access management."
-image: /assets/images/ssi2.jpg
+image: /assets/images/decentralized_system.png
 categories: blog
 author: ahrar
 tags: decentralized-identity

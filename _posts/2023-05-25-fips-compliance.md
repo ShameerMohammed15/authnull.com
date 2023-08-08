@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FIPS Compliance: The Key to Secure Government IT Infrastructure"
-image: /assets/images/password-day.png
+image: /assets/images/fips-140-2.png
 excerpt: "Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs."
 categories: blog
 author: ahrar
