@@ -8,9 +8,6 @@
 @font-face {
   font-family: 'DM Sans Regular';
   src:  url('/assets/fonts/DM_Sans/DMSans-regular.ttf') format('opentype'); font-size:18px;
-  
-
-
 }
  
 html {
@@ -123,12 +120,6 @@ h6 {
 }
 
 
- 
-  .bg-light-yellow {
-    background-color: rgb(241, 238, 223)
-   
-    
-  }
-  .yellow{
-    color:yellow;
-  }
+.bg-light-yellow {
+  background-color: rgb(241, 238, 223)
+}
