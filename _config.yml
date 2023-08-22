@@ -10,21 +10,27 @@ postcss:
 
 posts:
   permalink: /:blog/:title.html
+  permalink: /:blog/:categories/:title/
 
 announcements:
   permalink: /:blog/:title.html
+  permalink: /:announcement/:categories/:title/
 
 webinar: 
   permalink: /:webinars/:year/:month/:day/:title:output_ext
+  permalink: /:webinars/:categories/:title/
 
 casestudy: 
   permalink: /:casestudies/:year/:month/:day/:title:output_ext
+  permalink: /:casestudies/:categories/:title/
 
 videos: 
   permalink: /:videos/:year/:month/:day/:title:output_ext
+  permalink: /:videos/:categories/:title/
 
 resources: 
   permalink: /:resources/:year/:month/:day/:title:output_ext
+  permalink: /:resources/:categories/:title/
 
 
 
