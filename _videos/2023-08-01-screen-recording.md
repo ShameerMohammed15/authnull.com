@@ -1,13 +1,15 @@
 ---
 layout: videos
-title:  "Session Management Overview"
-image: /assets/images/Privileged-session-management.png
+title:  "Privileged Session Management Overview"
+image: /assets/images/PSM.png
 excerpt: "AuthNull Privileged Session Management Demo"
 categories: resources
 author: ahrar
-poster: assets/images/Privileged-session-management.png
+poster: /assets/images/PSM.png
 ---
 
+This video provides an overview of AuthNull's Privileged Session Management which includes credential assignment, session auditing and monitering.
+<br/><br/>
 
 <div style="position: relative; padding-top: 56.25%;">
   <iframe
