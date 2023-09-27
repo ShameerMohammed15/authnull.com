@@ -15,7 +15,9 @@ module.exports = {
         extend: {},
       },
     },
-    plugins: [require('preline/plugin'),
-    require('flowbite-typography'),]
+  
+    plugins: [require("daisyui"),require('preline/plugin'),
+    require('flowbite-typography'),
+  ]
     
   }
