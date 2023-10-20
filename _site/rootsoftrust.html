@@ -29,7 +29,9 @@
   <body class="antialiased">
     <script defer src="/assets/js/cookieconsent.js"></script>
     <script defer src="/assets/js/cookieconsent-init.js"></script>
- 
+
+  
+
 <header class=" border-solid border  border-x-0 border-gray-200  flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white py-3 md:py-0">
   <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
@@ -113,7 +115,7 @@
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >Windows + Linux Authn & AuthZ </a>
+                          <a href="/endpoint-privilege-management#os" >Windows + Linux Authn & AuthZ </a>
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
@@ -134,7 +136,7 @@
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/rootsoftrust/authenticator" >Authenticator App</a>     
+                          <a href="/rootsoftrust#authenticator" >Authenticator App</a>     
                         </div>
 
                         <div class="card-actions justify-left hover:text-blue-600 underline">
@@ -152,11 +154,11 @@
                       <div class="card-body">
                         <h2 class="card-title text-3xl text-gray-600 font-bold">Resources</h2>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/blogs" >Blog</a>
+                          <a href="/blog" >Blog</a>
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/faqs" >FAQs</a>
+                          <a href="https://help.authnull.com/docs/FAQs/FAQs/" >FAQs</a>
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
@@ -185,7 +187,7 @@
                         </div>
 
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >How tos</a>     
+                          <a href="https://help.authnull.com/docs/how-tos/howto/" >How tos</a>     
                         </div>
                       </div>
                     </div>
@@ -294,7 +296,7 @@
   </main> 
 
 
-  <main class="bg-gradient-to-r  from-slate-50 to-indigo-200  min-h-screen transition delay-150  " >
+  <main class="bg-gradient-to-r  from-blue-50 to-indigo-200  min-h-screen transition delay-150  " >
     <a name="identity-linked-authentication" />  
     <a name="authenticator" /> 
         <div class="overflow-hidden py-24 sm:py-32">
@@ -320,6 +322,34 @@
           </div>
         </div>
       </main> 
+
+
+      <main class="bg-gradient-to-r  from-yellow-50 to-yellow-200  min-h-screen transition delay-150  " >
+        <a name="identity-linked-authentication" />  
+        <a name="restore" /> 
+            <div class="overflow-hidden py-24 sm:py-32">
+              <div class="mx-auto max-w-screen-xl px-8 lg:px-10">
+                <div class="mx-auto grid max-w-6xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                  <div class="lg:pr-8 lg:pt-4">
+                    <div class="lg:max-w-lg">
+                      <h2 class=" font-semibold leading-7 text-black">Security Approach</h2>
+                      <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Restoration of Wallet with Seed Phrases</p>
+                      <p class="mt-6 text-lg leading-8 text-gray-900">  What do you do when you lose access to the Wallet on your mobile phone?
+                        <br/> <br/>
+                        <h3 class="text-2xl"> AuthNull uses BIP39 [Bitcoin Improvement Proposal number 39 (BIP39)] to generate seed phrases which can be used to restore the wallet in case the device was lost. </h3>
+                        <p class="mt-6 text-lg leading-8 text-gray-900">  While this has nothing to do with Bitcoin itself, it was pioneered within the blockchain commuity to restore access to the users' decentralized wallets.</p>
+                            <p class="mt-6 text-lg leading-8 text-gray-900">  <b>How does this work? </b><br/>AuthNull generates a set of seed phrases which needs to be noted down. When attempting to restore, these seed phrases can be used to acquire a new public-private keypair for the user.</p>
+                       
+                        <br/><br/><button class="btn btn-primary btn-blue"> Get a demo</button>  
+                    </div>
+                  </div>
+                  <div >
+                   <img src="/assets/images/bip39.png" width="400px"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main> 
 
 <main class="custom-bg-dark-blue  min-h-screen">
   <script>
@@ -428,62 +458,64 @@ Blogs
  
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
     <!-- Card -->
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/07/06/decentralised-identity-and-federal-goverment.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/decentralized_system.png" alt="Image Description">
-       
-      </div>
+ 
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+    
+   
+    <!-- End Card -->
+
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/07/06/decentralised-identity-and-federal-goverment.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/decentralized_system.png" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
           Decentralized Identity: The Future of Identity Management for the Federal Government
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          The federal government is undergoing a shift in technology, with decentralized identity (DID) emerging as a promising solution for improving identity and access management.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
+        <p>The federal government is undergoing a shift in technology, with decentralized identity (DID) emerging as a promising solution for improving identity and access management.</p>
+       
       </div>
     </a>
+    </div>
+
+
+  
+    
 
    
     
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/07/01/split-brain.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/split-brain-cyberark.png" alt="Image Description">
-       
-      </div>
+   
+    <!-- End Card -->
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/07/01/split-brain.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/split-brain-cyberark.png" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
           How AuthNull’s Decentralized Architecture Eliminates Split Brain Problem
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          AuthNull: The PAM solution that's immune to split brain problems that come with traditional PAM solutions. Read the blog to learn more.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
+        <p>AuthNull: The PAM solution that's immune to split brain problems that come with traditional PAM solutions. Read the blog to learn more.</p>
+       
       </div>
     </a>
+    </div>
+
+
+  
+    
 
    
-    
-    
-    
     
    
     <!-- End Card -->
@@ -493,83 +525,81 @@ Blogs
 
     <!-- Card -->
 
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-100 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/ai.webp')]" href="/blog/2023/06/29/reimaginging-the-future-of-authn-authz.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ai.webp" alt="Image Description">
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/06/29/reimaginging-the-future-of-authn-authz.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/ai.webp" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          Re-imaginging the future of AuthN and AuthZ
+        </h2>
+        <p>We see AI being central in reducing the IT workload in managing identities, authentication and authorization and see AuthNull leading from the front on these initiatives. </p>
        
-      </div>
-        <div class="flex-auto p-4 md:p-6">
-        <h3 class="text-2xl text-black group-hover:text-black"><span class="font-bold">Re-imaginging the future of AuthN and AuthZ</span></h3>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          We see AI being central in reducing the IT workload in managing identities, authentication and authorization and see AuthNull leading from the front on these initiatives. 
-        </p>
-      </div>
-      <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-400 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
       </div>
     </a>
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/05/25/fips-compliance.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/fips-140-2.png" alt="Image Description">
-       
-      </div>
+    </div>
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+
+  
+    
+
+   
+    
+   
+    <!-- End Card -->
+
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/05/25/fips-compliance.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/fips-140-2.png" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
           FIPS Compliance: The Key to Secure Government IT Infrastructure
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
+        <p>Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs.</p>
+       
       </div>
     </a>
+    </div>
+
+
+  
+    
 
    
     
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/05/05/world-password-day.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password-day.png" alt="Image Description">
-       
-      </div>
+   
+    <!-- End Card -->
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/05/05/world-password-day.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/password-day.png" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
           Let's go passwordless on world password day
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
+        <p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</p>
+       
       </div>
     </a>
+    </div>
+
+
+  
+    
 
    
-    
-    
-    
     
    
     <!-- End Card -->
@@ -579,81 +609,81 @@ Blogs
 
     <!-- Card -->
 
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-100 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/ssi2.jpg')]" href="/blog/2023/04/01/Self-soverign-identity.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ssi2.jpg" alt="Image Description">
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/04/01/Self-soverign-identity.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/ssi2.jpg" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          Users need to own their Identity
+        </h2>
+        <p>Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.</p>
        
-      </div>
-        <div class="flex-auto p-4 md:p-6">
-        <h3 class="text-2xl text-black group-hover:text-black"><span class="font-bold">Users need to own their Identity</span></h3>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.
-        </p>
-      </div>
-      <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-400 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
       </div>
     </a>
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password.jpg" alt="Image Description">
-       
-      </div>
+    </div>
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+
+  
+    
+
+   
+    
+   
+    <!-- End Card -->
+
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/password.jpg" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
           Passwords and the problems with centralized credential management systems
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
-
-   
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2022/01/15/what-is-did.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/did.png" alt="Image Description">
+        <p>In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime</p>
        
       </div>
-
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
-          What is Decentralized Identifier
-        </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
     </a>
+    </div>
+
+
+  
+    
 
    
     
+   
+    <!-- End Card -->
+
+    <!-- Card -->
+    <!-- End Card -->
+
+    <!-- Card -->
+
+
+    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+      <a href="/blog/2022/01/15/what-is-did.html">
+      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/did.png" style="width:80% overflow: hidden;" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          What is Decentralized Identifier
+        </h2>
+        <p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</p>
+       
+      </div>
+    </a>
+    </div>
+
+
+  
+    
+
+   
     
     <!-- End Card -->
   </div>

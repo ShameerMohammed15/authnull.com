@@ -4,6 +4,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-postcss-v2
+  - admin
 
 postcss:
   cache: false  
@@ -100,9 +101,9 @@ collections:
     
 
 # Pagination 
-# paginate: 6
-# paginate_path: /page:num/
-    
+paginate: 5
+paginate_path: ./page:num/
+
 # Other
 markdown: kramdown
 
