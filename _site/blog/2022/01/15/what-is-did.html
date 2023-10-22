@@ -39,7 +39,7 @@
   
   
 
-<header class=" border-solid border  border-x-0 border-gray-200  flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white py-3 md:py-0">
+<header style="z-index:10000;" class=" border-solid border  border-x-0 border-gray-200  flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white py-3 md:py-0">
   <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
@@ -319,16 +319,15 @@ This specification does not presuppose any particular technology or cryptography
     </div>
   </article>
   <!-- Card Blog -->
-<main class="bg-white">
+<div class="grid-cols-2">
+  <main class="">
    
 
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <!-- Grid -->
-  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
-Blogs
-   </h1>
+
  
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3  ">
     <!-- Card -->
  
 
@@ -342,11 +341,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/07/06/decentralised-identity-and-federal-goverment.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/decentralized_system.png" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/decentralized_system.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Decentralized Identity: The Future of Identity Management for the Federal Government
         </h2>
         <p>The federal government is undergoing a shift in technology, with decentralized identity (DID) emerging as a promising solution for improving identity and access management.</p>
@@ -370,11 +369,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/07/01/split-brain.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/split-brain-cyberark.png" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/split-brain-cyberark.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           How AuthNull’s Decentralized Architecture Eliminates Split Brain Problem
         </h2>
         <p>AuthNull: The PAM solution that's immune to split brain problems that come with traditional PAM solutions. Read the blog to learn more.</p>
@@ -398,11 +397,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/06/29/reimaginging-the-future-of-authn-authz.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/ai.webp" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/ai.webp" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Re-imaginging the future of AuthN and AuthZ
         </h2>
         <p>We see AI being central in reducing the IT workload in managing identities, authentication and authorization and see AuthNull leading from the front on these initiatives. </p>
@@ -426,11 +425,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/05/25/fips-compliance.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/fips-140-2.png" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/fips-140-2.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           FIPS Compliance: The Key to Secure Government IT Infrastructure
         </h2>
         <p>Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs.</p>
@@ -454,11 +453,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/05/05/world-password-day.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/password-day.png" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/password-day.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Let's go passwordless on world password day
         </h2>
         <p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</p>
@@ -482,11 +481,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/04/01/Self-soverign-identity.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/ssi2.jpg" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/ssi2.jpg" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Users need to own their Identity
         </h2>
         <p>Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.</p>
@@ -510,11 +509,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/password.jpg" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/password.jpg" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Passwords and the problems with centralized credential management systems
         </h2>
         <p>In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime</p>
@@ -538,11 +537,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="/blog/2022/01/15/what-is-did.html">
-      <figure style="height:150px; overflow: hidden;"><img src="/assets/images/did.png" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/did.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           What is Decentralized Identifier
         </h2>
         <p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.</p>
@@ -562,7 +561,9 @@ Blogs
   <!-- End Grid -->
 </div>
 <!-- End Card Blog -->
-</main> 
+</main>
+
+  
   <main class="bg-blue-700  h-30  mt-10 pt-10">
     <script>
             function HideShowElement() {
