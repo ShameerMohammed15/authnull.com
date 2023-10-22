@@ -1,14 +1,13 @@
 <!-- Card Blog -->
-<main class="bg-white">
+<div class="grid-cols-2">
+  <main class="">
    
 
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <!-- Grid -->
-  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
-Blogs
-   </h1>
+
  
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3  ">
     <!-- Card -->
  
 
@@ -22,11 +21,11 @@ Blogs
     <!-- Card -->
 
 
-    <div class="card w-96 bg-base-100 hover:bg-blue-50 " style="z-index: 5000;">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="{{post.url}}">
-      <figure style="height:150px; overflow: hidden;"><img src="{{post.image}}" style="width:80% overflow: hidden;" /></figure>
-      <div class="card-body">
-        <h2 class="card-title">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="{{post.image}}" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           {{post.title}}
         </h2>
         <p>{{post.excerpt}}</p>
@@ -47,3 +46,5 @@ Blogs
 </div>
 <!-- End Card Blog -->
 </main>
+
+ 
