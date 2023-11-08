@@ -7,6 +7,9 @@ categories: blog
 author: ahrar
 tags: decentralized-identity
 datePub: August 01st 2023
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/ahrar.jpg
 ---
 
 Much has been <a href="https://cyberark-customers.force.com/s/question/0D52J00007xTuLoSAK/what-happens-during-a-vault-splitbrain-scenario" >discussed about the split-brain scenario </a> that occurs in Cyberark's vault, or any other credential storage that is HA. 

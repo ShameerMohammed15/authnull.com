@@ -5,7 +5,8 @@ image: /assets/images/fips-140-2.png
 excerpt: "Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs."
 categories: blog
 author: ahrar
-datePub: July 10th 2023
+highlighted: false
+duration: "6 mins"
 ---
 
 

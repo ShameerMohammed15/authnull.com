@@ -7,6 +7,9 @@ categories: blog
 author: ahrar
 tags: decentralized-identity
 datePub: August 06th 2023
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/ahrar.jpg
 ---
 
 

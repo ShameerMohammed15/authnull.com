@@ -7,6 +7,10 @@ categories: blog
 author: asif
 tags: ai
 datePub: Jun 20th 2023
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/asif.jpg
+
 ---
 
 AuthNull was developed in response to a customer's requirement to eliminate passwords and SSH keys. Our primary objective was to intercept various protocols and authentication methods, implementing a security measure through obscurity by removing passwords and SSH keys.
