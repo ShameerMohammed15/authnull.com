@@ -18,15 +18,95 @@
     <script defer src="/assets/js/cookieconsent.js"></script>
     <script defer src="/assets/js/cookieconsent-init.js"></script>
     {% include header.html %}
+
     {% include blogcover.html %}
-    {% include postbox.html %}
 
+<!-- This loops through the paginated posts -->
+<!-- 
 
-    {% include contactus.html %}
+ 
+<section>
+  <div class="h-auto w-screen bg-slate-50">  
+    <nav class="font-inter mx-auto h-auto w-full max-w-[1600px] lg:relative lg:top-0" x-data="{isOpen: false, menuOne:false}">  
+      <div class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20"> 
+        <b>Blog Categories: </b>
+        <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
+          <a href="#" class="font-inter text-blue-800  hover:underline lg:px-6 lg:py-4 lg:hover:bg-blue-50 lg:hover:text-blue-800">Product releases</a>
+          <a href="#" class="font-inter text-blue-800  hover:underline lg:px-6 lg:py-4 lg:hover:bg-blue-50 lg:hover:text-blue-800">Privileged Access</a>
+          <a href="#" class="font-inter text-blue-800  hover:underline pb-8 lg:px-6 lg:py-4 lg:pb-0 lg:hover:bg-blue-50 lg:hover:text-blue-800">Cyber Security</a>
+          <a href="#" class="font-inter text-blue-800  hover:underline pb-8 lg:px-6 lg:py-4 lg:pb-0 lg:hover:bg-blue-50 lg:hover:text-blue-800">Other</a>
+
+        </div>  
+      </div>
+    </nav>
+  </div>
+</section>
+
+-->
+<br><br>
+    
+<div class="max-w-[85rem] mx-auto"> 
+ 
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3  ">
+
+    {% for post in paginator.posts %}
  
 
-    
-    
-    {% include footer.html %}
+    <div class="card card-compact w-96 bg-base-100 shadow box-shadow mb-8 rounded-none">
+      <div class="mt-2 overflow-hidden" ><figure  class="" style="height:120px;"><img src="{{post.image}}" alt="" /></figure></div>
+      <div class="card-body">
+        <h2 class="mt-4 text-black text-3xl hover:underline">  <a href="{{post.url}}">{{post.title}}</a></h2>
+        <p class="mt-4 text-base">{{post.excerpt}}</p>
+
+
+        <div class="flex mt-10">
+          <img src="{{post.avatar}}" alt="" class=" rounded-full mr-4 h-10 w-10" />
+          <div class="flex flex-col">
+            <h6 class="text-black">{{post.author}}</h6>
+          </div>
+        </div>
+
+
+        
+        
+      </div>
+    </div>
+
+
+  
+    {% endfor %}
+    <!-- End Card -->
+  </div>
+  <!-- End Grid -->
+</div>
+
+ 
+
+<!-- Pagination links -->
+<div class="pagination text-center">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class=" join-item btn btn-outline previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="join-item btn btn-outline previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class=" join-item btn btn-outline next">Next</a>
+  {% else %}
+    <span class="next join-item btn btn-outline ">Next</span>
+  {% endif %}
+</div>
 
 <script src="/preline/dist/preline.js"></script>
+
+  
+
+
+
+
+
+

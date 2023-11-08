@@ -5,7 +5,10 @@ excerpt: "In this blog, we explain how passwords can be cracked and why central 
 image: /assets/images/password.jpg
 categories: blog
 tags: password management 
-
+author: "Asif Ali"
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/asif.jpg
 
 ---
 The time for passwords to go away has finally come.

@@ -7,6 +7,10 @@ categories: blog
 author: asif
 tags: ssi decentralized-identity
 datePub: Jun 20th 2023
+author: asif
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/asif.jpg
 ---
 
  

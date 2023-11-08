@@ -5,6 +5,9 @@ image: /assets/images/password-day.png
 excerpt: "Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID."
 categories: blog
 author: asif
+highlighted: false
+duration: "6 mins"
+avatar: /assets/images/asif.jpg
  
 
 ---
