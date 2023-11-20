@@ -8,9 +8,43 @@
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
       <!-- Card -->
       {% for resource in site.videos %}
-      {% assign value = forloop.index | modulo:3 %}
-      {% if value != 0 %}
-      <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-slate-50   md:p-6" href="{{resource.url}}">
+     
+      <a class="group relative flex flex-col w-full min-h- bg-blue-100 hover:bg-slate-50 bg-cover  hover:shadow-lg transition bg-[url('../..{{resource.image}}')]" href="{{resource.url}}">
+
+      <div class="card bg-base-100 shadow-xl image-full h-80 bg-base-100 shadow-xl ">
+        <figure><img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/videos.png" alt="Videos" /></figure>
+        <div class="card-body">
+          <h2 class="card-title text-white"> {{resource.title}}</h2>
+          <p>{{resource.excerpt}}</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-cancel"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+            </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+</a>
+
+
+     
+  
+     
+     
+      {% endfor %}
+      <!-- End Card -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Card Blog -->
+  </main>
+
+
+
+  <!--
+
+     <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-slate-50   md:p-6" href="{{resource.url}}">
         <div class="relative pt-[50%] sm:pt-[70%] rounded-xl ">
           <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="{{resource.imagedescription}}">
          
@@ -35,41 +69,4 @@
           
         </div>
       </a>
-  
-     
-      {% else %}
-     
-      <!-- End Card -->
-  
-      <!-- Card -->
-      <!-- End Card -->
-  
-      <!-- Card -->
-  
-      <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-50 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../..{{resource.image}}')]" href="{{resource.url}}">
-        <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-          <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="Image Description">
-         
-        </div>
-          <div class="flex-auto p-4 md:p-6">
-          <h3 class="text-2xl text-black group-hover:text-black"><span class="font-bold">{{resource.title}}</span></h3>
-          <p class="mt-5 text-gray group-hover:text-black ">
-            {{resource.excerpt}}
-          </p>
-        </div>
-        <div class="pt-0 p-4 md:p-6">
-          <div class="  mx-2   text-xl font-medium text-blue-600 ">
-            <button type="button" class="   text-xl font-medium py-3  px-4 inline-flex justify-center items-center gap-2 rounded-md bg-blue-400 border border-transparent font-semibold text-white hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800">
-              Watch
-            </button>
-          </div>
-        </div>
-      </a>
-      {% endif %}
-      {% endfor %}
-      <!-- End Card -->
-    </div>
-    <!-- End Grid -->
-  </div>
-  <!-- End Card Blog -->
-  </main>
+  -->
