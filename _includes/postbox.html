@@ -10,7 +10,7 @@
   <div class="grid sm:grid-cols-2 lg:grid-cols-3  ">
 
     {% for post in site.posts %}
-
+    {% if post.recent == "true" %}
     <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
       <a href="{{post.url}}">
      <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="{{post.image}}" /></figure></div>
@@ -23,8 +23,9 @@
       </div>
     </a>
     </div>
+    {% else %}
 
-
+    {% endif  %}
 
   
     {% endfor %}

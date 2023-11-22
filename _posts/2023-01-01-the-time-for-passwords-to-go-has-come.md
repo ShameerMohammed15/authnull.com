@@ -9,6 +9,7 @@ author: "Asif Ali"
 highlighted: false
 duration: "6 mins"
 avatar: /assets/images/asif.jpg
+recent: "true"
 
 ---
 The time for passwords to go away has finally come.
