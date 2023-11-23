@@ -2,7 +2,7 @@
 layout: post
 title:  "Let's go passwordless on world password day"
 image: /assets/images/password-day.png
-excerpt: "Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID."
+excerpt: "On World Password Day, we reflect on the limitations of traditional passwords and the potential for a passwordless future. "
 categories: blog
 author: asif
 highlighted: false
