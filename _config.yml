@@ -12,6 +12,7 @@ postcss:
 posts:
   permalink: /:blog/:title.html
   permalink: /:blog/:categories/:title/
+  permalink: /:categories/:title/
 
 announcements:
   permalink: /:blog/:title.html
@@ -97,8 +98,9 @@ collections:
       output: true
    authors:
       output: true
+   categories:
+      output: true
       
- 
 
     
 

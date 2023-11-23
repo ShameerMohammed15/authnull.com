@@ -3,7 +3,7 @@ layout: post
 title:  "Passwords and the problems with centralized credential management systems"
 excerpt: "In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime"
 image: /assets/images/password.jpg
-categories: blog
+categories: ["blog", "important"]
 tags: password management 
 author: "Asif Ali"
 highlighted: false
