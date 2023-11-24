@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/https://authnull.com/blog/</id>
+  <id>/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-11-24T19:35:34+00:00</updated>
+  <updated>2023-11-24T19:40:20+00:00</updated>
   <author>
     <name>Asif</name>
-    <uri>/https://authnull.com/blog/</uri>
+    <uri>/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/https://authnull.com/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="/https://authnull.com/blog/"/>
+    href="/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Asif </rights>
-  <icon>https://authnull.com/blog/assets/img/favicons/favicon.ico</icon>
-  <logo>https://authnull.com/blog/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Hello World</title>
-    <link href="/https://authnull.com/blog/posts/what-are-decentralized-identifiers/" rel="alternate" type="text/html" title="Hello World" />
+    <link href="/posts/what-are-decentralized-identifiers/" rel="alternate" type="text/html" title="Hello World" />
     <published>2023-11-24T03:17:00+00:00</published>
   
     <updated>2023-11-24T03:17:00+00:00</updated>
   
-    <id>/https://authnull.com/blog/posts/what-are-decentralized-identifiers/</id>
-    <content src="/https://authnull.com/blog/posts/what-are-decentralized-identifiers/" />
+    <id>/posts/what-are-decentralized-identifiers/</id>
+    <content src="/posts/what-are-decentralized-identifiers/" />
     <author>
       <name>asif</name>
     </author>
