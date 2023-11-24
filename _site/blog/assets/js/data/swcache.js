@@ -1,35 +1,35 @@
 const resource = [
   /* --- CSS --- */
-  '/assets/css/jekyll-theme-chirpy.css',
+  '/blog/assets/css/jekyll-theme-chirpy.css',
 
   /* --- PWA --- */
-  '/app.js',
-  '/sw.js',
+  '/blog/app.js',
+  '/blog/sw.js',
 
   /* --- HTML --- */
-  '/index.html',
-  '/404.html',
+  '/blog/index.html',
+  '/blog/404.html',
 
   
-    '/categories/',
+    '/blog/categories/',
   
-    '/tags/',
+    '/blog/tags/',
   
-    '/archives/',
+    '/blog/archives/',
   
-    '/about/',
+    '/blog/about/',
   
 
   /* --- Favicons & compressed JS --- */
   
   
-    '/assets/img/favicons/android-chrome-192x192.png',
-    '/assets/img/favicons/android-chrome-512x512.png',
-    '/assets/img/favicons/apple-touch-icon.png',
-    '/assets/img/favicons/favicon-16x16.png',
-    '/assets/img/favicons/favicon-32x32.png',
-    '/assets/img/favicons/favicon.ico',
-    '/assets/img/favicons/mstile-150x150.png'
+    '/blog/assets/img/favicons/android-chrome-192x192.png',
+    '/blog/assets/img/favicons/android-chrome-512x512.png',
+    '/blog/assets/img/favicons/apple-touch-icon.png',
+    '/blog/assets/img/favicons/favicon-16x16.png',
+    '/blog/assets/img/favicons/favicon-32x32.png',
+    '/blog/assets/img/favicons/favicon.ico',
+    '/blog/assets/img/favicons/mstile-150x150.png'
 ];
 
 /* The request url with below domain will be cached */
