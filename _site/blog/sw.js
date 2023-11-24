@@ -1,6 +1,6 @@
-self.importScripts('/https://authnull.com/blog/assets/js/data/swcache.js');
+self.importScripts('/assets/js/data/swcache.js');
 
-const cacheName = 'chirpy-1700854534';
+const cacheName = 'chirpy-1700854821';
 
 function verifyDomain(url) {
   for (const domain of allowedDomains) {

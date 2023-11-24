@@ -1,35 +1,35 @@
 const resource = [
   /* --- CSS --- */
-  '/https://authnull.com/blog/assets/css/jekyll-theme-chirpy.css',
+  '/assets/css/jekyll-theme-chirpy.css',
 
   /* --- PWA --- */
-  '/https://authnull.com/blog/app.js',
-  '/https://authnull.com/blog/sw.js',
+  '/app.js',
+  '/sw.js',
 
   /* --- HTML --- */
-  '/https://authnull.com/blog/index.html',
-  '/https://authnull.com/blog/404.html',
+  '/index.html',
+  '/404.html',
 
   
-    '/https://authnull.com/blog/categories/',
+    '/categories/',
   
-    '/https://authnull.com/blog/tags/',
+    '/tags/',
   
-    '/https://authnull.com/blog/archives/',
+    '/archives/',
   
-    '/https://authnull.com/blog/about/',
+    '/about/',
   
 
   /* --- Favicons & compressed JS --- */
   
   
-    '/https://authnull.com/blog/assets/img/favicons/android-chrome-192x192.png',
-    '/https://authnull.com/blog/assets/img/favicons/android-chrome-512x512.png',
-    '/https://authnull.com/blog/assets/img/favicons/apple-touch-icon.png',
-    '/https://authnull.com/blog/assets/img/favicons/favicon-16x16.png',
-    '/https://authnull.com/blog/assets/img/favicons/favicon-32x32.png',
-    '/https://authnull.com/blog/assets/img/favicons/favicon.ico',
-    '/https://authnull.com/blog/assets/img/favicons/mstile-150x150.png'
+    '/assets/img/favicons/android-chrome-192x192.png',
+    '/assets/img/favicons/android-chrome-512x512.png',
+    '/assets/img/favicons/apple-touch-icon.png',
+    '/assets/img/favicons/favicon-16x16.png',
+    '/assets/img/favicons/favicon-32x32.png',
+    '/assets/img/favicons/favicon.ico',
+    '/assets/img/favicons/mstile-150x150.png'
 ];
 
 /* The request url with below domain will be cached */
