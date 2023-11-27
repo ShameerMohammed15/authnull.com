@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/blog/</id>
+  <id>http://localhost:4000/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-11-27T19:18:58+00:00</updated>
+  <updated>2023-11-27T23:50:08+00:00</updated>
   <author>
     <name>Asif</name>
-    <uri>/blog/</uri>
+    <uri>http://localhost:4000/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="/blog/"/>
+    href="http://localhost:4000/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,88 @@
 
   
   <entry>
+    <title>Service accounts – discover, manage and authenticate without secrets</title>
+    <link href="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
+    <published>2023-11-27T03:17:00+00:00</published>
+  
+    <updated>2023-11-27T03:17:00+00:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/service-accounts-m2m-authentication/</id>
+    <content src="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="engineering" />
+    
+    <category term="product" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Service accounts are operational blindspots for IT administrators
+
+In the context of Windows operating systems, service accounts are special user accounts specifically created and used by Windows services or processes to run tasks or applications in the background. These accounts are distinct from regular user accounts and are designed to provide the necessary permissions and privileges for the...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>FIPS Compliance: The Key to Secure Government IT Infrastructure</title>
+    <link href="http://localhost:4000/blog/posts/fips-compliance/" rel="alternate" type="text/html" title="FIPS Compliance: The Key to Secure Government IT Infrastructure" />
+    <published>2023-11-25T03:17:00+00:00</published>
+  
+    <updated>2023-11-25T03:17:00+00:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/fips-compliance/</id>
+    <content src="http://localhost:4000/blog/posts/fips-compliance/" />
+    <author>
+      <name>ahrar</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The federal government is responsible for protecting sensitive data, and FIPS compliance is a key part of that effort. FIPS stands for Federal Information Processing Standards, and it is a set of security standards that are developed by the National Institute of Standards and Technology (NIST).
+
+FIPS compliance is not optional for government agencies. In fact, the Federal Information Security M...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>AuthNull’s multi-tenant organization design</title>
-    <link href="/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
+    <link href="http://localhost:4000/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
     <published>2023-11-24T03:17:00+00:00</published>
   
-    <updated>2023-11-24T03:17:00+00:00</updated>
+    <updated>2023-11-27T23:31:27+00:00</updated>
   
-    <id>/blog/posts/authnull-multi-tenancy/</id>
-    <content src="/blog/posts/authnull-multi-tenancy/" />
+    <id>http://localhost:4000/blog/posts/authnull-multi-tenancy/</id>
+    <content src="http://localhost:4000/blog/posts/authnull-multi-tenancy/" />
     <author>
       <name>asif</name>
     </author>
@@ -59,13 +133,13 @@ A tenant is an instance of AuthNull in which information regarding the tenant an
   
   <entry>
     <title>Hello World</title>
-    <link href="/blog/posts/hello-world/" rel="alternate" type="text/html" title="Hello World" />
-    <published>2023-11-24T03:17:00+00:00</published>
+    <link href="http://localhost:4000/blog/posts/hello-world/" rel="alternate" type="text/html" title="Hello World" />
+    <published>2023-11-23T03:17:00+00:00</published>
   
-    <updated>2023-11-24T03:17:00+00:00</updated>
+    <updated>2023-11-23T03:17:00+00:00</updated>
   
-    <id>/blog/posts/hello-world/</id>
-    <content src="/blog/posts/hello-world/" />
+    <id>http://localhost:4000/blog/posts/hello-world/</id>
+    <content src="http://localhost:4000/blog/posts/hello-world/" />
     <author>
       <name>asif</name>
     </author>
