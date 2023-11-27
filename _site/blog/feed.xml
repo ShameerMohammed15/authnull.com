@@ -4,7 +4,7 @@
   <id>/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-11-24T19:55:58+00:00</updated>
+  <updated>2023-11-27T19:18:58+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>/blog/</uri>
@@ -20,14 +20,52 @@
 
   
   <entry>
-    <title>Hello World</title>
-    <link href="/blog/posts/what-are-decentralized-identifiers/" rel="alternate" type="text/html" title="Hello World" />
+    <title>AuthNull’s multi-tenant organization design</title>
+    <link href="/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
     <published>2023-11-24T03:17:00+00:00</published>
   
     <updated>2023-11-24T03:17:00+00:00</updated>
   
-    <id>/blog/posts/what-are-decentralized-identifiers/</id>
-    <content src="/blog/posts/what-are-decentralized-identifiers/" />
+    <id>/blog/posts/authnull-multi-tenancy/</id>
+    <content src="/blog/posts/authnull-multi-tenancy/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="General" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AuthNull’s privileged access platform provides for provisioning organizations with multi-tenant built in by design. What I multi-tenancy and why does it matter, and how is the platform organized? This blog provides the details:
+
+What is an Tenant?
+
+A tenant is an instance of AuthNull in which information regarding the tenant and its resources such as users, server endpoints, groups etc exist. T...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/blog/posts/hello-world/" rel="alternate" type="text/html" title="Hello World" />
+    <published>2023-11-24T03:17:00+00:00</published>
+  
+    <updated>2023-11-24T03:17:00+00:00</updated>
+  
+    <id>/blog/posts/hello-world/</id>
+    <content src="/blog/posts/hello-world/" />
     <author>
       <name>asif</name>
     </author>
