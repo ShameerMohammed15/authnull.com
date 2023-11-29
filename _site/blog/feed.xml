@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/blog/</id>
+  <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-11-29T19:29:34+00:00</updated>
+  <updated>2023-11-29T20:14:13+00:00</updated>
   <author>
     <name>Asif</name>
-    <uri>http://localhost:4000/blog/</uri>
+    <uri>https://authnull.com/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/blog/"/>
+    href="https://authnull.com/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>AuthNull Release Notes: Week of November 29, 2023</title>
-    <link href="http://localhost:4000/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
+    <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
     <published>2023-11-29T01:00:00+00:00</published>
   
     <updated>2023-11-29T01:00:00+00:00</updated>
   
-    <id>http://localhost:4000/blog/posts/release-notes/</id>
-    <content src="http://localhost:4000/blog/posts/release-notes/" />
+    <id>https://authnull.com/blog/posts/release-notes/</id>
+    <content src="https://authnull.com/blog/posts/release-notes/" />
     <author>
       <name>asif</name>
     </author>
@@ -65,13 +65,13 @@ Organization...
   
   <entry>
     <title>Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions</title>
-    <link href="http://localhost:4000/blog/posts/FTC-Safeguards-rule/" rel="alternate" type="text/html" title="Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions" />
+    <link href="https://authnull.com/blog/posts/FTC-Safeguards-rule/" rel="alternate" type="text/html" title="Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions" />
     <published>2023-11-29T01:00:00+00:00</published>
   
     <updated>2023-11-29T01:00:00+00:00</updated>
   
-    <id>http://localhost:4000/blog/posts/FTC-Safeguards-rule/</id>
-    <content src="http://localhost:4000/blog/posts/FTC-Safeguards-rule/" />
+    <id>https://authnull.com/blog/posts/FTC-Safeguards-rule/</id>
+    <content src="https://authnull.com/blog/posts/FTC-Safeguards-rule/" />
     <author>
       <name>asif</name>
     </author>
@@ -99,13 +99,13 @@ Organization...
   
   <entry>
     <title>Service accounts – discover, manage and authenticate without secrets</title>
-    <link href="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
+    <link href="https://authnull.com/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
     <published>2023-11-27T03:17:00+00:00</published>
   
     <updated>2023-11-27T23:50:44+00:00</updated>
   
-    <id>http://localhost:4000/blog/posts/service-accounts-m2m-authentication/</id>
-    <content src="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" />
+    <id>https://authnull.com/blog/posts/service-accounts-m2m-authentication/</id>
+    <content src="https://authnull.com/blog/posts/service-accounts-m2m-authentication/" />
     <author>
       <name>asif</name>
     </author>
@@ -137,13 +137,13 @@ In the context of Windows operating systems, service accounts are special user a
   
   <entry>
     <title>FIPS Compliance: The Key to Secure Government IT Infrastructure</title>
-    <link href="http://localhost:4000/blog/posts/fips-compliance/" rel="alternate" type="text/html" title="FIPS Compliance: The Key to Secure Government IT Infrastructure" />
+    <link href="https://authnull.com/blog/posts/fips-compliance/" rel="alternate" type="text/html" title="FIPS Compliance: The Key to Secure Government IT Infrastructure" />
     <published>2023-11-25T03:17:00+00:00</published>
   
     <updated>2023-11-25T03:17:00+00:00</updated>
   
-    <id>http://localhost:4000/blog/posts/fips-compliance/</id>
-    <content src="http://localhost:4000/blog/posts/fips-compliance/" />
+    <id>https://authnull.com/blog/posts/fips-compliance/</id>
+    <content src="https://authnull.com/blog/posts/fips-compliance/" />
     <author>
       <name>ahrar</name>
     </author>
@@ -173,13 +173,13 @@ FIPS compliance is not optional for government agencies. In fact, the Federal In
   
   <entry>
     <title>AuthNull’s multi-tenant organization design</title>
-    <link href="http://localhost:4000/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
+    <link href="https://authnull.com/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
     <published>2023-11-24T03:17:00+00:00</published>
   
     <updated>2023-11-27T23:31:27+00:00</updated>
   
-    <id>http://localhost:4000/blog/posts/authnull-multi-tenancy/</id>
-    <content src="http://localhost:4000/blog/posts/authnull-multi-tenancy/" />
+    <id>https://authnull.com/blog/posts/authnull-multi-tenancy/</id>
+    <content src="https://authnull.com/blog/posts/authnull-multi-tenancy/" />
     <author>
       <name>asif</name>
     </author>
