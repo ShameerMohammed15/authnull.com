@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-11-27T23:50:08+00:00</updated>
+  <updated>2023-11-29T19:29:34+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -20,11 +20,89 @@
 
   
   <entry>
+    <title>AuthNull Release Notes: Week of November 29, 2023</title>
+    <link href="http://localhost:4000/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
+    <published>2023-11-29T01:00:00+00:00</published>
+  
+    <updated>2023-11-29T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/release-notes/</id>
+    <content src="http://localhost:4000/blog/posts/release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Release notes for the week of Nov 29, 2023
+
+Multi-tenancy release
+
+This week we have released several features relating to multi-tenancy that enable our customers to self manage the tenants themselves.
+
+A Multi-tenant organization
+
+A multi-tenant organization can contain one or more tenants, and can be supervised by one or more super admins who can then manage one or more tenants.
+
+Organization...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions</title>
+    <link href="http://localhost:4000/blog/posts/FTC-Safeguards-rule/" rel="alternate" type="text/html" title="Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions" />
+    <published>2023-11-29T01:00:00+00:00</published>
+  
+    <updated>2023-11-29T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/blog/posts/FTC-Safeguards-rule/</id>
+    <content src="http://localhost:4000/blog/posts/FTC-Safeguards-rule/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Federal Trade Commission (FTC) Safeguards Rule is a set of regulations designed to protect the confidentiality and security of customer information held by financial institutions. The rule applies to entities such as banks, credit unions, and other organizations that are considered “financial institutions” under the Gramm-Leach-Bliley Act. The primary goal of the Safeguards Rule is to ensur...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Service accounts – discover, manage and authenticate without secrets</title>
     <link href="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
     <published>2023-11-27T03:17:00+00:00</published>
   
-    <updated>2023-11-27T03:17:00+00:00</updated>
+    <updated>2023-11-27T23:50:44+00:00</updated>
   
     <id>http://localhost:4000/blog/posts/service-accounts-m2m-authentication/</id>
     <content src="http://localhost:4000/blog/posts/service-accounts-m2m-authentication/" />
@@ -48,9 +126,9 @@
 
 
 
-      Service accounts are operational blindspots for IT administrators
+      Service accounts are operational blind spots for IT administrators
 
-In the context of Windows operating systems, service accounts are special user accounts specifically created and used by Windows services or processes to run tasks or applications in the background. These accounts are distinct from regular user accounts and are designed to provide the necessary permissions and privileges for the...
+In the context of Windows operating systems, service accounts are special user accounts specifically created and used by Windows services or processes to run tasks or applications in the background. These accounts are distinct from regular user accounts and are designed to provide the necessary permissions and privileges for th...
     </summary>
   
 
@@ -125,41 +203,6 @@ FIPS compliance is not optional for government agencies. In fact, the Federal In
 What is an Tenant?
 
 A tenant is an instance of AuthNull in which information regarding the tenant and its resources such as users, server endpoints, groups etc exist. T...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://localhost:4000/blog/posts/hello-world/" rel="alternate" type="text/html" title="Hello World" />
-    <published>2023-11-23T03:17:00+00:00</published>
-  
-    <updated>2023-11-23T03:17:00+00:00</updated>
-  
-    <id>http://localhost:4000/blog/posts/hello-world/</id>
-    <content src="http://localhost:4000/blog/posts/hello-world/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="General" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      We’re working on our updated blog. Please come back and check us out soon.
-
     </summary>
   
 
