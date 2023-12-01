@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-12-01T17:16:23+00:00</updated>
+  <updated>2023-12-01T18:19:46+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -17,6 +17,48 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of December 01, 2023</title>
+    <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 01, 2023" />
+    <published>2023-12-01T01:00:00+00:00</published>
+  
+    <updated>2023-12-01T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/release-notes/</id>
+    <content src="https://authnull.com/blog/posts/release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Release notes for the week of December 04, 2023
+
+Service accounts release
+
+This week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication
+
+Discovery - For Windows and Linux local service accounts.
+
+Automated discovery of services accounts on Windows and Linux Automated discovery of all service accounts on ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -114,7 +156,7 @@ Organization...
     
     <category term="engineering" />
     
-    <category term="product" />
+    <category term="product-updates" />
     
   
 
@@ -150,7 +192,7 @@ In the context of Windows operating systems, service accounts are special user a
 
   
     
-    <category term="blog" />
+    <category term="general" />
     
   
 
@@ -165,44 +207,6 @@ In the context of Windows operating systems, service accounts are special user a
       The federal government is responsible for protecting sensitive data, and FIPS compliance is a key part of that effort. FIPS stands for Federal Information Processing Standards, and it is a set of security standards that are developed by the National Institute of Standards and Technology (NIST).
 
 FIPS compliance is not optional for government agencies. In fact, the Federal Information Security M...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AuthNull’s multi-tenant organization design</title>
-    <link href="https://authnull.com/blog/posts/authnull-multi-tenancy/" rel="alternate" type="text/html" title="AuthNull’s multi-tenant organization design" />
-    <published>2023-11-24T03:17:00+00:00</published>
-  
-    <updated>2023-11-27T23:31:27+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/authnull-multi-tenancy/</id>
-    <content src="https://authnull.com/blog/posts/authnull-multi-tenancy/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="General" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AuthNull’s privileged access platform provides for provisioning organizations with multi-tenant built in by design. What I multi-tenancy and why does it matter, and how is the platform organized? This blog provides the details:
-
-What is an Tenant?
-
-A tenant is an instance of AuthNull in which information regarding the tenant and its resources such as users, server endpoints, groups etc exist. T...
     </summary>
   
 

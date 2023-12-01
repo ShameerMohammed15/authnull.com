@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "AuthNull Release Notes: Week of December 01, 2023",
+    "url": "/blog/posts/release-notes/",
+    "categories": "release-notes",
+    "tags": "engineering",
+    "date": "2023-12-01 01:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Release notes for the week of December 04, 2023Service accounts releaseThis week we have released several features relating to service accounts that enable our customers to discover and manage serv...",
+    "content": "Release notes for the week of December 04, 2023Service accounts releaseThis week we have released several features relating to service accounts that enable our customers to discover and manage service account authenticationDiscovery - For Windows and Linux local service accounts.Automated discovery of services accounts on Windows and Linux Automated discovery of all service accounts on Windows and Linux OSes. Discover accounts that are being shared by both human users and services.Create service account poliicies - For Windows and Local service accountsAdmins can now provision service account policies that enable Passwordless machine to machine authentication – no SSH Keys, shared secrets, passwords necessary. These policies eliminate the need to maintain passwords, and have password rotations.Wallet updatesWallets are now updated to hold service account credentials and claims.Bastion host updatesBastion hosts have now been updated to provision service account claims so that they can be used as a vault for authentication."
+  },
+  
+  {
     "title": "AuthNull Release Notes: Week of November 29, 2023",
     "url": "/blog/posts/release-notes/",
     "categories": "release-notes",
@@ -37,7 +54,7 @@
   {
     "title": "Service accounts – discover, manage and authenticate without secrets",
     "url": "/blog/posts/service-accounts-m2m-authentication/",
-    "categories": "engineering, product",
+    "categories": "engineering, product-updates",
     "tags": "service-accounts",
     "date": "2023-11-27 03:17:00 +0000",
     
@@ -54,7 +71,7 @@
   {
     "title": "FIPS Compliance: The Key to Secure Government IT Infrastructure",
     "url": "/blog/posts/fips-compliance/",
-    "categories": "blog",
+    "categories": "general",
     "tags": "",
     "date": "2023-11-25 03:17:00 +0000",
     
@@ -71,7 +88,7 @@
   {
     "title": "AuthNull’s multi-tenant organization design",
     "url": "/blog/posts/authnull-multi-tenancy/",
-    "categories": "General",
+    "categories": "engineering, product-updates",
     "tags": "engineering",
     "date": "2023-11-24 03:17:00 +0000",
     
@@ -83,23 +100,6 @@
     
     "snippet": "AuthNull’s privileged access platform provides for provisioning organizations with multi-tenant built in by design. What I multi-tenancy and why does it matter, and how is the platform organized? T...",
     "content": "AuthNull’s privileged access platform provides for provisioning organizations with multi-tenant built in by design. What I multi-tenancy and why does it matter, and how is the platform organized? This blog provides the details:What is an Tenant?A tenant is an instance of AuthNull in which information regarding the tenant and its resources such as users, server endpoints, groups etc exist. The primary functions served by a tenant include identity authentication as well as resource access management. Each tenant can have one or more admins., and directory users who access the resources within the organization. Each tenant can have other users who are provisioned with policy controls that enable them to access the privileged resources in that tenantA Multi-tenant organizationA multi-tenant organization can contain one or more tenants, and can be supervised by one or more super admins who can then manage one or more tenants.A multi-tenant organization contain privileged organizational data and are securely isolated from other tenants. In addition, tenants can be configured to have data persisted and processed in a specific region or cloud, which enables organizations to use tenants as a mechanism to meet data residency and handling compliance requirements.A multitenant organization is an organization that has more than one instance (tenant) and here are the reasons why an Organization tenant might have multiple sub tenants  Enterprises: Organizations with multiple subsidiaries or business units that operate independently.  Multiple clouds: Organizations that have compliance or regulatory needs to exist in multiple cloud environments.  Multiple geographical boundaries: Organizations that operate in multiple geographic locations with various residency regulations.  Test or staging tenants: Organizations that need multiple tenants for testing or staging purposes before deploying more broadly to primary tenants.  Department or employee-created tenants: Organizations where departments or employees have created tenants for development, testing, or separate control.  MSSPs: A multi-tenant organization can also be used by Managed Security Services Providers (MSSPs) to manage privileged access for their customers.How is your data managed?Multi-tenancy allows organizations to manage their own data with isolation that is logical (and sometimes physical). Typically each tenant is available in a separate database which can be physically separated if needed. Each organization’s data can be stored in a particular region to comply with the regions requirements.Because of this, there cannot be shared admins between the tenant (each tenant will require you to create a separate admin in order to access it).Each tenant is also managed with a separate URL and managed by an org level admins.Organizations are isolated in a given region. Tenant databases are logically or physically isolated from other tenants in that given region.Database featuresThe database (which is hosted on postgres) is managed using Kubernetes based cluster operator for Postgres. An operator allows us to run the database on K8s and provides several features including  The databases are highly available (HA),  Deliver high performance  Failover with minimum 3 nodes  Automated replication of data on 3 nodes for failover in each region and that it has block level backup and data replication configured (typically in another region) for Disaster recovery.Data is always encrypted at REST and in transit.More information on how data is managed and secured coming up in upcoming blogs."
-  },
-  
-  {
-    "title": "Hello World",
-    "url": "/blog/posts/hello-world/",
-    "categories": "General",
-    "tags": "hello-world",
-    "date": "2023-11-23 03:17:00 +0000",
-    
-
-
-
-
-
-    
-    "snippet": "We’re working on our updated blog. Please come back and check us out soon.",
-    "content": "We’re working on our updated blog. Please come back and check us out soon."
   }
   
 ]
