@@ -23,19 +23,20 @@ const resource = [
   /* --- Favicons & compressed JS --- */
   
   
-    '/blog/assets/img/favicons/android-chrome-192x192.png',
-    '/blog/assets/img/favicons/android-chrome-512x512.png',
+    '/blog/assets/img/favicons/android-chrome-72x72.png',
     '/blog/assets/img/favicons/apple-touch-icon.png',
-    '/blog/assets/img/favicons/favicon-16x16.png',
-    '/blog/assets/img/favicons/favicon-32x32.png',
+    '/blog/assets/img/favicons/favico.ico',
+    '/blog/assets/img/favicons/favico.png',
     '/blog/assets/img/favicons/favicon.ico',
-    '/blog/assets/img/favicons/mstile-150x150.png',
+    '/blog/assets/img/favicons/favicon.png',
+    '/blog/assets/img/favicons/%C3%98.png',
     '/blog/assets/js/dist/categories.min.js',
     '/blog/assets/js/dist/commons.min.js',
     '/blog/assets/js/dist/home.min.js',
     '/blog/assets/js/dist/misc.min.js',
     '/blog/assets/js/dist/page.min.js',
-    '/blog/assets/js/dist/post.min.js'
+    '/blog/assets/js/dist/post.min.js',
+    '/blog/assets/img/favicons/.DS_Store'
 ];
 
 /* The request url with below domain will be cached */

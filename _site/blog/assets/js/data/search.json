@@ -1,11 +1,11 @@
 [
   
   {
-    "title": "AuthNull Release Notes: Week of December 01, 2023",
-    "url": "/blog/posts/release-notes/",
+    "title": "AuthNull Release Notes: Week of December 04, 2023",
+    "url": "/blog/posts/dec-04-release-notes/",
     "categories": "release-notes",
     "tags": "engineering",
-    "date": "2023-12-01 01:00:00 +0000",
+    "date": "2023-12-04 01:00:00 +0000",
     
 
 
@@ -13,13 +13,13 @@
 
 
     
-    "snippet": "Release notes for the week of December 04, 2023Service accounts releaseThis week we have released several features relating to service accounts that enable our customers to discover and manage serv...",
-    "content": "Release notes for the week of December 04, 2023Service accounts releaseThis week we have released several features relating to service accounts that enable our customers to discover and manage service account authenticationDiscovery - For Windows and Linux local service accounts.Automated discovery of services accounts on Windows and Linux Automated discovery of all service accounts on Windows and Linux OSes. Discover accounts that are being shared by both human users and services.Create service account poliicies - For Windows and Local service accountsAdmins can now provision service account policies that enable Passwordless machine to machine authentication – no SSH Keys, shared secrets, passwords necessary. These policies eliminate the need to maintain passwords, and have password rotations.Wallet updatesWallets are now updated to hold service account credentials and claims.Bastion host updatesBastion hosts have now been updated to provision service account claims so that they can be used as a vault for authentication."
+    "snippet": "Release notes for the week of December 04, 2023Service Accounts FeatureThis week we have released several features relating to service accounts that enable our customers to discover and manage serv...",
+    "content": "Release notes for the week of December 04, 2023Service Accounts FeatureThis week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication. Features include:Discovery - For Windows and Linux local service accounts.Automated discovery of all service accounts on Windows and various Linux distributions is now available. AuthNull can now automatically discover all local privileged service accounts without human intervention and present it to the administrators on a service account screen.Create service account credentials - For Windows and Local service accountsAdmins can now provision service account policies that enable Passwordless machine to machine authentication – no SSH Keys, shared secrets, passwords necessary. These policies eliminate the need to maintain passwords, and have password rotations.Wallet updatesWallets are now updated to hold service account credentials and claims.Bastion host updatesBastion hosts have now been updated to provision service account claims so that they can be used as a vault for authentication. Bastion accounts host claims (not actual credentials).For more information on the architecture, see the  link "
   },
   
   {
     "title": "AuthNull Release Notes: Week of November 29, 2023",
-    "url": "/blog/posts/release-notes/",
+    "url": "/blog/posts/nov-28-release-notes/",
     "categories": "release-notes",
     "tags": "engineering",
     "date": "2023-11-29 01:00:00 +0000",
@@ -37,7 +37,7 @@
   {
     "title": "Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions",
     "url": "/blog/posts/FTC-Safeguards-rule/",
-    "categories": "release-notes",
+    "categories": "general",
     "tags": "engineering",
     "date": "2023-11-29 01:00:00 +0000",
     

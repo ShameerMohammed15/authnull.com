@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <meta name="description" content="Passwordless Privileged Access Management - AuthNull provides passwordless LDAP Authentication through SSH. Connect to your Active directory or other LDAP compliant directory and let us enable passwordless authentication in your windows or Linux infrastructure.">
+    <meta name="description" content="Passwordless Privileged Access Management - Passwordless platform overview explaining how AuthNull provides passwordless 1FA or 2FA authentication against Linux, Windows and other services through protocols such as SSH, RDP, Telnet, and more.">
       <meta name="keywords" content="Privileged,access,management,PAM,passwordless,passwordless-for-servers">
       <meta name="robots" content="index">
       <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
       <link rel="stylesheet" href="{{ "/assets/css/cookieconsent.css" | relative_url }}" media="print" onload="this.media='all'">
-      <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}" >
+      <link rel="icon" type="image/png" href="{{ "/assets/images/favico.png" | relative_url }}" >
+
       <link rel="canonical" href="https://authnull.com{{page.url}}" />
 
   </head>
-  <body class="antialiased">
+  <body>
     <script defer src="/assets/js/cookieconsent.js"></script>
     <script defer src="/assets/js/cookieconsent-init.js"></script>
-{% include header.html %}
 
+{% include header.html %}
+{% include passwordlessappscover.html %}
+{% include passwordlessfeatures.html %}
+{% include homecontactus.html %}
+{% include faq.html %}
+{% include postbox.html %}
 {% include footer.html %}
 <script src="/preline/dist/preline.js"></script>
   </body>
