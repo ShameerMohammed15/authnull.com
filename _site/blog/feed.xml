@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2023-12-01T18:19:46+00:00</updated>
+  <updated>2023-12-04T23:34:45+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>AuthNull Release Notes: Week of December 01, 2023</title>
-    <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 01, 2023" />
-    <published>2023-12-01T01:00:00+00:00</published>
+    <title>AuthNull Release Notes: Week of December 04, 2023</title>
+    <link href="https://authnull.com/blog/posts/dec-04-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 04, 2023" />
+    <published>2023-12-04T01:00:00+00:00</published>
   
-    <updated>2023-12-01T01:00:00+00:00</updated>
+    <updated>2023-12-04T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/release-notes/</id>
-    <content src="https://authnull.com/blog/posts/release-notes/" />
+    <id>https://authnull.com/blog/posts/dec-04-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/dec-04-release-notes/" />
     <author>
       <name>asif</name>
     </author>
@@ -48,13 +48,13 @@
 
       Release notes for the week of December 04, 2023
 
-Service accounts release
+Service Accounts Feature
 
-This week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication
+This week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication. Features include:
 
 Discovery - For Windows and Linux local service accounts.
 
-Automated discovery of services accounts on Windows and Linux Automated discovery of all service accounts on ...
+Automated discovery of all service accounts on Windows and various Linux distributions is ...
     </summary>
   
 
@@ -63,13 +63,13 @@ Automated discovery of services accounts on Windows and Linux Automated discover
   
   <entry>
     <title>AuthNull Release Notes: Week of November 29, 2023</title>
-    <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
+    <link href="https://authnull.com/blog/posts/nov-28-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
     <published>2023-11-29T01:00:00+00:00</published>
   
     <updated>2023-11-29T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/release-notes/</id>
-    <content src="https://authnull.com/blog/posts/release-notes/" />
+    <id>https://authnull.com/blog/posts/nov-28-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/nov-28-release-notes/" />
     <author>
       <name>asif</name>
     </author>
@@ -120,7 +120,7 @@ Organization...
 
   
     
-    <category term="release-notes" />
+    <category term="general" />
     
   
 
