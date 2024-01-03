@@ -1,6 +1,6 @@
 ---
 layout: webinar
-title: "Authnull"
+title: "Webinars"
 permalink: "/webinars/"
 ---
 

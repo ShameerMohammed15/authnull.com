@@ -34,6 +34,7 @@
 {% include header.html %}
 <!-- Hero -->
 
+
 <div class="container mx-auto md" style="width:75%; margin-top:10px;margin-bottom:10px;">
   <h1 data-toc-skip class="text-3xl"></h1>
   
@@ -44,6 +45,7 @@
       {% include datetime.html date=page.date tooltip=true %}
     </span>
 
+    
     <!-- lastmod date -->
     {% if page.last_modified_at %}
     <span>
@@ -81,6 +83,19 @@
 
     <div class="relative bg-white py-16 sm:py-12">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ page.title }}</h2>
+<br/>
+
+<ul class="menu menu-horizontal bg-base-200">
+  <li ><a href="/resources" >Resources Home</a></li>
+  <li><a href="/whitepapers">White papers</a></li>
+  <li><a class="active" href="/casestudies">Case studies</a></li>
+  <li><a   href="/videos">Videos</a></li>
+  <li><a href="/ebooks">eBooks</a></li>
+  <li><a href="/solution-briefs">Solution Brief</a></li>
+  <li><a href="/webinars">Webinar</a></li>
+  <li><a href="/reports">Reports</a></li>
+  <li><a href="/faqs">FAQs</a></li>
+</ul>
 
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 ">
             

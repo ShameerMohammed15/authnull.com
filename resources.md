@@ -1,6 +1,6 @@
 ---
 layout: resources
-title: "AuthNull Resources"
+title: "Resources Home"
 ---
 <!-- <script src="{{ "/node_modules/preline/dist/preline.js" | relative_url }}"></script> -->
  

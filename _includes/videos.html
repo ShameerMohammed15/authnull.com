@@ -7,7 +7,11 @@
   
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
       <!-- Card -->
-      {% for resource in site.videos %}
+      {% assign videos= site.videos |  sort: 'date' | reverse %}
+      {% for resource in videos %}
+      {% assign value = forloop.index | modulo:3 %}
+     
+    
      
       <a class="group relative flex flex-col w-full min-h- bg-blue-100 hover:bg-slate-50 bg-cover  hover:shadow-lg transition bg-[url('../..{{resource.image}}')]" href="{{resource.url}}">
 
@@ -30,8 +34,7 @@
 
      
   
-     
-     
+   
       {% endfor %}
       <!-- End Card -->
     </div>
