@@ -1,0 +1,113 @@
+ 
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - AuthNull Webinars</title>
+    <meta name="description" content="AuthNull Passwordless Privileged Access Management Webinars">
+      <meta name="keywords" content="Privileged,access,management,PAM,passwordless,passwordless-for-servers">
+      <meta name="robots" content="index">
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+      <link rel="stylesheet" href="{{ "/assets/css/cookieconsent.css" | relative_url }}" media="print" onload="this.media='all'">
+      <link rel="icon" type="image/png" href="{{ "/assets/images/favico.png" | relative_url }}" >
+
+      <link rel="canonical" href="https://authnull.com{{page.url}}" />
+
+    <style>
+      .blog-font{
+        font-family:"DM Sans";
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 400;
+        color:rgb(36, 36, 36);
+        
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+<script defer src="/assets/js/cookieconsent.js"></script>
+<script defer src="/assets/js/cookieconsent-init.js"></script>
+
+{% include header.html %}
+<!-- Hero -->
+<div class="bg-white px-2 py-1 lg:px-6">
+          
+  <div class="mx-auto max-w-screen-xl leading-7 ">
+    
+
+    
+     
+  
+    <div class="d-flex justify-content-between">
+      <!-- author(s) -->
+
+    <p class="mt-4 font-semibold leading-7 text-indigo-600">Resource Library</p>
+    <h1 class="mt-2 text-3xl font-bold text-gray-900 max-w-4xl sm:text-4xl"> Webinars</h1>
+   
+<ul class="menu menu-horizontal bg-base-200">
+  <li ><a  href="/resources" >Resources Home</a></li>
+  <li><a class="active" href="/whitepapers">White papers</a></li>
+  <li><a href="/casestudies">Case studies</a></li>
+  <li><a   href="/videos">Videos</a></li>
+  <li><a href="/ebooks">eBooks</a></li>
+  <li><a href="/solution-briefs">Solution Brief</a></li>
+  <li><a class="active " href="/webinars">Webinar</a></li>
+  <li><a href="/reports">Reports</a></li>
+  <li><a href="/faqs">FAQs</a></li>
+</ul>
+<br/>
+
+</div></div></div>
+<div class="container mx-auto md" style="width:75%; margin-top:10px;margin-bottom:10px;">
+  <h1 data-toc-skip class="text-3xl">{{ page.title }}</h1>
+  
+   {{ content }}
+
+  <div class="d-flex justify-content-between">
+    <!-- author(s) -->
+   
+
+    
+ 
+   <span class="blog-font">
+    <br/>
+    Please wait while we load your webinar page...
+
+     
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+      
+    </span>
+    </div>
+  
+ 
+  
+         
+  </div>
+  <!-- End Hero -->
+
+
+
+ 
+
+<div class="post-tail-wrapper text-muted">
+ 
+  
+
+</div><!-- div.post-tail-wrapper -->
+
+ {% include footer.html %}
+
+<script src="/preline/dist/preline.js"></script>
+<script>
+  setTimeout("location.href = '{{ page.webinarurl }};','_blank';",2000);
+  </script>

@@ -80,11 +80,14 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
+    - resources
   layout: archive
   permalinks:
     category: '/category/:name/'
     output: true
-
+permalinks:
+    category: '/resource/:name/'
+    output: true
 collections:
    webinars:
       output: true 
