@@ -3855,6 +3855,9 @@ details.collapse summary::-webkit-details-marker {
 .justify-between {
   justify-content: space-between;
 }
+.justify-items-start {
+  justify-items: start;
+}
 .gap-1 {
   gap: 0.25rem;
 }
