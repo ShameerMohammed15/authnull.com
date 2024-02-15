@@ -143,9 +143,6 @@
 <loc>http://localhost:4000/pam.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/passwordless-for-apps.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/passwordless-for-servers.html</loc>
 </url>
 <url>
@@ -162,6 +159,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/pricing.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/privileged-access-manager.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/reports.html</loc>
