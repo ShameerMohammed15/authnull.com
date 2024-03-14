@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4001/blog/</id>
+  <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-02-15T07:32:50+00:00</updated>
+  <updated>2024-03-14T23:33:01+00:00</updated>
   <author>
     <name>Asif</name>
-    <uri>http://localhost:4001/blog/</uri>
+    <uri>https://authnull.com/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4001/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4001/blog/"/>
+    href="https://authnull.com/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2024 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Embracing decentralized infrastructure</title>
-    <link href="http://localhost:4001/blog/posts/embracing-decentralized-infrastructure/" rel="alternate" type="text/html" title="Embracing decentralized infrastructure" />
+    <link href="https://authnull.com/blog/posts/embracing-decentralized-infrastructure/" rel="alternate" type="text/html" title="Embracing decentralized infrastructure" />
     <published>2024-02-13T03:17:00+00:00</published>
   
     <updated>2024-02-13T03:17:00+00:00</updated>
   
-    <id>http://localhost:4001/blog/posts/embracing-decentralized-infrastructure/</id>
-    <content src="http://localhost:4001/blog/posts/embracing-decentralized-infrastructure/" />
+    <id>https://authnull.com/blog/posts/embracing-decentralized-infrastructure/</id>
+    <content src="https://authnull.com/blog/posts/embracing-decentralized-infrastructure/" />
     <author>
       <name>asif</name>
     </author>
@@ -59,13 +59,13 @@ In an era dominated by digital advancements and technological innovations, the n
   
   <entry>
     <title>AuthNull Release Notes: Week of January 01, 2024</title>
-    <link href="http://localhost:4001/blog/posts/January-01-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of January 01, 2024" />
+    <link href="https://authnull.com/blog/posts/January-01-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of January 01, 2024" />
     <published>2024-01-01T01:00:00+00:00</published>
   
     <updated>2024-01-17T01:54:52+00:00</updated>
   
-    <id>http://localhost:4001/blog/posts/January-01-release-notes/</id>
-    <content src="http://localhost:4001/blog/posts/January-01-release-notes/" />
+    <id>https://authnull.com/blog/posts/January-01-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/January-01-release-notes/" />
     <author>
       <name>asif</name>
     </author>
@@ -103,13 +103,13 @@ A...
   
   <entry>
     <title>Privileged MFA</title>
-    <link href="http://localhost:4001/blog/posts/Privileged-MFA/" rel="alternate" type="text/html" title="Privileged MFA" />
+    <link href="https://authnull.com/blog/posts/Privileged-MFA/" rel="alternate" type="text/html" title="Privileged MFA" />
     <published>2023-12-31T16:09:00+00:00</published>
   
     <updated>2023-12-31T16:09:00+00:00</updated>
   
-    <id>http://localhost:4001/blog/posts/Privileged-MFA/</id>
-    <content src="http://localhost:4001/blog/posts/Privileged-MFA/" />
+    <id>https://authnull.com/blog/posts/Privileged-MFA/</id>
+    <content src="https://authnull.com/blog/posts/Privileged-MFA/" />
     <author>
       <name>asif</name>
     </author>
@@ -143,13 +143,13 @@ If a stringent identity verification is mandated, it is advisa...
   
   <entry>
     <title>Frictionless privileged access through automated policy discovery</title>
-    <link href="http://localhost:4001/blog/posts/jan-01-policy-discovery/" rel="alternate" type="text/html" title="Frictionless privileged access through automated policy discovery" />
+    <link href="https://authnull.com/blog/posts/jan-01-policy-discovery/" rel="alternate" type="text/html" title="Frictionless privileged access through automated policy discovery" />
     <published>2023-12-31T16:00:00+00:00</published>
   
     <updated>2023-12-31T16:00:00+00:00</updated>
   
-    <id>http://localhost:4001/blog/posts/jan-01-policy-discovery/</id>
-    <content src="http://localhost:4001/blog/posts/jan-01-policy-discovery/" />
+    <id>https://authnull.com/blog/posts/jan-01-policy-discovery/</id>
+    <content src="https://authnull.com/blog/posts/jan-01-policy-discovery/" />
     <author>
       <name>asif</name>
     </author>
@@ -179,13 +179,13 @@ AuthNull’s Policy Engine enables a significant step towards achieving Zero Tru
   
   <entry>
     <title>AuthNull Release Notes: Week of December 04, 2023</title>
-    <link href="http://localhost:4001/blog/posts/dec-04-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 04, 2023" />
+    <link href="https://authnull.com/blog/posts/dec-04-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 04, 2023" />
     <published>2023-12-04T01:00:00+00:00</published>
   
     <updated>2023-12-04T01:00:00+00:00</updated>
   
-    <id>http://localhost:4001/blog/posts/dec-04-release-notes/</id>
-    <content src="http://localhost:4001/blog/posts/dec-04-release-notes/" />
+    <id>https://authnull.com/blog/posts/dec-04-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/dec-04-release-notes/" />
     <author>
       <name>asif</name>
     </author>
