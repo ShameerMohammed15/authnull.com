@@ -1,0 +1,226 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://authnull.com/blog/</id>
+  <title></title>
+  <subtitle>This blog provides product and other updates relating to authnull</subtitle>
+  <updated>2024-03-20T22:30:06+00:00</updated>
+  <author>
+    <name>Asif</name>
+    <uri>https://authnull.com/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://authnull.com/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2024 Asif </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of November 29, 2023</title>
+    <link href="https://authnull.com/blog/posts/March-20-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of November 29, 2023" />
+    <published>2024-02-20T01:00:00+00:00</published>
+  
+    <updated>2024-02-20T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/March-20-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/March-20-release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Release notes for the week of March 20, 2024
+
+Auto Discovery of Active directory policies.
+
+AuthNull can now automatically discover authentication request and convert them to policies based on active directory logins.
+
+Navigate to PAM &amp;gt; Authentication - &amp;gt; Requests to see the requests as well as  PAM &amp;gt; Authentication - &amp;gt; Policies to see the policies.
+Under policies - select “Active d...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of January 01, 2024</title>
+    <link href="https://authnull.com/blog/posts/January-01-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of January 01, 2024" />
+    <published>2024-01-01T01:00:00+00:00</published>
+  
+    <updated>2024-01-17T01:54:52+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/January-01-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/January-01-release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Release notes for the week of January 01, 2023
+
+This release is moving significantly towards the vision of frictionless experience that we are trying to provide to customers.
+
+Tenant Config
+
+A global tenant configuration screen enables tenants to configure AuthNull - SSO, MFA, policy mode and so forth affecting the entire tenant.
+
+Automated Policy Discovery for Frictionless Privileged Access
+
+A...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Privileged MFA</title>
+    <link href="https://authnull.com/blog/posts/Privileged-MFA/" rel="alternate" type="text/html" title="Privileged MFA" />
+    <published>2023-12-31T16:09:00+00:00</published>
+  
+    <updated>2023-12-31T16:09:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/Privileged-MFA/</id>
+    <content src="https://authnull.com/blog/posts/Privileged-MFA/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introducing AuthNull’s latest features, empowering you to manage privileged Multi-Factor Authentication (MFA) based on your organization’s unique security posture and enabling frictionless logins.
+
+MFA Settings based on the security posture
+
+The initial step involves determining the security posture essential for your organization.
+
+If a stringent identity verification is mandated, it is advisa...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Frictionless privileged access through automated policy discovery</title>
+    <link href="https://authnull.com/blog/posts/jan-01-policy-discovery/" rel="alternate" type="text/html" title="Frictionless privileged access through automated policy discovery" />
+    <published>2023-12-31T16:00:00+00:00</published>
+  
+    <updated>2023-12-31T16:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/jan-01-policy-discovery/</id>
+    <content src="https://authnull.com/blog/posts/jan-01-policy-discovery/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AuthNull’s Policy Engine is a new feature built to  by automatically identifying and creating authentication policies for privileged users.
+
+AuthNull’s Policy Engine enables a significant step towards achieving Zero Trust in privileged access without needless friction. By automating the discovery of authentication policies, AuthNull streamlines the process and bolsters security without introduc...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of December 04, 2023</title>
+    <link href="https://authnull.com/blog/posts/dec-04-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 04, 2023" />
+    <published>2023-12-04T01:00:00+00:00</published>
+  
+    <updated>2023-12-04T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/dec-04-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/dec-04-release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Release notes for the week of December 04, 2023
+
+Service Accounts Feature
+
+This week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication. Features include:
+
+Discovery - For Windows and Linux local service accounts.
+
+Automated discovery of all service accounts on Windows and various Linux distributions is ...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
