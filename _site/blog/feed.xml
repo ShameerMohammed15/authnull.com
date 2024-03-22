@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-03-20T21:37:39+00:00</updated>
+  <updated>2024-03-22T23:03:54+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -20,21 +20,21 @@
 
   
   <entry>
-    <title>Embracing decentralized infrastructure</title>
-    <link href="https://authnull.com/blog/posts/embracing-decentralized-infrastructure/" rel="alternate" type="text/html" title="Embracing decentralized infrastructure" />
-    <published>2024-02-13T03:17:00+00:00</published>
+    <title>AuthNull Release Notes: Week of March 20, 2024</title>
+    <link href="https://authnull.com/blog/posts/March-20-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of March 20, 2024" />
+    <published>2024-03-20T01:00:00+00:00</published>
   
-    <updated>2024-02-13T03:17:00+00:00</updated>
+    <updated>2024-03-20T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/embracing-decentralized-infrastructure/</id>
-    <content src="https://authnull.com/blog/posts/embracing-decentralized-infrastructure/" />
+    <id>https://authnull.com/blog/posts/March-20-release-notes/</id>
+    <content src="https://authnull.com/blog/posts/March-20-release-notes/" />
     <author>
       <name>asif</name>
     </author>
 
   
     
-    <category term="general" />
+    <category term="release-notes" />
     
   
 
@@ -46,11 +46,14 @@
 
 
 
-      Title: The Pitfalls of Vaults: Embracing the Decentralized Future
+      Release notes for the week of March 20, 2024
 
-Introduction:
+Auto Discovery of Active directory policies.
 
-In an era dominated by digital advancements and technological innovations, the need for secure storage solutions has become more crucial than ever. Traditional vaults, once considered the epitome of safety, are now facing criticism for their inherent limitations. This article explores the drawbacks of using vaults...
+AuthNull can now automatically discover authentication request and convert them to policies based on active directory logins.
+
+Navigate to PAM &amp;gt; Authentication - &amp;gt; Requests to see the requests as well as  PAM &amp;gt; Authentication - &amp;gt; Policies to see the policies.
+Under policies - select “Active d...
     </summary>
   
 

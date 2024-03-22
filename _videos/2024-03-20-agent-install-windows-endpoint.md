@@ -1,5 +1,3 @@
-
-
 ---
 layout: videos
 title:  "Agent install on Windows endpoint"
