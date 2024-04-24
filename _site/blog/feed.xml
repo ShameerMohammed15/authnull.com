@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-04-16T21:47:57+00:00</updated>
+  <updated>2024-04-24T01:10:12+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -20,16 +20,16 @@
 
   
   <entry>
-    <title>AuthNull Release Notes: Week of March 20, 2024</title>
-    <link href="https://authnull.com/blog/posts/March-20-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of March 20, 2024" />
-    <published>2024-03-20T01:00:00+00:00</published>
+    <title>Importance of Privileged Access Management (PAM) for Cybersecurity Insurance</title>
+    <link href="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" rel="alternate" type="text/html" title="Importance of Privileged Access Management (PAM) for Cybersecurity Insurance" />
+    <published>2024-04-22T01:00:00+00:00</published>
   
-    <updated>2024-03-20T01:00:00+00:00</updated>
+    <updated>2024-04-22T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/March-20-release-notes/</id>
-    <content src="https://authnull.com/blog/posts/March-20-release-notes/" />
+    <id>https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/</id>
+    <content src="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" />
     <author>
-      <name>asif</name>
+      <name>yangchenla</name>
     </author>
 
   
@@ -46,14 +46,119 @@
 
 
 
-      Release notes for the week of March 20, 2024
+      Cyberattacks are a common affair in today’s time and can be very costly due to which cyber insurance policies have been tightening their requirements to prevent financial losses. Over the past few years cyberattacks has rapidly increased in number. Recent estimations show that cybercrimes are set to cost IT organizations $10.5 trillion by the year 2025 globally.
 
-Auto Discovery of Active directory policies.
+Privileged Access Management (P...
+    </summary>
+  
 
-AuthNull can now automatically discover authentication request and convert them to policies based on active directory logins.
+  </entry>
 
-Navigate to PAM &amp;gt; Authentication - &amp;gt; Requests to see the requests as well as  PAM &amp;gt; Authentication - &amp;gt; Policies to see the policies.
-Under policies - select “Active d...
+  
+  <entry>
+    <title>Adaptive MFA</title>
+    <link href="https://authnull.com/blog/posts/adaptive-mfa/" rel="alternate" type="text/html" title="Adaptive MFA" />
+    <published>2024-04-22T01:00:00+00:00</published>
+  
+    <updated>2024-04-22T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/adaptive-mfa/</id>
+    <content src="https://authnull.com/blog/posts/adaptive-mfa/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Adaptive multi-factor authentication (MFA) is a precaution that supports contextual information and business rules to decide which authentication is best suitable for a specific user at the given situation. MFA asks users to provide two or more forms of authentication before granting access to a system or application. MFA additional factors fall under three categories:
+
+Something you know: - Th...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master</title>
+    <link href="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" rel="alternate" type="text/html" title="Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master" />
+    <published>2024-04-10T01:00:00+00:00</published>
+  
+    <updated>2024-04-10T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/</id>
+    <content src="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      An organization may have more than one privileged user accounts and such accounts have greater level of control and authority into the system. Thus, securing these special accounts is a must to protect sensitive data and critical systems from cyberattacks
+
+What is a privileged user?
+
+A privileged user refers to one who has elevated access permission within a computer system, network or applicat...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Secrets Management and its importance</title>
+    <link href="https://authnull.com/blog/posts/secrets-management-and-its-importance/" rel="alternate" type="text/html" title="Secrets Management and its importance" />
+    <published>2024-04-01T01:00:00+00:00</published>
+  
+    <updated>2024-04-01T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/secrets-management-and-its-importance/</id>
+    <content src="https://authnull.com/blog/posts/secrets-management-and-its-importance/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is secrets management?
+
+The primary goal of secrets management is to ensure that the sensitive information is kept confidential and only accessible to authorized users. It involves implementation of encryption, access controls, and other security measures to protect secrets from unauthorized access, theft, or misuse. It keeps all secrets safe and sees to it that the system connects instant...
     </summary>
   
 
@@ -98,124 +203,6 @@ A global tenant configuration screen enables tenants to configure AuthNull - SSO
 Automated Policy Discovery for Frictionless Privileged Access
 
 A...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Privileged MFA</title>
-    <link href="https://authnull.com/blog/posts/Privileged-MFA/" rel="alternate" type="text/html" title="Privileged MFA" />
-    <published>2023-12-31T16:09:00+00:00</published>
-  
-    <updated>2023-12-31T16:09:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/Privileged-MFA/</id>
-    <content src="https://authnull.com/blog/posts/Privileged-MFA/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="general" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introducing AuthNull’s latest features, empowering you to manage privileged Multi-Factor Authentication (MFA) based on your organization’s unique security posture and enabling frictionless logins.
-
-MFA Settings based on the security posture
-
-The initial step involves determining the security posture essential for your organization.
-
-If a stringent identity verification is mandated, it is advisa...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Frictionless privileged access through automated policy discovery</title>
-    <link href="https://authnull.com/blog/posts/jan-01-policy-discovery/" rel="alternate" type="text/html" title="Frictionless privileged access through automated policy discovery" />
-    <published>2023-12-31T16:00:00+00:00</published>
-  
-    <updated>2023-12-31T16:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/jan-01-policy-discovery/</id>
-    <content src="https://authnull.com/blog/posts/jan-01-policy-discovery/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="general" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AuthNull’s Policy Engine is a new feature built to  by automatically identifying and creating authentication policies for privileged users.
-
-AuthNull’s Policy Engine enables a significant step towards achieving Zero Trust in privileged access without needless friction. By automating the discovery of authentication policies, AuthNull streamlines the process and bolsters security without introduc...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AuthNull Release Notes: Week of December 04, 2023</title>
-    <link href="https://authnull.com/blog/posts/dec-04-release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of December 04, 2023" />
-    <published>2023-12-04T01:00:00+00:00</published>
-  
-    <updated>2023-12-04T01:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/dec-04-release-notes/</id>
-    <content src="https://authnull.com/blog/posts/dec-04-release-notes/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="release-notes" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Release notes for the week of December 04, 2023
-
-Service Accounts Feature
-
-This week we have released several features relating to service accounts that enable our customers to discover and manage service account authentication. Features include:
-
-Discovery - For Windows and Linux local service accounts.
-
-Automated discovery of all service accounts on Windows and various Linux distributions is ...
     </summary>
   
 
