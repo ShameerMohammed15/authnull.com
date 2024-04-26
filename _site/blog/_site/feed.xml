@@ -1,0 +1,204 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://authnull.com/blog/</id>
+  <title></title>
+  <subtitle>This blog provides product and other updates relating to authnull</subtitle>
+  <updated>2024-04-26T18:27:33+00:00</updated>
+  <author>
+    <name>Asif</name>
+    <uri>https://authnull.com/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://authnull.com/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2024 Asif </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations</title>
+    <link href="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" rel="alternate" type="text/html" title="The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations" />
+    <published>2024-04-25T01:00:00+00:00</published>
+  
+    <updated>2024-04-25T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/importance-of-adaptive-mfa/</id>
+    <content src="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+High-profile security breaches are most common these days, such breaches exploit system login credentials of users and make their way into the company’s network. Thus, organizations today are focusing on better security identifications. Multi-factor authentication (MFA) is one such platform which helps secure our systems and accounts. It requires users to provide more than one pass...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Importance of Privileged Access Management (PAM) for Cybersecurity Insurance</title>
+    <link href="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" rel="alternate" type="text/html" title="Importance of Privileged Access Management (PAM) for Cybersecurity Insurance" />
+    <published>2024-04-22T01:00:00+00:00</published>
+  
+    <updated>2024-04-22T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/</id>
+    <content src="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Cyberattacks are a common affair in today’s time and can be very costly due to which cyber insurance policies have been tightening their requirements to prevent financial losses. Over the past few years cyberattacks has rapidly increased in number. Recent estimations show that cybercrimes are set to cost IT organizations $10.5 trillion by the year 2025 globally.
+
+Privileged Access Management (P...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Adaptive MFA</title>
+    <link href="https://authnull.com/blog/posts/adaptive-mfa/" rel="alternate" type="text/html" title="Adaptive MFA" />
+    <published>2024-04-22T01:00:00+00:00</published>
+  
+    <updated>2024-04-22T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/adaptive-mfa/</id>
+    <content src="https://authnull.com/blog/posts/adaptive-mfa/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Adaptive multi-factor authentication (MFA) is a precaution that supports contextual information and business rules to decide which authentication is best suitable for a specific user at the given situation. MFA asks users to provide two or more forms of authentication before granting access to a system or application. MFA additional factors fall under three categories:
+
+Something you know: - Th...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master</title>
+    <link href="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" rel="alternate" type="text/html" title="Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master" />
+    <published>2024-04-10T01:00:00+00:00</published>
+  
+    <updated>2024-04-10T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/</id>
+    <content src="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      An organization may have more than one privileged user accounts and such accounts have greater level of control and authority into the system. Thus, securing these special accounts is a must to protect sensitive data and critical systems from cyberattacks
+
+What is a privileged user?
+
+A privileged user refers to one who has elevated access permission within a computer system, network or applicat...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Secrets Management and its importance</title>
+    <link href="https://authnull.com/blog/posts/secrets-management-and-its-importance/" rel="alternate" type="text/html" title="Secrets Management and its importance" />
+    <published>2024-04-01T01:00:00+00:00</published>
+  
+    <updated>2024-04-01T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/secrets-management-and-its-importance/</id>
+    <content src="https://authnull.com/blog/posts/secrets-management-and-its-importance/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is secrets management?
+
+The primary goal of secrets management is to ensure that the sensitive information is kept confidential and only accessible to authorized users. It involves implementation of encryption, access controls, and other security measures to protect secrets from unauthorized access, theft, or misuse. It keeps all secrets safe and sees to it that the system connects instant...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
