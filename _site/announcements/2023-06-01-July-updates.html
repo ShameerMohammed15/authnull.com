@@ -16,8 +16,8 @@
 <script async src="https://tag.clearbitscripts.com/v1/pk_10295c094fa8b87fc0dc47bacb5c1f0f/tags.js" referrerpolicy="strict-origin-when-cross-origin"></script> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Updates to the platform for July 2023 - </title>
-  <meta name="description" content="Passwordless Privileged Access Management -  AuthNull July Updates include updated credential and password rotation, updates to Jump servers and more.">
+  <title>AuthNull Blog - Updates to the platform for July 2023</title>
+  <meta name="description" content="Passwordless Privileged Access Management - Updates to the platform for July 2023">
     <meta name="keywords" content="Privileged,access,management,PAM,passwordless,passwordless-for-servers">
     <meta name="robots" content="index">
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -36,9 +36,17 @@
   <script defer src="/assets/js/cookieconsent.js"></script>
   <script defer src="/assets/js/cookieconsent-init.js"></script>
 
-   
-<header class=" border-solid border  border-x-0 border-gray-200  flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white py-3 md:py-0">
-  <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
+  
+  <!-- Reddit Pixel -->
+<script>
+  !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','a2_e42s8p7y32qt', {"optOut":false,"useDecimalCurrencyValues":true,"aaid":"<AAID-HERE>","email":"<EMAIL-HERE>","externalId":"<EXTERNAL-ID-HERE>","idfa":"<IDFA-HERE>"});rdt('track', 'PageVisit');
+  </script>
+  <!-- DO NOT MODIFY UNLESS TO REPLACE A USER IDENTIFIER -->
+  <!-- End Reddit Pixel -->
+  
+
+<header style="z-index:2147483647; position:relative" class=" border-solid border  border-x-0 border-gray-200  flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white py-3 md:py-0">
+  <nav style="z-index:2147483647;position:relative"  class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
         <a class="flex-none text-xl font-semibold" href="/" aria-label="Brand"><img style="width:60%;" src="/assets/images/logo.png"></a>
@@ -59,7 +67,10 @@
           <div class="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid">
             <a class="font-bold text-black  hover:text-blue-600 py-3 md:py-6" href="/" aria-current="page">Home</a>
 
+            
       
+            
+
             <div class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
               <button type="button" class="flex items-center w-full text-black hover:text-blue-600 font-bold">
                 Platform
@@ -79,27 +90,36 @@
                         <h1 class="card-title text-3xl text-black">Privileged Access</h1>
                         <p>AuthNull's privileged access management suite consists of a full suite of solutions to protect and secure your important infrastructure.</p>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >Free trial </a>
+                          <a href="/pam" >Privileged Access Overview </a>
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >Pricing </a>
+                          <a href="/contactus" >Free trial </a>
+                        </div>
+                        <div class="card-actions justify-left hover:text-blue-600 underline">
+                          <a href="pricing" >Pricing </a>
                         </div>
                         <div class="divider"></div> 
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/endpoint-security" >Endpoint Security </a>
+                          <a href="/endpoint-privilege-management" >Privileged Access & Session Management </a>
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/endpoint-privilege-management" >Endpoint Privileged Management </a>
+                          <a href="/secrets-management" >Secrets Management </a>
+                        </div>
+                        
+                        <!--
+                        <div class="card-actions justify-left hover:text-blue-600 underline">
+                          <a href="/endpoint-security-windows" >Endpoint Security For Windows </a>  <div class="badge badge-primary">Preview</div>
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/passwordless-pam" >Privileged Access Management </a>
-                        </div>
+                          <a href="/dynamic-authorization-platform" >Dynamic Authorization Platform </a>  <div class="badge badge-primary"> Preview</div>
+                        </div>-->
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/#vault" >Secrets Management without a Vault </a>
+                          <a href="/service-accounts" >Service Account Management </a>
                         </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/dynamic-authorization-platform" >Dynamic Authorization Platform </a>
-                        </div>
+                         
+                        <!--<div class="card-actions justify-left hover:text-blue-600 underline">
+                          <a href="/dynamic-privileged-access" >Dynamic Privileged Access </a>  <div class="badge badge-primary">Preview</div>
+                        </div>-->
                       </div>
                     </div>
                     
@@ -110,43 +130,26 @@
      
                     <div class="card w-96 bg-base-100">
                       <div class="card-body">
-                        <h2 class="card-title text-3xl text-gray-600 font-bold">Key Features</h2>
+                        <h2 class="card-title text-3xl text-gray-600 font-bold">Why AuthNull</h2>
+                      
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/passwordless-for-servers" >Biometric + Passwordless </a>
+                          <a href="/why-authnull/#vault" >Secrets Management without a Vault </a>
+                        </div>
+                           
+                        
+                        <div class="card-actions justify-left hover:text-blue-600 underline">
+                          <a href="/why-authnull#decentralized" >Decentralized Platform </a>
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/passwordless-for-servers/#local" >LDAP + Local Authentication </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >Windows + Linux Authn & AuthZ </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/rootsoftrust" >Two roots of Trust with PKI </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/rootsoftrust/#identity-linked-authentication" >Identity linked Authentication </a>
-                          
-                        </div>
-                        <div class="divider"></div> 
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/endpoint-privilege-management#recording" >Session Recording </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/decentralized-id" >Decentralized Platform </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/rootsoftrust/authenticator" >Authenticator App</a>     
+                          <a href="/why-authnull#vaultless" >Vaultless + Biometric MFA</a>     
                         </div>
 
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/endpoint-privilege-management/#rotation" >Credential Rotation</a>     
-                        </div>
+                       
+                      
+
+                      
+                        
                       </div>
                     </div>
                     
@@ -155,46 +158,18 @@
                   <div class=" ">
                    
                    
-                    <div class="card w-96 bg-base-100">
-                      <div class="card-body">
-                        <h2 class="card-title text-3xl text-gray-600 font-bold">Resources</h2>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/blogs" >Blog</a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/faqs" >FAQs</a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="casestudies" >Case Studies </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="videos" >Videos </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="resources" >Resource Library </a>
-                          
-                        </div>
-                        <div class="divider"></div> 
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="platform-release" >Release notes </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="https://help.authnull.com" >Help Docs </a>
-                          
-                        </div>
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="https://apidocs.authnull.com" >API Reference</a>     
-                        </div>
-
-                        <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="#" >How tos</a>     
+                    <div class="mt-10 margin">
+                      <div class="card w-96 bg-base-100 shadow rounded-none ">
+                        <figure><img src="/assets/images/policy-discovery.png" alt="MGM Cybersecurity Attack" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title">Automated Policy Discovery</h2>
+                          <p>Read how you can use automated policy discovery quickly get to Zero Trust Privileged Access.</p>
+                          <div class="card-actions justify-end">
+                           <a href="/blog/posts/jan-01-policy-discovery/"> <button class=" btn btn-outline btn-primary">Read</button></a>
+                          </div>
                         </div>
                       </div>
+    
                     </div>
 
                    
@@ -204,21 +179,147 @@
               </div>
             </div>
 
+<div class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
+  <button type="button" class="flex items-center w-full text-black hover:text-blue-600 font-bold">
+    Resources
+    <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    </svg>
+  </button>
 
+  <div class="border-solid border  border-blue-800  hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0   hidden z-10 top-full left-0 min-w-[15rem] bg-white md:shadow-2xl lg py-2 md:p-4 before:absolute before:-top-5 before:left-0 before:h-5">
+  <div class="md:grid md:grid-cols-3 lg:grid-cols-3 gap-2"> 
+     
+    
+  
+
+
+
+    <div class=" ">
+     
+     
+      <div class="card w-96 bg-base-100 ">
+        <div class="card-body">
+          <h2 class="card-title text-3xl text-gray-600 font-bold">Resources</h2>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/resources" >Resources Home</a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/whitepapers" >White Papers </a>
+            
+          </div>
+          
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/casestudies" >Case Studies </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/videos" >Videos </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/ebooks" >E-Books </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/solution-briefs" >Solution Briefs </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/webinars" >Webinars </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/reports" >Reports </a>
+            
+          </div>
+      
+          
+
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/faqs" >FAQs</a>
+            
+          </div>
+         
+        </div>
+      </div>
+
+     
+    
+    </div>
+
+    <div class="">
+      <div class="card w-96 bg-base-100">
+        <div class="card-body">
+          <h2 class="card-title text-3xl text-gray-600 font-bold">Platform Resources</h2>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/blog/categories/release-notes/" >Release notes </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="/videos" >Product Videos </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="https://help.authnull.com" >Help Docs </a>
+            
+          </div>
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="https://apidocs.authnull.com" >API Reference</a>     
+          </div>
+
+          <div class="card-actions justify-left hover:text-blue-600 underline">
+            <a href="https://help.authnull.com/docs/how-tos/howto/" >How tos</a>     
+          </div>
+  </div></div>
+    </div>
+
+    <div class="mt-10 margin">
+      <div class="card w-96 bg-base-100 shadow rounded-none ">
+        <figure><img src="/assets/images/mgm.jpg" alt="MGM Cybersecurity Attack" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">MGM Attack Whitepaper</h2>
+          <p>Read our whitepaper on the MGM Cybersecurity attack</p>
+          <div class="card-actions justify-end">
+           <a target="_new" href="/resources/2023-12-22-mgm-hack.html"> <button class="btn btn-outline btn-primary">Read</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  </div>
 
             
 
 
-
-
-
             <div class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
               
-              <a class="font-bold text-black  hover:text-blue-600 py-3 md:py-6" href="/whoarewe" aria-current="page">About us</a>
+              <a class="font-bold text-black  hover:text-blue-600 py-3 md:py-6" href="/pricing" aria-current="page">Pricing</a>
 
               </div>
-           
 
+
+
+              <div class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
+              
+                <a class="font-bold text-black  hover:text-blue-600 py-3 md:py-6" href="/blog" aria-current="page">Blog</a>
+  
+                </div>
+             
             
           
 
@@ -232,6 +333,7 @@
             </div> -->
             <a class="font-bold text-black py-3 md:py-6" href="/contactus" aria-current="page">Contact Us</a>
 
+            <a href="/#getfreetrial"> <button class="btn btn-neutral">Request a trial</button></a>
           </div>
         </div>
       </div>
@@ -292,250 +394,142 @@
     </div>
   </article>
   <!-- Card Blog -->
-<main class="bg-white">
+
+  <main class="">
    
 
+
+<!---->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <!-- Grid -->
-  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-4xl mb-5">
-Blogs
-   </h1>
  
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
-    <!-- Card -->
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/07/06/decentralised-identity-and-federal-goverment.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/decentralized_system.png" alt="Image Description">
-       
-      </div>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3  ">
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
-          Decentralized Identity: The Future of Identity Management for the Federal Government
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+
+    
+
+  
+    
+    
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
+      <a href="/blog/2023/04/01/Self-soverign-identity.html">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/ssi2.jpg" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
+          Users need to own their Identity
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          The federal government is undergoing a shift in technology, with decentralized identity (DID) emerging as a promising solution for improving identity and access management.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
-
-   
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/07/01/split-brain.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/split-brain-cyberark.png" alt="Image Description">
+        <p>Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. </p>
        
       </div>
-
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
-          How AuthNull’s Decentralized Architecture Eliminates Split Brain Problem
-        </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          AuthNull: The PAM solution that's immune to split brain problems that come with traditional PAM solutions. Read the blog to learn more.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
     </a>
+    </div>
+    
 
-   
+  
     
     
-    
-    
-   
-    <!-- End Card -->
-
-    <!-- Card -->
-    <!-- End Card -->
-
-    <!-- Card -->
-
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-100 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/ai.webp')]" href="/blog/2023/06/29/reimaginging-the-future-of-authn-authz.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ai.webp" alt="Image Description">
-       
-      </div>
-        <div class="flex-auto p-4 md:p-6">
-        <h3 class="text-2xl text-black group-hover:text-black"><span class="font-bold">Re-imaginging the future of AuthN and AuthZ</span></h3>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          We see AI being central in reducing the IT workload in managing identities, authentication and authorization and see AuthNull leading from the front on these initiatives. 
-        </p>
-      </div>
-      <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-400 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
-      </div>
-    </a>
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/05/25/fips-compliance.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/fips-140-2.png" alt="Image Description">
-       
-      </div>
-
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
-          FIPS Compliance: The Key to Secure Government IT Infrastructure
-        </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Achieve FIPS compliance by adopting to a decentralised PAM solution eliminating passwords, improving usability, and reducing costs.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
-
-   
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/05/05/world-password-day.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password-day.png" alt="Image Description">
-       
-      </div>
-
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
-          Let's go passwordless on world password day
-        </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
-
-   
-    
-    
-    
-    
-   
-    <!-- End Card -->
-
-    <!-- Card -->
-    <!-- End Card -->
-
-    <!-- Card -->
-
-    <a class="group relative flex flex-col w-full min-h-[15rem] bg-blue-100 hover:bg-slate-100 bg-cover rounded-xl hover:shadow-lg transition bg-[url('../../assets/images/ssi2.jpg')]" href="/blog/2023/04/01/Self-soverign-identity.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/ssi2.jpg" alt="Image Description">
-       
-      </div>
-        <div class="flex-auto p-4 md:p-6">
-        <h3 class="text-2xl text-black group-hover:text-black"><span class="font-bold">Users need to own their Identity</span></h3>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Users need to own their identity. Something that they own, control and its available on their devices as opposed to managed by centralized platforms. This paradigm is called Self-Sovereign identity.
-        </p>
-      </div>
-      <div class="pt-0 p-4 md:p-6">
-        <div class="inline-flex items-center gap-2 text-sm font-medium text-blue-400 group-hover:text-blue-600">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
-      </div>
-    </a>
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2023/01/01/the-time-for-passwords-to-go-has-come.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/password.jpg" alt="Image Description">
-       
-      </div>
-
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
+      <a href="/blog/important/2023/01/01/the-time-for-passwords-to-go-has-come.html">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/password.jpg" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           Passwords and the problems with centralized credential management systems
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
-      </div>
-    </a>
-
-   
-    
-    
-    
-    
-    <a class="group rounded-xl overflow-hidden hover:shadow-lg p-4 md:p-6" href="/blog/2022/01/15/what-is-did.html">
-      <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-        <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="/assets/images/did.png" alt="Image Description">
+        <p>In this blog, we explain how passwords can be cracked and why central management of credentials is well past its prime</p>
        
       </div>
+    </a>
+    </div>
+    
 
-      <div class="mt-7">
-        <h2 class="text-2xl text-black group-hover:text-blue-00 ">
+  
+    
+    
+    <div class="  py-2 mt-2 w-96 border-blue-800  style="z-index: 5;">
+      <a href="/blog/special/2022/01/15/what-is-did.html">
+     <div class="bg-slate-100 py-2 mt-2"> <figure class="overflow-hidden" style="height:150px;"><img src="/assets/images/did.png" /></figure></div>
+      <div class="">
+        <h2 class="py-2 text-3xl font-bold text-black hover:underline">
           What is Decentralized Identifier
         </h2>
-        <p class="mt-5 text-gray group-hover:text-black ">
-          Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) as determined by the controller of the DID.
-        </p>
-        <p class="mt-5 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 group-hover:underline font-medium">
-          Read more
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </p>
+        <p>Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. </p>
+       
       </div>
     </a>
+    </div>
+    
 
-   
+  
     
-    
+
     <!-- End Card -->
   </div>
+
+
+<!-- This loops through the paginated posts -->
+
+
+<!-- Pagination links -->
+<div class="pagination">
+
+  <span class="previous">Previous</span>
+
+<span class="page_number ">
+  Page:  of 
+</span>
+
+  <span class="next ">Next</span>
+
+</div>
   <!-- End Grid -->
 </div>
 <!-- End Card Blog -->
-</main> 
+</main>
+
+  
   <main class="bg-blue-700  h-30  mt-10 pt-10">
     <script>
             function HideShowElement() {
@@ -598,6 +592,9 @@ Blogs
           <div class="mt-3 grid space-y-3">
             <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/terms">Terms Of Service</a></p>
           </div>
+          <div class="mt-3 grid space-y-3">
+            <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/privacy-policy">Privacy Policy</a></p>
+          </div>
         </div>
         <div class="col-span-1">
             <h4 class="font-semibold text-gray-100">Company</h4>
@@ -605,7 +602,7 @@ Blogs
             <div class="mt-3 grid space-y-3">
               <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/whoarewe">About us</a></p>
               <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/blog">Blog</a></p>
-              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" target="_blank" href="https://authnull.zohorecruit.com/careers">Careers</a> <span class="inline ml-1 text-xs bg-blue-700 text-white py-1 px-2 md">We're hiring</span></p>
+             <!-- <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" target="_blank" href="https://authnull.zohorecruit.com/careers">Careers</a> <span class="inline ml-1 text-xs bg-blue-700 text-white py-1 px-2 md">We're hiring</span></p>-->
               <!-- <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Leadership</a></p> -->
             </div>
           </div>
@@ -622,12 +619,12 @@ Blogs
         </div>
         <!-- End Col -->
         <div class="col-span-1">
-            <h4 class="font-semibold text-gray-100">Developers</h4>
+            <h4 class="font-semibold text-gray-100">Announcements</h4>
     
             <div class="mt-3 grid space-y-3">
               <!-- <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="#">Sitemap</a></p>
               <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" target="_blank" href="https://apidocs.authnull.com/">Developer Apis</a></p> -->
-              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/platform-release">Release Notes</a></p>
+              <p><a class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" href="/blog/categories/release-notes/">Release Notes</a></p>
   
             </div>
           </div>
@@ -637,7 +634,7 @@ Blogs
   
       <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
         <div class="flex justify-between items-center">
-          <p class="text-sm text-gray-400">© 2022 Authnull. All rights reserved.</p>
+          <p class="text-sm text-gray-400">© 2024 Authnull. All rights reserved.</p>
         </div>
         <!-- End Col -->
   
