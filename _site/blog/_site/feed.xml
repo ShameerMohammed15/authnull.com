@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://authnull.com/blog/</id>
+  <id>http://localhost:4000/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-04-30T19:29:52+00:00</updated>
+  <updated>2024-04-30T19:39:02+00:00</updated>
   <author>
     <name>Asif</name>
-    <uri>https://authnull.com/blog/</uri>
+    <uri>http://localhost:4000/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://authnull.com/blog/"/>
+    href="http://localhost:4000/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2024 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Why you should enable MFA for your Active Directory Infrastructure</title>
-    <link href="https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" rel="alternate" type="text/html" title="Why you should enable MFA for your Active Directory Infrastructure" />
+    <link href="http://localhost:4000/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" rel="alternate" type="text/html" title="Why you should enable MFA for your Active Directory Infrastructure" />
     <published>2024-04-29T01:00:00+00:00</published>
   
     <updated>2024-04-29T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/</id>
-    <content src="https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" />
+    <id>http://localhost:4000/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/</id>
+    <content src="http://localhost:4000/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" />
     <author>
       <name>yangchenla</name>
     </author>
@@ -59,13 +59,13 @@ Credential theft- The attackers may attempt to steal the usernames through techn
   
   <entry>
     <title>The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations</title>
-    <link href="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" rel="alternate" type="text/html" title="The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations" />
+    <link href="http://localhost:4000/blog/posts/importance-of-adaptive-mfa/" rel="alternate" type="text/html" title="The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations" />
     <published>2024-04-25T01:00:00+00:00</published>
   
     <updated>2024-04-25T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/importance-of-adaptive-mfa/</id>
-    <content src="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" />
+    <id>http://localhost:4000/blog/posts/importance-of-adaptive-mfa/</id>
+    <content src="http://localhost:4000/blog/posts/importance-of-adaptive-mfa/" />
     <author>
       <name>yangchenla</name>
     </author>
@@ -94,13 +94,13 @@ High-profile security breaches are most common these days, such breaches exploit
   
   <entry>
     <title>Importance of Privileged Access Management (PAM) for Cybersecurity Insurance</title>
-    <link href="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" rel="alternate" type="text/html" title="Importance of Privileged Access Management (PAM) for Cybersecurity Insurance" />
+    <link href="http://localhost:4000/blog/posts/importance-of-privileged-access-for-cyber-insurance/" rel="alternate" type="text/html" title="Importance of Privileged Access Management (PAM) for Cybersecurity Insurance" />
     <published>2024-04-22T01:00:00+00:00</published>
   
     <updated>2024-04-22T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/</id>
-    <content src="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" />
+    <id>http://localhost:4000/blog/posts/importance-of-privileged-access-for-cyber-insurance/</id>
+    <content src="http://localhost:4000/blog/posts/importance-of-privileged-access-for-cyber-insurance/" />
     <author>
       <name>yangchenla</name>
     </author>
@@ -130,13 +130,13 @@ Privileged Access Management (P...
   
   <entry>
     <title>Adaptive MFA</title>
-    <link href="https://authnull.com/blog/posts/adaptive-mfa/" rel="alternate" type="text/html" title="Adaptive MFA" />
+    <link href="http://localhost:4000/blog/posts/adaptive-mfa/" rel="alternate" type="text/html" title="Adaptive MFA" />
     <published>2024-04-22T01:00:00+00:00</published>
   
     <updated>2024-04-22T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/adaptive-mfa/</id>
-    <content src="https://authnull.com/blog/posts/adaptive-mfa/" />
+    <id>http://localhost:4000/blog/posts/adaptive-mfa/</id>
+    <content src="http://localhost:4000/blog/posts/adaptive-mfa/" />
     <author>
       <name>yangchenla</name>
     </author>
@@ -166,13 +166,13 @@ Something you know: - Th...
   
   <entry>
     <title>Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master</title>
-    <link href="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" rel="alternate" type="text/html" title="Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master" />
+    <link href="http://localhost:4000/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" rel="alternate" type="text/html" title="Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master" />
     <published>2024-04-10T01:00:00+00:00</published>
   
     <updated>2024-04-10T01:00:00+00:00</updated>
   
-    <id>https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/</id>
-    <content src="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" />
+    <id>http://localhost:4000/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/</id>
+    <content src="http://localhost:4000/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" />
     <author>
       <name>yangchenla</name>
     </author>
