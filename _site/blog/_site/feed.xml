@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-04-26T18:27:33+00:00</updated>
+  <updated>2024-04-30T00:24:15+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -17,6 +17,44 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Why you should enable MFA for your Active Directory Infrastructure</title>
+    <link href="https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" rel="alternate" type="text/html" title="Why you should enable MFA for your Active Directory Infrastructure" />
+    <published>2024-04-29T01:00:00+00:00</published>
+  
+    <updated>2024-04-29T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/</id>
+    <content src="https://authnull.com/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What are the threats to Active Directory?
+
+Active Directory is a critical component of many organizations’ IT infrastructure due to which it is highly targeted by cyber attackers. Some of these threats include -
+
+Credential theft- The attackers may attempt to steal the usernames through techniques such as phishing, keylogging, or brute-force attacks. The attackers may use such information to ge...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -158,42 +196,6 @@ Something you know: - Th...
 What is a privileged user?
 
 A privileged user refers to one who has elevated access permission within a computer system, network or applicat...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Secrets Management and its importance</title>
-    <link href="https://authnull.com/blog/posts/secrets-management-and-its-importance/" rel="alternate" type="text/html" title="Secrets Management and its importance" />
-    <published>2024-04-01T01:00:00+00:00</published>
-  
-    <updated>2024-04-01T01:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/secrets-management-and-its-importance/</id>
-    <content src="https://authnull.com/blog/posts/secrets-management-and-its-importance/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="blog" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      What is secrets management?
-
-The primary goal of secrets management is to ensure that the sensitive information is kept confidential and only accessible to authorized users. It involves implementation of encryption, access controls, and other security measures to protect secrets from unauthorized access, theft, or misuse. It keeps all secrets safe and sees to it that the system connects instant...
     </summary>
   
 
