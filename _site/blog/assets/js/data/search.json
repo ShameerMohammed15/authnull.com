@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "AuthNull Release Notes: Week of May 01, 2024",
+    "url": "/blog/posts/release-notes/",
+    "categories": "release-notes",
+    "tags": "general",
+    "date": "2024-05-01 01:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Windows Endpoint - Script for Installation of Agent and AuthenticationAuthNull announces a release of a new endpoint installation script for Windows endpoint. This script will install agent that wi...",
+    "content": "Windows Endpoint - Script for Installation of Agent and AuthenticationAuthNull announces a release of a new endpoint installation script for Windows endpoint. This script will install agent that will discover and manage users locally, and endpoint authentication framework (pGina).This script configures everything that is needed for managing endpoint privileged access management, active directory MFA, active directory privileged access and more.  MFA caching - avoiding repeat MFA notifications on Mobile devicesWe’re happy to announce release of MFA caching.Tenant admins now have the ability to switch on MFA caching so that repeat notifications on mobile devices can be disabled when authentication to mobile devices.Authentication experience without MFA cachingAuthentication experience without MFA caching is designed to be high friction - so that user can validate / verify identity for every authentication.Further password lookups need to happen from the authenticator app before the user logs in so that the user can type it in.This means there’s a bit of back and forth between the mobile app authenticator wallet and the endpoint where the user has to log in.This friction is intentional and intended to comply with  Authenticator Assurance Levels 2 (AAL2)  - a standard by NIST.Introducing MFA Caching - what is it and how does it work?MFA caching aims to improve user experience while reducing mobile push notifications during authentication.  To enable MFA caching the tenant administrator has to configure MFA caching in the tenant config screen.  In this option, the tenant admin will select “No MFA (use SSO Caching)”.Once this is enabled, for as long as the user or the users are logged into the SSO console for your tenant on your https://tenant.org.authnull.com account - your MFA notifications on your mobile device will be disabled whenever you do authentications.Automating password look-upsFurther more - When logging into the endpoint using the jump server, password lookups are completely disabled as passwords are also automatically looked up from the wallet. To do password lookup however - wallet needs to remain open when authentication is happening with no action required from the user, a jump server needs to be setup to enable connections via the same."
+  },
+  
+  {
     "title": "Why you should enable MFA for your Active Directory Infrastructure",
     "url": "/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/",
     "categories": "general",
