@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-04-30T21:46:23+00:00</updated>
+  <updated>2024-05-01T07:22:37+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -17,6 +17,44 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of May 01, 2024</title>
+    <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of May 01, 2024" />
+    <published>2024-05-01T01:00:00+00:00</published>
+  
+    <updated>2024-05-01T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/release-notes/</id>
+    <content src="https://authnull.com/blog/posts/release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Windows Endpoint - Script for Installation of Agent and Authentication
+
+AuthNull announces a release of a new endpoint installation script for Windows endpoint. This script will install agent that will discover and manage users locally, and endpoint authentication framework (pGina).
+
+This script configures everything that is needed for managing endpoint privileged access management, active dire...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -158,44 +196,6 @@ Privileged Access Management (P...
       Adaptive multi-factor authentication (MFA) is a precaution that supports contextual information and business rules to decide which authentication is best suitable for a specific user at the given situation. MFA asks users to provide two or more forms of authentication before granting access to a system or application. MFA additional factors fall under three categories:
 
 Something you know: - Th...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master</title>
-    <link href="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" rel="alternate" type="text/html" title="Mastering the Art of Safeguarding Privileged Users: Best Practices for Management and Security Master" />
-    <published>2024-04-10T01:00:00+00:00</published>
-  
-    <updated>2024-04-10T01:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/</id>
-    <content src="https://authnull.com/blog/posts/Mastering-the-art-of-safeguarding-privileged-users/" />
-    <author>
-      <name>yangchenla</name>
-    </author>
-
-  
-    
-    <category term="general" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      An organization may have more than one privileged user accounts and such accounts have greater level of control and authority into the system. Thus, securing these special accounts is a must to protect sensitive data and critical systems from cyberattacks
-
-What is a privileged user?
-
-A privileged user refers to one who has elevated access permission within a computer system, network or applicat...
     </summary>
   
 
