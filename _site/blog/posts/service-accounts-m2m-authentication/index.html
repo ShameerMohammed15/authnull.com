@@ -423,37 +423,6 @@
         
       
         
-          
-      
-          
-      
-          
-          
-      
-           
-              
-      
-                
-
-                <li class="nav-item active">
-                  <a href="/blog/categories/engineering/" class="nav-link">
-                    <i class="fa-fw fas fa-stream"></i>
-                    
-        
-                    <span> ENGINEERING</span>
-                  </a>
-                </li>
-
-
-       
-              
-               
-                
-              
-       
-      
-          
-        
       
         
         
@@ -1558,35 +1527,35 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/posts/April-23-Release-Notes/">April 2024 Release notes</a>
+          <a href="/blog/posts/introducing-mfa-caching/">MFA Caching</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/posts/January-01-release-notes/">AuthNull Release Notes: Week of January 01, 2024</a>
+          <a href="/blog/posts/adaptive-mfa/">Adaptive MFA</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/posts/authnull-multi-tenancy/">AuthNull’s multi-tenant organization design</a>
+          <a href="/blog/posts/importance-of-privileged-access-for-cyber-insurance/">Importance of Privileged Access Management (PAM) for Cybersecurity Insurance</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/posts/service-accounts-m2m-authentication/">Service accounts – discover, manage and authenticate without secrets</a>
+          <a href="/blog/posts/importance-of-adaptive-mfa/">The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/blog/posts/FTC-Safeguards-rule/">Navigating the FTC Safeguards Rule: A Comprehensive Guide for Financial Institutions</a>
+          <a href="/blog/posts/release-notes/">AuthNull Release Notes: Week of May 01, 2024</a>
         </li>
       
     </ul>
@@ -1639,6 +1608,64 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1673,34 +1700,6 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1721,16 +1720,19 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/engineering/">engineering</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/release-notes/">release-notes</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/general/">general</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/service-accounts/">service-accounts</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/blog/">blog</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/secrets-management/">secrets-management</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/blog/tags/service-accounts/">service-accounts</a>
       
     </div>
   </section>
@@ -1785,7 +1787,31 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -1811,6 +1837,44 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/blog/posts/Protecting-service-account-blindspots/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1714525200"
+  data-df="ll"
+  
+>
+  May  1, 2024
+</time>
+
+              <h4 class="pt-0 my-2">Protecting Service Account Blindspots</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  Protecting Service Account Blindspots
+
+Service account blind spots refer to potential vulnerabilities in the management and oversight of service accounts within an organization’s IT infrastructure....
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/blog/posts/authnull-multi-tenancy/" class="post-preview card h-100">
@@ -1842,6 +1906,44 @@ Service accounts typically use passwords (shared secrets) or SSH Keys to authent
 
 
                   AuthNull’s privileged access platform provides for provisioning organizations with multi-tenant built in by design. What I multi-tenancy and why does it matter, and how is the platform organized? T...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/blog/posts/jan-01-policy-discovery/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1704038400"
+  data-df="ll"
+  
+>
+  Dec 31, 2023
+</time>
+
+              <h4 class="pt-0 my-2">Frictionless privileged access through automated policy discovery</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  AuthNull’s Policy Engine is a new feature built to  by automatically identifying and creating authentication policies for privileged users.
+
+AuthNull’s Policy Engine enables a significant step towa...
                 </p>
               </div>
             </div>
@@ -1980,6 +2082,64 @@ Copyright (c) 2023-2024 - AuthNull
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2014,34 +2174,6 @@ Copyright (c) 2023-2024 - AuthNull
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2062,16 +2194,19 @@ Copyright (c) 2023-2024 - AuthNull
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/engineering/">engineering</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/release-notes/">release-notes</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/general/">general</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/service-accounts/">service-accounts</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/blog/">blog</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/blog/tags/secrets-management/">secrets-management</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/blog/tags/service-accounts/">service-accounts</a>
       
     </div>
   </section>
