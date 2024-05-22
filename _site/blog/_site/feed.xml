@@ -1,0 +1,215 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4002/blog/</id>
+  <title></title>
+  <subtitle>This blog provides product and other updates relating to authnull</subtitle>
+  <updated>2024-05-22T17:20:25+00:00</updated>
+  <author>
+    <name>Asif</name>
+    <uri>http://localhost:4002/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4002/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4002/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2024 Asif </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>MFA Caching</title>
+    <link href="http://localhost:4002/blog/posts/introducing-mfa-caching/" rel="alternate" type="text/html" title="MFA Caching" />
+    <published>2024-05-22T01:00:00+00:00</published>
+  
+    <updated>2024-05-22T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4002/blog/posts/introducing-mfa-caching/</id>
+    <content src="http://localhost:4002/blog/posts/introducing-mfa-caching/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      MFA caching is an exciting new feature that enables users to authenticate into the SSO console and use that MFA while the session is active to further disable MFA notifications when authenticating to endpoints.
+
+This can be useful to reduce friction during authentication.
+
+How does this work?
+
+
+  Ensure that MFA caching is enabled at the tenant level
+  User logs into the AuthNull SSO console
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Protecting Service Account Blindspots</title>
+    <link href="http://localhost:4002/blog/posts/Protecting-service-account-blindspots/" rel="alternate" type="text/html" title="Protecting Service Account Blindspots" />
+    <published>2024-05-01T01:00:00+00:00</published>
+  
+    <updated>2024-05-01T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4002/blog/posts/Protecting-service-account-blindspots/</id>
+    <content src="http://localhost:4002/blog/posts/Protecting-service-account-blindspots/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Protecting Service Account Blindspots
+
+Service account blind spots refer to potential vulnerabilities in the management and oversight of service accounts within an organization’s IT infrastructure. Service accounts are typically used by applications, services, or automated processes to access resources or perform tasks within a system.
+
+Protecting service accounts is crucial for maintaining the...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AuthNull Release Notes: Week of May 01, 2024</title>
+    <link href="http://localhost:4002/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of May 01, 2024" />
+    <published>2024-05-01T01:00:00+00:00</published>
+  
+    <updated>2024-05-01T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4002/blog/posts/release-notes/</id>
+    <content src="http://localhost:4002/blog/posts/release-notes/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="release-notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Windows Endpoint - Script for Installation of Agent and Authentication
+
+AuthNull announces a release of a new endpoint installation script for Windows endpoint. This script will install agent that will discover and manage users locally, and endpoint authentication framework (pGina).
+
+This script configures everything that is needed for managing endpoint privileged access management, active dire...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Why you should enable MFA for your Active Directory Infrastructure</title>
+    <link href="http://localhost:4002/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" rel="alternate" type="text/html" title="Why you should enable MFA for your Active Directory Infrastructure" />
+    <published>2024-04-29T01:00:00+00:00</published>
+  
+    <updated>2024-04-29T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4002/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/</id>
+    <content src="http://localhost:4002/blog/posts/why-you-should-enable-mfa-for-active-directory-infrastructure/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What are the threats to Active Directory?
+
+Active Directory is a critical component of many organizations’ IT infrastructure due to which it is highly targeted by cyber attackers. Some of these threats include -
+
+Credential theft- The attackers may attempt to steal the usernames through techniques such as phishing, keylogging, or brute-force attacks. The attackers may use such information to ge...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations</title>
+    <link href="http://localhost:4002/blog/posts/importance-of-adaptive-mfa/" rel="alternate" type="text/html" title="The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations" />
+    <published>2024-04-25T01:00:00+00:00</published>
+  
+    <updated>2024-04-25T01:00:00+00:00</updated>
+  
+    <id>http://localhost:4002/blog/posts/importance-of-adaptive-mfa/</id>
+    <content src="http://localhost:4002/blog/posts/importance-of-adaptive-mfa/" />
+    <author>
+      <name>yangchenla</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+High-profile security breaches are most common these days, such breaches exploit system login credentials of users and make their way into the company’s network. Thus, organizations today are focusing on better security identifications. Multi-factor authentication (MFA) is one such platform which helps secure our systems and accounts. It requires users to provide more than one pass...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
