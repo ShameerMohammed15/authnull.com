@@ -4,7 +4,7 @@
   <id>https://authnull.com/blog/</id>
   <title></title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-05-01T22:45:40+00:00</updated>
+  <updated>2024-05-22T17:40:51+00:00</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -20,11 +20,93 @@
 
   
   <entry>
+    <title>MFA Caching</title>
+    <link href="https://authnull.com/blog/posts/introducing-mfa-caching/" rel="alternate" type="text/html" title="MFA Caching" />
+    <published>2024-05-22T01:00:00+00:00</published>
+  
+    <updated>2024-05-22T17:40:16+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/introducing-mfa-caching/</id>
+    <content src="https://authnull.com/blog/posts/introducing-mfa-caching/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Intro to MFA Caching
+
+MFA caching is an exciting new feature that enables users to authenticate into the SSO console and use that MFA while the session is active to further disable MFA notifications when authenticating to endpoints.
+
+This can be useful to reduce friction during authentication.
+
+How does this work?
+
+
+  Ensure that MFA caching is enabled at the tenant level
+  User logs into the A...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Protecting Service Account Blindspots</title>
+    <link href="https://authnull.com/blog/posts/Protecting-service-account-blindspots/" rel="alternate" type="text/html" title="Protecting Service Account Blindspots" />
+    <published>2024-05-01T01:00:00+00:00</published>
+  
+    <updated>2024-05-01T01:00:00+00:00</updated>
+  
+    <id>https://authnull.com/blog/posts/Protecting-service-account-blindspots/</id>
+    <content src="https://authnull.com/blog/posts/Protecting-service-account-blindspots/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Protecting Service Account Blindspots
+
+Service account blind spots refer to potential vulnerabilities in the management and oversight of service accounts within an organization’s IT infrastructure. Service accounts are typically used by applications, services, or automated processes to access resources or perform tasks within a system.
+
+Protecting service accounts is crucial for maintaining the...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>AuthNull Release Notes: Week of May 01, 2024</title>
     <link href="https://authnull.com/blog/posts/release-notes/" rel="alternate" type="text/html" title="AuthNull Release Notes: Week of May 01, 2024" />
     <published>2024-05-01T01:00:00+00:00</published>
   
-    <updated>2024-05-01T01:00:00+00:00</updated>
+    <updated>2024-05-22T17:29:17+00:00</updated>
   
     <id>https://authnull.com/blog/posts/release-notes/</id>
     <content src="https://authnull.com/blog/posts/release-notes/" />
@@ -100,7 +182,7 @@ Credential theft- The attackers may attempt to steal the usernames through techn
     <link href="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" rel="alternate" type="text/html" title="The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations" />
     <published>2024-04-25T01:00:00+00:00</published>
   
-    <updated>2024-04-25T01:00:00+00:00</updated>
+    <updated>2024-05-22T17:29:17+00:00</updated>
   
     <id>https://authnull.com/blog/posts/importance-of-adaptive-mfa/</id>
     <content src="https://authnull.com/blog/posts/importance-of-adaptive-mfa/" />
@@ -110,7 +192,7 @@ Credential theft- The attackers may attempt to steal the usernames through techn
 
   
     
-    <category term="release-notes" />
+    <category term="general" />
     
   
 
@@ -124,78 +206,6 @@ Credential theft- The attackers may attempt to steal the usernames through techn
 
       Introduction
 High-profile security breaches are most common these days, such breaches exploit system login credentials of users and make their way into the company’s network. Thus, organizations today are focusing on better security identifications. Multi-factor authentication (MFA) is one such platform which helps secure our systems and accounts. It requires users to provide more than one pass...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Importance of Privileged Access Management (PAM) for Cybersecurity Insurance</title>
-    <link href="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" rel="alternate" type="text/html" title="Importance of Privileged Access Management (PAM) for Cybersecurity Insurance" />
-    <published>2024-04-22T01:00:00+00:00</published>
-  
-    <updated>2024-04-22T01:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/</id>
-    <content src="https://authnull.com/blog/posts/importance-of-privileged-access-for-cyber-insurance/" />
-    <author>
-      <name>yangchenla</name>
-    </author>
-
-  
-    
-    <category term="release-notes" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Cyberattacks are a common affair in today’s time and can be very costly due to which cyber insurance policies have been tightening their requirements to prevent financial losses. Over the past few years cyberattacks has rapidly increased in number. Recent estimations show that cybercrimes are set to cost IT organizations $10.5 trillion by the year 2025 globally.
-
-Privileged Access Management (P...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Adaptive MFA</title>
-    <link href="https://authnull.com/blog/posts/adaptive-mfa/" rel="alternate" type="text/html" title="Adaptive MFA" />
-    <published>2024-04-22T01:00:00+00:00</published>
-  
-    <updated>2024-04-22T01:00:00+00:00</updated>
-  
-    <id>https://authnull.com/blog/posts/adaptive-mfa/</id>
-    <content src="https://authnull.com/blog/posts/adaptive-mfa/" />
-    <author>
-      <name>yangchenla</name>
-    </author>
-
-  
-    
-    <category term="release-notes" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Adaptive multi-factor authentication (MFA) is a precaution that supports contextual information and business rules to decide which authentication is best suitable for a specific user at the given situation. MFA asks users to provide two or more forms of authentication before granting access to a system or application. MFA additional factors fall under three categories:
-
-Something you know: - Th...
     </summary>
   
 

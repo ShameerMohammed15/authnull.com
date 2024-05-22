@@ -1,10 +1,44 @@
 [
   
   {
+    "title": "MFA Caching",
+    "url": "/blog/posts/introducing-mfa-caching/",
+    "categories": "general",
+    "tags": "release-notes",
+    "date": "2024-05-22 01:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Intro to MFA CachingMFA caching is an exciting new feature that enables users to authenticate into the SSO console and use that MFA while the session is active to further disable MFA notifications ...",
+    "content": "Intro to MFA CachingMFA caching is an exciting new feature that enables users to authenticate into the SSO console and use that MFA while the session is active to further disable MFA notifications when authenticating to endpoints.This can be useful to reduce friction during authentication.How does this work?  Ensure that MFA caching is enabled at the tenant level  User logs into the AuthNull SSO console  User subsequently authenticates to endpoints (using SSH, RDP, etc.)  If SSO caching is enabled, and if the user has already provided an MFA for the web authentication session, then the user will not see further notifications to mobile device.  Authenticate without having to type passwordsWhen connecting using a jump server with MFA caching experience enabled - users can futher avoid the need to even type in a password. This is looked up automatically from their wallet providing a secure passwordless authentication experience.To login without passwords or MFA notifications (when MFA caching is enabled)  Navigate to PAM &gt; Jump Servers &gt; Connections  Select the machine you want to connect to  Ensure that you have the credentials (on your wallet)  ConnectThis should enable a passwordless / authentication experience."
+  },
+  
+  {
+    "title": "Protecting Service Account Blindspots",
+    "url": "/blog/posts/Protecting-service-account-blindspots/",
+    "categories": "general",
+    "tags": "general, service-accounts",
+    "date": "2024-05-01 01:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Protecting Service Account BlindspotsService account blind spots refer to potential vulnerabilities in the management and oversight of service accounts within an organization’s IT infrastructure. S...",
+    "content": "Protecting Service Account BlindspotsService account blind spots refer to potential vulnerabilities in the management and oversight of service accounts within an organization’s IT infrastructure. Service accounts are typically used by applications, services, or automated processes to access resources or perform tasks within a system.Protecting service accounts is crucial for maintaining the security, integrity, and reliability of an organization.Here are some common blind spots related to service accounts:Lack of Monitoring: Organizations may overlook monitoring service account activities, leaving them vulnerable to unauthorized access. Without proper monitoring, it's difficult to detect suspicious behavior and security breaches involving service accounts.Excessive Permissions: Service accounts often have more permissions than necessary to perform their functions which can create opportunities for attackers to exploit them.Poor Lifecycle Management: Service accounts may be created for temporary purposes or specific projects but then forgotten and left active after they are no longer needed. This can lead to a multiplication of unused service accounts, increasing the attack surface and complexity of managing them.Shared Credentials: In some cases, service account credentials may be shared among multiple users or stored insecurely. This may lead to the risk of credential theft or unauthorized access if the credentials are compromised.Limited Authentication Controls: Service accounts may not be subject to the same authentication controls (e.g., multi-factor authentication) as human users, making them more susceptible to unauthorized access if their credentials are compromised.Dependency on Default Settings: Organizations may rely on default settings or configurations for service accounts, which may not align with best practices for security. Customizing settings based on the specific requirements and risks associated with each service account can help mitigate these blind spots.What are the threats to service accounts?Unauthorized Access: Attackers may exploit weak credentials, misconfigured permissions, or insecure storage of credentials to gain unauthorized access to service accounts. Once access is obtained, attackers can break into privileges, extract sensitive data, or launch further attacks within the system.Credential Theft: Service account credentials stored insecurely or transmitted over unencrypted channels are susceptible to theft by attackers. Once stolen, these credentials can be used to fake legitimate service accounts, bypass security controls, and carry out unwanted activities without detection.Privilege Escalation: Attackers may attack compromised service accounts to escalate their privileges within the system, gaining access to sensitive resources or performing actions beyond their assigned permissions. Privilege escalation attacks can lead to data breaches, system compromise, and disruption of services.Data Exfiltration: Compromised service accounts can be used to exfiltrate sensitive data from the organization's systems, including intellectual property, financial information, or customer records. Attackers may exploit blind spots in monitoring and oversight to steal data unnoticed, leading to reputational damage and regulatory compliance issues.Service Disruption: Attackers may target service accounts to disrupt critical services within the organization. By disabling service accounts, attackers can disrupt operations, cause downtime, or interfere with business continuity, resulting in financial losses and damage to the organization's reputation.Insider Threats: Malicious employees with legitimate access to service accounts may abuse their privileges for personal gain or sabotage. Insider threats can exploit blind spots in monitoring and oversight, making it difficult to detect and mitigate unauthorized activities effectively.Compliance Violations: Failure to adequately manage and secure service accounts can lead to compliance violations with industry regulations and data protection standards. Organizations may face legal repercussions, fines, or penalties for non-compliance, especially in highly regulated sectors such as finance, healthcare, or government.Why should service accounts be protected?Prevention of Unauthorized Access: Service accounts often have access to sensitive resources, systems, and data within an organization. Protecting them helps prevent unauthorized access by malicious actors who may exploit weaknesses to compromise the accounts and gain unauthorized access into the organization's systems.Mitigation of Security Risks: Compromised service accounts can pose significant security risks, including data breaches, system compromise, and disruption of services. By implementing proper security controls and measures to protect service accounts, organizations can mitigate these risks and safeguard their assets and operations from potential threats.Maintenance of Data Integrity and Confidentiality: Service accounts may have access to sensitive or confidential data, such as customer information, financial records, or intellectual property. Protecting service accounts helps maintain the integrity and confidentiality of this data by preventing unauthorized access, modification, or disclosure that could compromise its security or privacy.Preservation of System Availability: Service accounts often play a critical role in supporting essential services, applications, and processes within an organization. Protecting them helps ensure the availability and reliability of these systems and prevents disruptions or downtime that could impact business operations, productivity, and customer satisfaction.Compliance with Regulatory Requirements: Many industry regulations and data protection standards require organizations to implement adequate controls and safeguards to protect sensitive information and systems, including service accounts. Failure to protect service accounts can lead to compliance violations, legal repercussions, fines, or penalties, undermining the organization's reputation and financial stability.Prevention of Insider Threats: Protecting service accounts also helps mitigate the risk of insider threats, where employees or authorized users abuse their privileges for malicious purposes. By implementing proper access controls, monitoring, and auditing mechanisms, organizations can detect and prevent insider abuse of service accounts, reducing the risk of internal security incidents or breaches.Maintenance of Trust and Reputation: A security breach or data compromise involving service accounts can have severe repercussions for an organization's reputation, eroding customer trust and confidence in its ability to protect sensitive information. By protecting service accounts and demonstrating a commitment to cybersecurity, organizations can maintain trust with customers, partners, and stakeholders, preserving their reputation and competitive advantage.How to protect service accounts?Implement Strong Authentication: Require strong authentication mechanisms, such as multi-factor authentication (MFA), for accessing and managing service accounts. This helps prevent unauthorized access even if credentials are compromised.Use Least Privilege: Follow the principle of least privilege by assigning only the minimum permissions necessary for service accounts to perform their intended functions. Regularly review and update permissions to ensure they align with business requirements and reduce the risk of privilege escalation.Secure Credential Management: Store service account credentials securely using encryption and access controls. Avoid hardcoding credentials in scripts or configuration files, and utilize secure credential management solutions, such as password vaults or secrets management systems.Regularly Rotate Credentials: Implement regular credential rotation practices to mitigate the risk of credential theft and unauthorized access. Set up automated processes to rotate passwords or access keys for service accounts on a scheduled basis.Monitor and Audit Activities: Implement robust monitoring and auditing mechanisms to track service account activities, including login attempts, privilege changes, and resource access. Use logging and alerting systems to detect suspicious behavior in service accounts.Enforce Access Controls: Implement access controls and segregation of duties to limit who can access and manage service accounts. Utilize role-based access control (RBAC) and enforce separation of duties to prevent unauthorized changes or misuse of service accounts.Regularly Review and Update: Conduct regular reviews and audits of service accounts to identify and remove any inactive, unused, or unnecessary accounts. Ensure that service accounts are properly documented, and their usage is reviewed periodically to align with business needs.Educate Employees: Provide training and awareness programs to educate employees about the importance of protecting service accounts and the risks associated with improper handling of credentials. Promote security best practices and encourage employees to report any suspicious activity involving service accounts.Implement Secure Development Practices: Incorporate secure coding practices into the development of applications and services that utilize service accounts. Avoid embedding credentials in code or exposing sensitive information through insecure APIs or configurations.Regular Security Assessments: Conduct regular security assessments, penetration testing, and vulnerability scanning to identify and remediate security weaknesses related to service accounts.ConclusionProtecting service accounts is essential for safeguarding an organization’s assets, operations, and reputation against potential security threats, data breaches, and compliance violations. By implementing robust security measures and best practices for managing and securing service accounts, organizations can enhance their overall cybersecurity posture and resilience evolving threats."
+  },
+  
+  {
     "title": "AuthNull Release Notes: Week of May 01, 2024",
     "url": "/blog/posts/release-notes/",
     "categories": "release-notes",
-    "tags": "general",
+    "tags": "release-notes",
     "date": "2024-05-01 01:00:00 +0000",
     
 
@@ -37,7 +71,7 @@
   {
     "title": "The Importance of Adaptive Multi-factor Authentication (MFA) for Organizations",
     "url": "/blog/posts/importance-of-adaptive-mfa/",
-    "categories": "release-notes",
+    "categories": "general",
     "tags": "general",
     "date": "2024-04-25 01:00:00 +0000",
     
@@ -54,7 +88,7 @@
   {
     "title": "Importance of Privileged Access Management (PAM) for Cybersecurity Insurance",
     "url": "/blog/posts/importance-of-privileged-access-for-cyber-insurance/",
-    "categories": "release-notes",
+    "categories": "general",
     "tags": "engineering",
     "date": "2024-04-22 01:00:00 +0000",
     
@@ -71,7 +105,7 @@
   {
     "title": "Adaptive MFA",
     "url": "/blog/posts/adaptive-mfa/",
-    "categories": "release-notes",
+    "categories": "general",
     "tags": "general",
     "date": "2024-04-22 01:00:00 +0000",
     
@@ -140,7 +174,7 @@
     "title": "AuthNull Release Notes: Week of January 01, 2024",
     "url": "/blog/posts/January-01-release-notes/",
     "categories": "release-notes",
-    "tags": "engineering",
+    "tags": "release-notes, engineering",
     "date": "2024-01-01 01:00:00 +0000",
     
 
@@ -173,7 +207,7 @@
   {
     "title": "Frictionless privileged access through automated policy discovery",
     "url": "/blog/posts/jan-01-policy-discovery/",
-    "categories": "general",
+    "categories": "general, engineering",
     "tags": "engineering",
     "date": "2023-12-31 16:00:00 +0000",
     
@@ -191,7 +225,7 @@
     "title": "AuthNull Release Notes: Week of December 04, 2023",
     "url": "/blog/posts/dec-04-release-notes/",
     "categories": "release-notes",
-    "tags": "general",
+    "tags": "release-notes, engineering",
     "date": "2023-12-04 01:00:00 +0000",
     
 
@@ -208,7 +242,7 @@
     "title": "AuthNull Release Notes: Week of November 29, 2023",
     "url": "/blog/posts/nov-28-release-notes/",
     "categories": "release-notes",
-    "tags": "engineering",
+    "tags": "release-notes, engineering",
     "date": "2023-11-29 01:00:00 +0000",
     
 
