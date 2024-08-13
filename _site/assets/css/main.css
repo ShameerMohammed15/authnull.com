@@ -4049,9 +4049,6 @@ details.collapse summary::-webkit-details-marker {
 .grid-cols-\[1\.2fr_1fr_1fr_1fr_1fr\] {
   grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
 }
-.grid-cols-\[1\.5fr_1fr_1fr_1fr_1fr\] {
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
-}
 .flex-col {
   flex-direction: column;
 }
