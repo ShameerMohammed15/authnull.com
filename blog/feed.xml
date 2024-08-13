@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/blog/</id>
+  <id>https://authnull.com/blog/</id>
   <title>Privileged Access</title>
   <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-08-14T01:19:22+05:30</updated>
+  <updated>2024-08-14T01:27:24+05:30</updated>
   <author>
     <name>Asif</name>
-    <uri>http://localhost:4000/blog/</uri>
+    <uri>https://authnull.com/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/blog/"/>
+    href="https://authnull.com/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Understanding Cyber Insurance and Its Importance</title>
-    <link href="http://localhost:4000/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Cyber Insurance and Its Importance" />
+    <link href="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Cyber Insurance and Its Importance" />
     <published>2024-07-15T08:47:00+05:30</published>
   
     <updated>2024-08-13T03:51:34+05:30</updated>
   
-    <id>http://localhost:4000/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/</id>
-    <content src="http://localhost:4000/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" />
+    <id>https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/</id>
+    <content src="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" />
     <author>
       <name>asif</name>
     </author>
@@ -57,13 +57,13 @@
   
   <entry>
     <title>20 password management best practices</title>
-    <link href="http://localhost:4000/blog/posts/20-password-management-best-practices/" rel="alternate" type="text/html" title="20 password management best practices" />
+    <link href="https://authnull.com/blog/posts/20-password-management-best-practices/" rel="alternate" type="text/html" title="20 password management best practices" />
     <published>2024-07-10T08:47:00+05:30</published>
   
     <updated>2024-08-13T03:51:34+05:30</updated>
   
-    <id>http://localhost:4000/blog/posts/20-password-management-best-practices/</id>
-    <content src="http://localhost:4000/blog/posts/20-password-management-best-practices/" />
+    <id>https://authnull.com/blog/posts/20-password-management-best-practices/</id>
+    <content src="https://authnull.com/blog/posts/20-password-management-best-practices/" />
     <author>
       <name>asif</name>
     </author>
@@ -93,13 +93,13 @@ By implementing such measures, IT operations and security teams can alleviate th
   
   <entry>
     <title>Understanding Secrets Management and Its Importance</title>
-    <link href="http://localhost:4000/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Secrets Management and Its Importance" />
+    <link href="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Secrets Management and Its Importance" />
     <published>2024-07-05T08:47:00+05:30</published>
   
     <updated>2024-08-13T03:51:34+05:30</updated>
   
-    <id>http://localhost:4000/blog/posts/Understanding-Secrets-Management-and-Its-Importance/</id>
-    <content src="http://localhost:4000/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" />
+    <id>https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/</id>
+    <content src="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" />
     <author>
       <name>asif</name>
     </author>
@@ -136,13 +136,13 @@ What is a Secret?
   
   <entry>
     <title>Risk-based authentication-A pillar of a zero-trust strategy</title>
-    <link href="http://localhost:4000/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" rel="alternate" type="text/html" title="Risk-based authentication-A pillar of a zero-trust strategy" />
+    <link href="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" rel="alternate" type="text/html" title="Risk-based authentication-A pillar of a zero-trust strategy" />
     <published>2024-06-27T08:47:00+05:30</published>
   
     <updated>2024-08-13T03:51:34+05:30</updated>
   
-    <id>http://localhost:4000/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/</id>
-    <content src="http://localhost:4000/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" />
+    <id>https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/</id>
+    <content src="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" />
     <author>
       <name>asif</name>
     </author>
@@ -175,13 +175,13 @@ What is a Secret?
   
   <entry>
     <title>Top 5 Secrets Management Practices</title>
-    <link href="http://localhost:4000/blog/posts/Top-5-Secrets-Management-Practices/" rel="alternate" type="text/html" title="Top 5 Secrets Management Practices" />
+    <link href="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" rel="alternate" type="text/html" title="Top 5 Secrets Management Practices" />
     <published>2024-06-19T08:47:00+05:30</published>
   
     <updated>2024-08-13T03:51:34+05:30</updated>
   
-    <id>http://localhost:4000/blog/posts/Top-5-Secrets-Management-Practices/</id>
-    <content src="http://localhost:4000/blog/posts/Top-5-Secrets-Management-Practices/" />
+    <id>https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/</id>
+    <content src="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" />
     <author>
       <name>asif</name>
     </author>
