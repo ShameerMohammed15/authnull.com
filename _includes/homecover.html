@@ -2,8 +2,6 @@
   <!-- End Hero -->
 
 
-
-
 <section>
 
   <div class="overflow-hidden py-6 sm:py-6  bg-slate-50">
@@ -11,8 +9,8 @@
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
             <h2 class=" font-semibold leading-7 text-black">Privileged Access Management</h2>
-            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Frictionless Privileged Access & Identity protection<br/> </p>
-            <p class="mt-6 text-lg leading-8 text-gray-900"> AuthNull is a frictionless privileged access and identity protection platform for your infrastructure.
+            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Full-stack Privileged Access Management<br/> </p>
+            <p class="mt-6 text-lg leading-8 text-gray-900"> AuthNull is a comprehensive privileged access and identity protection platform for your infrastructure.
               <br/> <br/>
               
              <a href="/contactus"> <button class="btn btn-primary  "> Get a demo</button> </a> 
@@ -25,14 +23,14 @@
     <!-- Content -->
     <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6">
       <!-- Item -->
-      <div class=" grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+      <div name="content-box"  class=" content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
         <img src="/assets/images/remote-access.png" alt="" class="inline-block h-16" />
-        <h3 class="text-xl text-black  font-semibold">Lower TCO with a Modern & Frictionless Platform</h3>
-        <p class="text-base text-black">A modern frictionless experience that accelerates privileged access rollout with automatically discovered security policies delivering significantly lower TCO.</p>
+        <h3 class="text-xl text-black  font-semibold">Manage Active Directory based Privileged users</h3>
+        <p class="text-base text-black">Quickly and easily secure Windows and Linux based infrastructure that rely on Active Directory. Deliver comprehensive agentless endpoint security.</p>
         <!-- <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> -->
 
       </div>
-      <div class=" grid gap-6 rounded-md p-8 md:p-10 border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50">
+      <div name="content-box"  class=" content-box  grid gap-6 rounded-md p-8 md:p-10 border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50">
         <img src="/assets/images/id-card.png" alt="" class="inline-block h-16" />
         <h3 class="text-xl   text-black font-semibold">Protection against Identity Attacks </h3>
         <p class="text-base text-black">AuthNull provides built in protection against identity attacks - through biometric MFA and dynamic authorization preventing access even if identity were compromised through MFA take over, account takeovers, lateral movement or tampering of credentials.</p>
@@ -40,7 +38,7 @@
 
       </div>
       <!-- Item -->
-      <div class=" grid gap-6 rounded-md border border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 md:p-10">
+      <div name="content-box"   class="content-box  grid gap-6 rounded-md border border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 md:p-10">
         <img src="/assets/images/server.png" alt="" class="inline-block h-16" />
         <h3 class="text-xl text-black font-semibold">Discover and Protect Service Accounts</h3>
         <p class="text-base text-black">AuthNull can discover, and manage service accounts.  Authenticate service account applications without using passwords, SSH Keys or secrets.</p>
@@ -54,3 +52,31 @@
 
  
  
+
+
+
+<script> 
+const boxes = document.querySelectorAll('.content-box');
+
+// Apply flip-out animation
+boxes.forEach(box => {
+  
+  box.addEventListener('mouseenter', () => {
+    gsap.to(box, {
+      rotationZ: 2, // Rotate 90 degrees on Y-axis
+      duration: 0.1,
+      ease: 'power2.inOut',
+    });
+  });
+
+  box.addEventListener('mouseleave', () => {
+    gsap.to(box, {
+      rotationZ: 0, // Reset rotation
+      duration: 0.1,
+      ease: 'power2.inOut',
+    });
+  });
+});
+
+
+</script>
