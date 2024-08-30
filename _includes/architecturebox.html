@@ -1,0 +1,81 @@
+ <!-- Card Blog -->
+<main class="">
+   
+
+  <div class="max-w-[85rem] px-4 py-4 sm:px-4 lg:px-8 lg:py-4 mx-auto">
+    <!-- Grid -->
+  
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
+      <!-- Card -->
+      {% assign architecture = site.architecture |  sort: 'date' | reverse %}
+      {% for resource in architecture %}
+      {% assign value = forloop.index | modulo:3 %}
+     
+    
+     
+      <a  class="group rounded-xl overflow-hidden shadow-lg bg-slate-50 hover:shadow-lg hover:bg-blue-100   md:p-6" href="{{resource.url}}" >
+      
+
+        <div class="mt-7" >
+          <h2 class="text-2xl mx-2 font-bold group-hover:text-blue-00 ">
+            {{resource.title}}
+          </h2>
+          <p class="mt-5 mx-2 text-gray group-hover:text-black  text-xl ">
+            {{resource.excerpt}}
+            
+          </p>
+          <p class=" inline-flex items-center   decoration-2 text-xl">
+           
+            <div class="  mx-2   text-xl font-medium text-blue-600 ">
+              <button type="button" class=" underline   text-xl font-medium py-3  px-4 inline-flex justify-center items-center gap-2 rounded-md bg-blue-200 border border-transparent font-semibold text-blue-500 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800">
+                View
+              </button>
+            </div>
+  
+          </p>
+          
+        </div>
+       
+      </a>
+
+     
+  
+   
+      {% endfor %}
+      <!-- End Card -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Card Blog -->
+  </main>
+
+
+
+  <!--
+
+     <a class="group rounded-xl overflow-hidden hover:shadow-lg hover:bg-slate-50   md:p-6" href="{{resource.url}}">
+        <div class="relative pt-[50%] sm:pt-[70%] rounded-xl ">
+          <img class="w-full h-full absolute top-0 left-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl" src="{{resource.image}}" alt="{{resource.imagedescription}}">
+         
+        </div>
+  
+        <div class="mt-7">
+          <h2 class="text-2xl mx-2 group-hover:text-blue-00 ">
+            {{resource.title}}
+          </h2>
+          <p class="mt-5 mx-2 text-gray group-hover:text-black  text-xl ">
+            {{resource.excerpt}}
+          </p>
+          <p class=" inline-flex items-center   decoration-2 text-xl">
+           
+            <div class="  mx-2   text-xl font-medium text-blue-600 ">
+              <button type="button" class="   text-xl font-medium py-3  px-4 inline-flex justify-center items-center gap-2 rounded-md bg-blue-100 border border-transparent font-semibold text-blue-500 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800">
+                Watch
+              </button>
+            </div>
+  
+          </p>
+          
+        </div>
+      </a>
+  -->
