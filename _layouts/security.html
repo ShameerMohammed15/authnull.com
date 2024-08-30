@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include ga.html %} 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - Roots of Trust</title>
+    <meta name="description" content="AuthNull provides security with two roots of trust">
+      <meta name="keywords" content="roots-of-trust, security">
+      <meta name="robots" content="index">
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+      <link rel="stylesheet" href="{{ "/assets/css/cookieconsent.css" | relative_url }}" media="print" onload="this.media='all'">
+      <link rel="icon" type="image/png" href="{{ "/assets/images/favico.png" | relative_url }}" >
+
+      <link rel="canonical" href="https://authnull.com{{page.url}}" />
+
+  </head>
+  <body class="antialiased">
+    <script defer src="/assets/js/cookieconsent.js"></script>
+    <script defer src="/assets/js/cookieconsent-init.js"></script>
+{% include header.html %}
+{% include roots-of-trust-cover.html %}
+
+{% include homecontactus.html %}
+{% include postbox.html %}
+{% include footer.html %}
+<script src="/preline/dist/preline.js"></script>
+  </body>
+</html>

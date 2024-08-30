@@ -35,6 +35,9 @@ resources:
   permalink: /:resources/:categories/:title/
 
 
+architecture: 
+  permalink: /:resources/:year/:month/:day/:title:output_ext
+  permalink: /:architecture/:categories/:title/
 
 
 
@@ -102,6 +105,8 @@ collections:
    authors:
       output: true
    categories:
+      output: true
+   architecture:
       output: true
       
 
