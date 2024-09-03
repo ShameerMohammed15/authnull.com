@@ -8,6 +8,7 @@ module.exports = {
       './*.html',
       'node_modules/preline/dist/*.js',
     ],
+    darkMode: 'selector',
     theme: {
       
       theme: {
@@ -23,3 +24,5 @@ module.exports = {
    ]
     
   }
+
+  
