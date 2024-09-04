@@ -147,7 +147,7 @@
                           <a href="/dynamic-authorization-platform" >Dynamic Authorization Platform </a>  <div class="badge badge-primary"> Preview</div>
                         </div>-->
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/service-accounts" >Service Account Management </a>
+                          <a href="/service-accounts" >Service Account Protection </a>
                         </div>
                         
                         <!--<div class="card-actions justify-left hover:text-blue-600 underline">
@@ -165,7 +165,7 @@
                       <div class="card-body">
                         <h2 class="card-title text-3xl text-gray-600 font-bold">Why AuthNull?</h2>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/mfa" >MFA everywhere  </a>
+                          <a href="/mfa" >MFA / Biometric everywhere  </a>
                         </div>
                       
 
@@ -184,6 +184,11 @@
                           <a href="/security-approach.md" >Security Approach  </a>
                           
                         </div>
+                        <div class="card-actions justify-left hover:text-blue-600 underline">
+                          <a href="/passwordless.md" >Passwordless 1FA  </a>
+                          
+                        </div>
+                        
                       
 
                       
@@ -383,14 +388,14 @@
   </nav>
 </header>
 
-<section>
-  <a name="top"></a>
+<section class="bg-white">
   <!-- Container -->
-  <div class="mx-auto w-full max-w-7xl  md:px-10 md:py-20 mb-96 ">
+  <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
     <!-- Component -->
-    <div class="grid items-center gap-4 sm:gap-2 lg:grid-cols-2 ">
-      <div >
+    <div class="grid items-center gap-8 sm:gap-20 lg:grid-cols-2">
+      <div class="max-w-3xl">
         <!-- Title -->
+        
         <h2 class="mb-2 text-3xl font-bold md:text-5xl "> AuthNull Price Request </h2>
         <p class="my-4 max-w-lg pb-4 text-sm  sm:text-base  ">  AuthNull pricing depends on the products you decide to use along with the number of users and infrastructure that you choose to protect. 
           <br/>AuthNull is widely trusted by large enterprises; and delivers solutions in partnership with Nvidea, Google cloud and Microsoft.</p>
@@ -465,22 +470,18 @@
             <p class="text-base text-black"><a class="underline text-blue-800" href="/mfa-passwordless-biometric">Learn more</a></p>
     
           </div>
-  
-          
-        </div> </div>
-  
-     
-   
 
+          </div></div>
 
-       
       </div>
-      
-      <div class="mx-auto max-w-xl bg-gray-100 p-8 text-center align-top mb-96">
-        <h3 class="text-2xl font-bold md:text-3xl">Get a Quote</h3>
-        <p class="mx-auto mb-6 mt-4 max-w-lg text-lg text-black lg:mb-8"> Please fill up the following details to receive a no obligation price quote for AuthNull.</p>
-        <!-- Form -->
+      <div class="mx-auto max-w-xl bg-gray-100 p-8 text-center">
+        
+
+           <!-- Form -->
         <form id="contact-form" onsubmit="event.preventDefault();HideShowElement()" onsubmit="return false;" class="mx-auto mb-4 max-w-sm text-left" name="wf-form-password" method="get">
+          <h3 class="text-2xl font-bold md:text-3xl">Get a Quote</h3>
+        <p class="mx-auto mb-6 mt-4 max-w-lg text-lg text-black lg:mb-8"> Please fill up the following details to receive a no obligation price quote for AuthNull.</p>
+     
           <div>
             <label for="hs-phone-name-1"  class="mb-1 font-medium"> Your Name </label>
             <input type="text" class="mb-4 block h-9 w-full  border border-solid border-black px-3 py-6 pl-4 text-lg text-black" />
@@ -524,17 +525,24 @@
           
           <input type="submit" value="Get free quote" class="inline-block w-full cursor-pointer  bg-black px-6 py-3 text-center font-semibold text-white" />
         </form>
-        <div id="contact-submit" class=" hidden min-h-screen max-h- text-black  text-lg" >
-          Thanks for filling up the form.  <br/><br/>
+        <div id="contact-submit" class=" hidden min-h-screen max-h- text-black " >
+          <h3 class="text-2xl font-bold md:text-3xl">Thanks for getting in touch.</h3>
 
-          Resources that you might find useful: <br/><br/>
-
-          <a href="/resources/2024-04-01-active-directory-policy-and-credential-issuance.html" class="underline text-blue-800 link">Solution Brief - Active Directory Privileged Access</a>
+          <br/><br/>
+          <img src="/assets/images/thankyou.avif"alt="Thank you again!" class="mx-auto inline-block " />
+          <p class="mx-auto mb-6 mt-4 max-w-lg text-lg text-black lg:mb-8"> We will revert with more information within the next 24-48 hours</p>
+       
+          <a class="text-lg text-blue-600 underline" href="/resources/2024-04-01-active-directory-policy-and-credential-issuance.html">Solution Brief - Active Directory Privileged Access</a>
           <br/>
           <br/>
-          <a href="resources/2024-04-04-policy-based-authentication.html" class="underline text-blue-800 link">Solution Brief - Policy based authentication</a>
+          <a class="text-lg text-blue-600 underline"  href="resources/2024-04-04-policy-based-authentication.html">Solution Brief - Policy based authentication</a>
        </div>
+
+
       </div>
+    </div>
+  </div>
+</section>
 
      
 
