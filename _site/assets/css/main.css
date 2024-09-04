@@ -3789,9 +3789,6 @@ details.collapse summary::-webkit-details-marker {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.mb-96 {
-  margin-bottom: 24rem;
-}
 .mb-auto {
   margin-bottom: auto;
 }
@@ -4823,9 +4820,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .text-center {
   text-align: center;
-}
-.align-top {
-  vertical-align: top;
 }
 .align-middle {
   vertical-align: middle;

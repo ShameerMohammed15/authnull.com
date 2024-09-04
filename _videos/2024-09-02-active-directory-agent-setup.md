@@ -1,11 +1,11 @@
 ---
 layout: videos
 title:  "Active Directory Agent Setup"
-excerpt: "This video showcases Linux 1FA Passwordless (interactive) authentication"
+excerpt: "This video showcases Active Directory agent setup"
 categories: resources
 author: asif
 ---
-This showcases setup of Active Directory and onsboarding of users
+This showcases setup of Active Directory agent and onboarding of users.
 <br/><br/>
 <div style="position: relative; padding-top: 64.77074869413813%;">
   <iframe
