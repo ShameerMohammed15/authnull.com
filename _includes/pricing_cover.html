@@ -1,0 +1,510 @@
+
+  
+<style> 
+    .a {
+      color: black;
+    }
+
+     
+    .pad-s {
+      padding-top: var(--space-s);
+      padding-bottom: var(--space-s);
+    }
+    
+    .pad-m {
+      padding-top: var(--space-m);
+      padding-bottom: var(--space-m);
+    }
+    
+    .pad-l {
+      padding-top: var(--space-l);
+      padding-bottom: var(--space-l);
+    }
+    
+    .pad-xl {
+      padding-top: var(--space-xl);
+      padding-bottom: var(--space-xl);
+    }
+    
+    .flow > * + * {
+      margin-top: 1em;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .box {
+      width: 75px;
+      height: 75px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: var(--green);
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.2;
+      will-change: transform;
+    }
+    
+    .circle {
+      width: 75px;
+      height: 75px;
+      border-radius: 99px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: var(--green);
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.2;
+      will-change: transform;
+    }
+    
+    /* always doing this */
+    .flex-row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    /* and this */
+    
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* colors */
+    
+    .green {
+      background-color: var(--green);
+    }
+    .blue {
+      background-color: var(--blue);
+    }
+    .purple {
+      background-color: var(--purple);
+    }
+    .red {
+      background-color: var(--red);
+    }
+    .orange {
+      background-color: var(--orange);
+    }
+    
+    .dark {
+      background-color: var(--dark);
+      color: var(--light);
+    }
+    
+    .light {
+      background-color: var(--light);
+      color: var(--dark);
+    }
+    
+    .text-light {
+      color: var(--light);
+    }
+    
+    .text-dark {
+      color: var(--dark);
+    }
+    
+    .gray,
+    .grey {
+      background-color: var(--grey);
+    }
+     
+  
+     
+      
+    
+    /* panels  */
+    
+    .panel {
+      min-height: 100vh;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+    }
+    
+    .panel.gray {
+      background-color: #777;
+      background-image: var(--gradient-macha);
+    }
+    .panel.blue {
+      background-color: #2c7ad2;
+      background-image: var(--gradient-summer-fair);
+    }
+    .panel.orange {
+      background-color: #e77614;
+      background-image: var(--gradient-orange-crush);
+    }
+    
+    .panel.red {
+      background-color: #c82736;
+      background-image: var(--gradient-lipstick);
+    }
+    
+    .panel.purple {
+      background-color: #8d3dae;
+      background-image: var(--gradient-purple-haze);
+    }
+    .panel.green {
+      background-color: #28a92b;
+      background-image: var(--gradient-macha);
+    }
+    
+    /* SCROLL DOWN */
+    .scroll-down {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      color: black;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 16px;
+      overflow: visible;
+    }
+    .scroll-down .arrow {
+      position: relative;
+      top: -4px;
+      margin: 0 auto;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+    }
+    
+    /* h1, h2, p, li {
+      max-width: 800px;
+    breaking stuff
+    }
+     */   
+    
+    /* Hide elements visually, but not for screenreaders by clipping it */
+     
+    
+    /* checkboxes */
+        
+    .box.green, .gradient-green {
+      background: var(--gradient-macha),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .gradient-green-2 {
+      background: var(--gradient-emerald-city),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .box.orange, .gradient-orange {
+      background: var(--gradient-orange-crush),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .box.purple, .gradient-purple {
+      background: var(--gradient-purple-haze),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .gradient-blue-2 {
+      background: var(--gradient-summer-fair),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .box.blue, .gradient-blue {
+      background: var(--color-ui-gradient),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    .box.red, .gradient-red {
+      background: var(--gradient-lipstick),
+      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+    }
+    
+    
+    
+    .noise {
+      position: relative;
+    }
+    .noise:after {
+      content: '';
+      position:absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: url('https://assets.codepen.io/16327/noise-e82662fe.png');
+      opacity: 0.4;
+      pointer-events: none;
+    }
+    .pad-s {
+      padding-top: var(--space-s);
+      padding-bottom: var(--space-s);
+    }
+    
+    .pad-m {
+      padding-top: var(--space-m);
+      padding-bottom: var(--space-m);
+    }
+    
+    .pad-l {
+      padding-top: var(--space-l);
+      padding-bottom: var(--space-l);
+    }
+    
+    .pad-xl {
+      padding-top: var(--space-xl);
+      padding-bottom: var(--space-xl);
+    }
+    
+    .flow > * + * {
+      margin-top: 1em;
+    }
+     
+    .box {
+      width: 75px;
+      height: 75px;
+      border-radius: 12px;
+      display: flex;
+      background-color: var(--green);
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.2;
+      will-change: transform;
+    }
+    
+    .circle {
+      width: 75px;
+      height: 75px;
+      border-radius: 99px;
+      display: flex;
+      
+      background-color: var(--green);
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.2;
+      will-change: transform;
+    }
+    
+    /* always doing this */
+    .flex-row {
+      width: 100%;
+      display: flex;
+    
+      justify-content: space-around;
+    }
+    
+    /* and this */
+     
+    /* colors */
+    
+        
+    
+    /* SCROLL DOWN */
+    .scroll-down {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 16px;
+      overflow: visible;
+    }
+    .scroll-down .arrow {
+      position: relative;
+      top: -4px;
+      margin: 0 auto;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+    }
+    
+    /* h1, h2, p, li {
+      max-width: 800px;
+    breaking stuff
+    }
+     */
+   
+    
+    /* prism */
+    
+    /* Hide elements visually, but not for screenreaders by clipping it */
+     
+    
+    /* checkboxes */
+     
+   
+     
+    
+    
+     
+    
+    .container {
+      margin-left: 2vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .item {
+      display: block;
+      width: 400px;
+      height: 350px;
+      margin: 5px;
+       
+    }
+     
+    .logo {
+      position: absolute;
+      width: 60px;
+      bottom: 20px;
+      right: 30px;
+    }
+    
+    .purple {
+      background-color: rgb(125, 70, 150)
+    }
+    </style>
+    
+      <script>
+      window.console = window.console || function(t) {};
+    </script>
+    
+      
+      
+    <section>
+
+        <div class="overflow-hidden py-6 sm:py-6  bg-slate-50">
+          <div class="mx-auto max-w-screen-xl px-5 lg:px-5">
+           
+            
+        
+
+                
+
+               <div class="mx-auto w-full max-w-7xl">
+                <br/><br/>
+                <label class="text-xl">Show &nbsp;&nbsp; </label>
+
+                <label for="all" class="text-lg padding-right"><input type="checkbox" id="all" checked> All &nbsp;&nbsp;</label> 
+                <label for="platform" class="text-lg padding-right"> <input type="checkbox" id="platform" class="filter" checked> Platform &nbsp;&nbsp;</label>
+                <label for="usecases"class="text-lg"><input type="checkbox" id="usecases" class="filter" checked> Use Cases &nbsp;&nbsp; </label>
+                <label for="differentiation"class="text-lg"><input type="checkbox" id="differentiation" class="filter" checked> Differentiation &nbsp;&nbsp;</label>
+
+                <br/><br/>  
+                <!-- Title -->
+                
+                <!-- Content -->
+                <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6 ">
+
+   <!-- <div class="mx-auto w-full max-w-7xl text-center">-->
+       
+               
+          
+        
+          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/remote-access.png" alt="" class="inline-block h-16" />
+            <h3 class="text-xl text-black  font-semibold">Manage and Protect Active Directory based Privileged users</h3> <br/>
+            <p class="text-base text-black">Quickly and easily secure Active Directory privileged users, provide credential rotation and distribution. </p>
+            <!-- <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> -->
+    
+          </div>
+
+          <div name="content-box "  class=" item platform content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/sshicon.png" alt="" class="inline-block h-16" />
+            <h3 class="text-xl text-black  font-semibold">Privileged Account and Session Management</h3><br/>
+            <p class="text-base text-black"> AuthNull enables you to provide privileged account discovery, credential management and session management for your windows and linux infrastructure. This applies for domain joined or non domain joined infrastructure.</p>
+            <!-- <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> -->
+    
+          </div>
+
+
+          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/server.png" alt="" class="inline-block h-16" />
+            <h3 class="text-xl text-black font-semibold">Machine to Machine Authentication without passwords or secrets</h3><br/>
+            <p class="text-base text-black">AuthNull deliver M2M authentication - without passwords or secrets.</p>
+            <p class="text-base text-black"><a class="underline text-blue-800" href="/service-accounts">Learn more</a></p>
+          </div>
+
+          <div name="content-box "  class=" item platform content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/reset-password.png" alt="" class="inline-block h-16" />
+            <h3 class="text-xl   text-black font-semibold">Secrets Management for Privileged Infrastructure </h3><br/>
+            <p class="text-base text-black">AuthNull provides a decentralized infrastructure to protect your secrets</p>
+            <p class="text-base text-black"><a class="underline text-blue-800" href="/mfa-passwordless-biometric">Learn more</a></p>
+    
+          </div>
+
+
+           
+
+          <div name="content-box "  class=" item differentiation content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/decentralized-icon.png" alt="" class="inline-block h-16" />
+            <h3 class="text-xl   text-black font-semibold">Uses Decentralized Identity Infrastructure </h3><br/>
+            <p class="text-base text-black">AuthNull uses a decentralized identity intrastructure to create multiple roots of trust, leveraging self sovereign identity and by delivering a more secure solution.</p>
+            <p class="text-base text-black"><a class="underline text-blue-800" href="/mfa-passwordless-biometric">Learn more</a></p>
+    
+          </div>
+
+          <div name="content-box "  class=" item differentiation content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+            <img src="/assets/images/password.jpg" alt="" class="inline-block h-16" />
+            <h3 class="text-xl   text-black font-semibold">Passwordless</h3><br/> 
+            <p class="text-base text-black">AuthNull provides passwordless access to several key parts of your infrastructure.</p>
+            <p class="text-base text-black"><a class="underline text-blue-800" href="/mfa-passwordless-biometric">Learn more</a></p>
+    
+          </div>
+    
+
+       
+    </div>
+    
+    </div>
+    </div>
+    
+      <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+    <script src='https://assets.codepen.io/16327/Flip.min.js'></script>
+          <script id="rendered-js" >
+    "use strict";
+    const allCheckbox = document.querySelector('#all'), filters = gsap.utils.toArray('.filter'), items = gsap.utils.toArray('.item');
+    function updateFilters() {
+        const state = Flip.getState(items), // get the current state
+        classes = filters.filter(checkbox => checkbox.checked).map(checkbox => "." + checkbox.id), matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
+        // adjust the display property of each item ("none" for filtered ones, "inline-flex" for matching ones)
+        items.forEach(item => item.style.display = matches.indexOf(item) === -1 ? "none" : "block");
+        // animate from the previous state
+        Flip.from(state, {
+            duration: 0.7,
+            scale: true,
+            ease: "power1.inOut",
+            stagger: 0.08,
+            absolute: true,
+            onEnter: elements => gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
+            onLeave: elements => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 })
+        });
+        // Update the all checkbox:
+        allCheckbox.checked = matches.length === items.length;
+    }
+    filters.forEach(btn => btn.addEventListener('click', updateFilters));
+    allCheckbox.addEventListener('click', () => {
+        filters.forEach(checkbox => checkbox.checked = allCheckbox.checked);
+        updateFilters();
+    });
+    //# sourceURL=pen.js
+        </script>
+     
