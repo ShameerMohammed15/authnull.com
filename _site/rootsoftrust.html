@@ -172,7 +172,8 @@
                       
 
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/secrets-management" >Secrets Management without a Vault </a>
+                          <a href="/vaultless" >Vaultless  </a>
+                          
                         </div>
                            
                         
@@ -183,13 +184,15 @@
                          
                         <div class="divider"></div> 
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/security-approach.md" >Security Approach  </a>
+                          <a href="/security-approach" >Security Approach  </a>
                           
                         </div>
                         <div class="card-actions justify-left hover:text-blue-600 underline">
-                          <a href="/passwordless.md" >Passwordless 1FA  </a>
+                          <a href="/passwordless" >Passwordless 1FA  </a>
                           
                         </div>
+                        
+                       
                         
                       
 
@@ -400,8 +403,8 @@
           <div class="lg:pr-8 lg:pt-4">
             <div class="lg:max-w-lg">
               <h2 class=" font-semibold leading-7 text-black">Security Approach</h2>
-              <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Decentralized Identity Infrastructure; Self-soverign-identity</p>
-              <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull is a standards based decentralized identity infrastructure that delegates trust to users and organizations. AuthNull uses ED25519 public / private key pairs to issue and sign credentials. 
+              <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Decentralized Identity Infrastructure; Self-sovereign-identity</p>
+              <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull is a standards based decentralized identity infrastructure that delegates trust to users and organizations. AuthNull uses <a class="text-blue-800 underline" href='https://www.w3.org/TR/did-core/'>Decentralized identifiers</a>,  <a class="text-blue-800 underline" href='https://www.w3.org/TR/vc-data-model-2.0/'>verifiable credetials</a> and <a class="text-blue-800 underline" href='https://ed25519.cr.yp.to/'>ED25519 public / private key pairs</a> to issue and sign credentials on a decentralized wallet.
 
                 <br/> <br/>
                  
@@ -412,13 +415,29 @@
             
            
           </div>
+          <div class="lg:pr-8 lg:pt-4">
+            <div style="position: relative; padding-top: 56.25%;">
+              <iframe
+                src="https://customer-4qbnzcoswj67r0b2.cloudflarestream.com/5c654f51f7c8e8aef9d029b34f167e08/iframe?poster=https%3A%2F%2Fcustomer-4qbnzcoswj67r0b2.cloudflarestream.com%2F5c654f51f7c8e8aef9d029b34f167e08%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                loading="lazy"
+                style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+                allowfullscreen="true"
+              ></iframe>
+            </div>
+
+            
+
+            </div>
          
         </div>
       </div>
     </div>
   </main> 
 
-  <main class="bg-gradient-to-r  from-white to-slate-100  min-h-screen" >
+ 
+
+  <main class="bg-white min-h-screen" >
 
     <div class="overflow-hidden py-16 sm:py-16">
       <div class="mx-auto max-w-screen-xl px-8 lg:px-10">
@@ -449,32 +468,8 @@
     </div>
   </main> 
 
-  <main class="bg-gradient-to-r  from-slate-50 to-slat-200  min-h-screen transition delay-150  " >
-<a name="identity-linked-authentication" />  
-    <div class="overflow-hidden py-24 sm:py-32">
-      <div class="mx-auto max-w-screen-xl px-8 lg:px-10">
-        <div class="mx-auto grid max-w-6xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div class="lg:pr-8 lg:pt-4">
-            <div class="lg:max-w-lg">
-              <h2 class=" font-semibold leading-7 text-black">Security Approach</h2>
-              <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Identity linked authentication</p>
-              <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull delivers an identity linked authentication using biometrics, a verifiable identity linked to the organization's account to deliver prvileged access.
-                <br/> <br/>
-                <h3 class="text-2xl"> How does this work? </h3>
-                <p class="mt-6 text-lg leading-8 text-gray-900">  Every user is issued public/private key pairs after their organization identity is verified.</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-900">  User's private keys are tied to biometrics. All authentication is forced through biometrics</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-900">  What this means is that even if the user shares passwords to a machine, no one else can login unless users' identity is verified using biometrics.
-               
-                <br/><br/><a href="/contactus" ><button  class="btn btn-primary btn-blue"> Get a demo</button>  </a>
-            </div>
-          </div>
-          <div width="500px">
-           <img src="/assets/images/identity.png" wdith="460px"/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main> 
+  
+
 
 
   <main class="bg-gradient-to-r  from-blue-50 to-blue-100  min-h-screen transition delay-150  " >
@@ -486,8 +481,8 @@
               <div class="lg:pr-8 lg:pt-4">
                 <div class="lg:max-w-lg">
                   <h2 class=" font-semibold leading-7 text-black">Security Approach</h2>
-                  <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Authenticator Wallet</p>
-                  <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull mobile app wallet (available for iOS and Android)
+                  <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">AuthNull's credential store: Decentralized wallet authenticator app</p>
+                  <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull mobile app wallet (available for iOS and Android) acts as a credential store and an authenticator app
                     <br/> <br/>
                     <h3 class="text-2xl"> How does this work? </h3>
                     <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull mobile app for Android and iOS for storing credentials and authentication.</p>
@@ -497,14 +492,22 @@
                 </div>
               </div>
               <div width="500px">
-               <img src="/assets/images/wallet3.png" wdith="460px"/>
+                <div style="position: relative; padding-top: 216.21621621621622%;">
+                  <iframe
+                    src="https://customer-4qbnzcoswj67r0b2.cloudflarestream.com/ac456175f34cb87ee9d60c50b7900871/iframe?poster=https%3A%2F%2Fcustomer-4qbnzcoswj67r0b2.cloudflarestream.com%2Fac456175f34cb87ee9d60c50b7900871%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                    loading="lazy"
+                    style="border: none; position: absolute; top: 0; left: 0; height: 70%; width: 70%;"
+                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+                    allowfullscreen="true"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </main> 
 
-
+<!--
       <main class="bg-gradient-to-r  from-yellow-50 to-yellow-200  min-h-screen transition delay-150  " >
         <a name="identity-linked-authentication" />  
         <a name="restore" /> 
@@ -530,7 +533,7 @@
                 </div>
               </div>
             </div>
-          </main> 
+          </main> -->
 
 <main class="custom-bg-dark-blue  min-h-screen">
   <script>
