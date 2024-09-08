@@ -1,5 +1,5 @@
 <!-- FAQ -->
-<main class="bg-white">
+<main class="bg-slate-50">
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto min-h-screen">
         <!-- Grid -->
         <div class="grid md:grid-cols-5 gap-10">
@@ -14,9 +14,10 @@
           <div class="md:col-span-3">
             <!-- Accordion -->
             <div class="hs-accordion-group divide-y divide-gray-200 ">
+
               <div class="hs-accordion pb-3 active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
                 <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-blue-600 transition hover:text-gray-500  " aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
-                How does the vaultless storage work?
+                Explain in simple terms - what is Decentralized identity?
                   <svg class="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                   </svg>
@@ -26,16 +27,15 @@
                 </button>
                 <div id="hs-basic-with-title-and-arrow-stretched-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
                   <p class="text-gray-600 ">
-                   Users are issued a decentralized wallet when they are onboarded to organizations. This is done after verifying identity.
-                   Then either Just in time, or when credential rotation is scheduled, credentials are shared to client wallets. 
-                   They are not stored in any vault, and during authentication the wallet is pinged to share the wallet credentials.
+                    Decentralized identity is a type of identity management that allows people to control their own digital identity without depending on a specific service provider.
 
+                    Each user can store and manage their own credentials by a public / private key pair that has been 
+                    <br/><br/>
               </div>
       
-         
-              <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-three">
-                <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-blue-600 transition hover:text-gray-500  " aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
-                  How are credentials assigned and stored?
+              <div class="hs-accordion pb-3 active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+                <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-blue-600 transition hover:text-gray-500  " aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+                How is PKI leveraged in Decentralized identity?
                   <svg class="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                   </svg>
@@ -43,16 +43,37 @@
                     <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                   </svg>
                 </button>
-                <div id="hs-basic-with-title-and-arrow-stretched-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three">
+                <div id="hs-basic-with-title-and-arrow-stretched-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
                   <p class="text-gray-600 ">
-                    Let's take the example of an active directory user a@companydomain.com. a@acompanydomain.com is assigned active directory domains - domain1 and domain2. This user will get assigned credentials related to both domains upon onboarding to AuthNull.
-                    When the user wants to access a privileged user account say mysql-admin, then when checkedout - mysql-admin credentials are additionally sent to a@companydomain.com's wallet. This could include SSH Keys and / or passwords should that option be enabled as a factor. 
-                  </p>
-                </div>
-                  </p>
-                </div>
+                   Each organizion has an Issuer - an entity that verifies user identities and generates a public / private key pair for for each user.
+                   The private key is stored in the wallet
+                  
+                   Users are issued a wallet when they are onboarded to organizations. This is done after verifying identity.
+
               </div>
       
+         
+            
+              </div>
+              <div class="hs-accordion pb-3 active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
+                <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-blue-600 transition hover:text-gray-500  " aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+               Where are credentials stored? 
+                  <svg class="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                  <svg class="hs-accordion-active:block hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+                <div id="hs-basic-with-title-and-arrow-stretched-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one">
+                  <p class="text-gray-600 ">
+                   All credentials are stored in a decentralized wallet as opposed to being in a secret store.
+
+              </div>
+      
+         
+            
+              </div>
               <div class="hs-accordion pt-6 pb-3" id="hs-basic-with-title-and-arrow-stretched-heading-four">
                 <button class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-blue-600 transition hover:text-gray-500  " aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
                   What happens to the credentials when a credential policy goes into effect?
