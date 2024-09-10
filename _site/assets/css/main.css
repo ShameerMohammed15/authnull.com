@@ -4661,6 +4661,10 @@ details.collapse summary::-webkit-details-marker {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -5450,6 +5454,12 @@ h6 {
 }
 
 
+.hover\:text-gray-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -5808,6 +5818,10 @@ h6 {
 
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:gap-12 {
+    gap: 3rem;
   }
 
   .sm\:gap-2 {
