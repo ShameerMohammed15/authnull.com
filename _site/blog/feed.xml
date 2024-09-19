@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://authnull.com/blog/</id>
-  <title>Privileged Access</title>
-  <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-08-14T01:27:24+05:30</updated>
+  <title></title>
+  <subtitle>AuthNull official blog</subtitle>
+  <updated>2024-09-20T05:29:12+05:30</updated>
   <author>
     <name>Asif</name>
     <uri>https://authnull.com/blog/</uri>
@@ -24,7 +24,7 @@
     <link href="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Cyber Insurance and Its Importance" />
     <published>2024-07-15T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-09-08T12:02:32+05:30</updated>
   
     <id>https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/</id>
     <content src="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" />
@@ -60,7 +60,7 @@
     <link href="https://authnull.com/blog/posts/20-password-management-best-practices/" rel="alternate" type="text/html" title="20 password management best practices" />
     <published>2024-07-10T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-09-08T12:02:32+05:30</updated>
   
     <id>https://authnull.com/blog/posts/20-password-management-best-practices/</id>
     <content src="https://authnull.com/blog/posts/20-password-management-best-practices/" />
@@ -96,7 +96,7 @@ By implementing such measures, IT operations and security teams can alleviate th
     <link href="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Secrets Management and Its Importance" />
     <published>2024-07-05T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-09-08T12:02:32+05:30</updated>
   
     <id>https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/</id>
     <content src="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" />
@@ -139,7 +139,7 @@ What is a Secret?
     <link href="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" rel="alternate" type="text/html" title="Risk-based authentication-A pillar of a zero-trust strategy" />
     <published>2024-06-27T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-09-08T12:02:32+05:30</updated>
   
     <id>https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/</id>
     <content src="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" />
@@ -178,7 +178,7 @@ What is a Secret?
     <link href="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" rel="alternate" type="text/html" title="Top 5 Secrets Management Practices" />
     <published>2024-06-19T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-09-08T12:02:32+05:30</updated>
   
     <id>https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/</id>
     <content src="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" />
