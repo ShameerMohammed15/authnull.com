@@ -142,7 +142,7 @@ class HSOverlay extends Component {
     _buildBackdrop($overlayEl) {
         const backdropSelector = $overlayEl.getAttribute('data-hs-overlay-backdrop-container') || false
         let $backdropEl = document.createElement('div')
-        let backdropClasses = 'transition duration fixed inset-0 z-50 bg-gray-900 bg-opacity-50 dark:bg-opacity-80 hs-overlay-backdrop'
+        let backdropClasses = 'transition duration fixed inset-0 z-50 bg-gray-900 bg-opacity-50 bg-opacity-80 hs-overlay-backdrop'
        
         for (const value of $overlayEl.classList.values()) {
             if(value.startsWith('hs-overlay-backdrop-open:')){
