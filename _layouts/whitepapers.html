@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" class="bg-white">
   <head>
     {% include ga.html %} 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
       
     </style>
   </head>
-  <body class="antialiased">
+  <body class="antialiased" >
 
 
 {% include header.html %}
@@ -38,7 +38,7 @@
    
  
    <span >
-    <div class="bg-white px-2 py-1 lg:px-6">
+    <div class="bg-white px-2 py-1 lg:px-6 bg-white">
         
       <div class="mx-auto max-w-screen-xl leading-7 ">
         
@@ -46,14 +46,14 @@
         
          
       
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between ">
           <!-- author(s) -->
     
         <p class="mt-4 font-semibold leading-7 text-indigo-600">Whitepapers</p>
         <h1 class="mt-2 text-3xl font-bold text-gray-900 max-w-4xl sm:text-4xl"> {{page.title }} </h1>
        <br/>
 
-        <ul class="menu menu-horizontal bg-base-200">
+        <ul class="menu menu-horizontal bg-gray-200 text-black">
           <li ><a  href="/resources" >Resources Home</a></li>
           <li><a class="active" href="/whitepapers">White papers</a></li>
           <li><a href="/casestudies">Case studies</a></li>
@@ -67,7 +67,7 @@
 
         </ul>
         
-        <div class="mt-10 max-w-4xl blog-text py-5">
+        <div class="mt-10 max-w-4xl blog-text py-5 bg-white">
           {{ content }}
         </div>
 
