@@ -16,7 +16,7 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" >
   <head>
-    <title>Privileged access Management Best Practices</title>
+    <title>Agentless MFA and Privileged Access for Active Directory</title>
     <!-- The Head -->
 
 <head>
@@ -42,30 +42,46 @@
   
 
   
+    
+
+    
+      
+      
+
+      
+        <!-- it's a local file path -->
+
+      
+    
+  
 
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Privileged access Management Best Practices" />
+<meta property="og:title" content="Agentless MFA and Privileged Access for Active Directory" />
 <meta name="author" content="Asif Ali" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="The critical role of privileged accounts in managing IT environments and facilitating administrative tasks is vital for organizations to adopt PAM best practices to mitigate the risks associated with these accounts in both traditional and cloud infrastructures. Privileged accounts are ubiquitous, and because they are essential for IT management, they are also prime targets for cybercriminals. By compromising these accounts, attackers can penetrate networks, access sensitive information, alter data, and disrupt operations." />
-<meta property="og:description" content="The critical role of privileged accounts in managing IT environments and facilitating administrative tasks is vital for organizations to adopt PAM best practices to mitigate the risks associated with these accounts in both traditional and cloud infrastructures. Privileged accounts are ubiquitous, and because they are essential for IT management, they are also prime targets for cybercriminals. By compromising these accounts, attackers can penetrate networks, access sensitive information, alter data, and disrupt operations." />
-<link rel="canonical" href="https://authnull.com/blog/posts/Privileged-access-Management-Best-Practices/" />
-<meta property="og:url" content="https://authnull.com/blog/posts/Privileged-access-Management-Best-Practices/" />
+<meta name="description" content="Agentless for Active Directory" />
+<meta property="og:description" content="Agentless for Active Directory" />
+<link rel="canonical" href="https://authnull.com/blog/posts/active-directory-agentless-mfa/" />
+<meta property="og:url" content="https://authnull.com/blog/posts/active-directory-agentless-mfa/" />
+<meta property="og:image" content="https://authnull.com/blog/assets/img/agentless.webp" />
+<meta property="og:image:alt" content="Agentless" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-06-05T08:47:00+05:30" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Privileged access Management Best Practices" />
+<meta property="article:published_time" content="2024-10-07T08:47:00+05:30" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://authnull.com/blog/assets/img/agentless.webp" />
+<meta name="twitter:image:alt" content="Agentless" />
+<meta property="twitter:title" content="Agentless MFA and Privileged Access for Active Directory" />
 <meta name="twitter:site" content="@authnull" />
 <meta name="twitter:creator" content="@authnull" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Asif Ali","url":"https://github.com/azifalix"},"dateModified":"2024-09-08T12:02:32+05:30","datePublished":"2024-06-05T08:47:00+05:30","description":"The critical role of privileged accounts in managing IT environments and facilitating administrative tasks is vital for organizations to adopt PAM best practices to mitigate the risks associated with these accounts in both traditional and cloud infrastructures. Privileged accounts are ubiquitous, and because they are essential for IT management, they are also prime targets for cybercriminals. By compromising these accounts, attackers can penetrate networks, access sensitive information, alter data, and disrupt operations.","headline":"Privileged access Management Best Practices","mainEntityOfPage":{"@type":"WebPage","@id":"https://authnull.com/blog/posts/Privileged-access-Management-Best-Practices/"},"url":"https://authnull.com/blog/posts/Privileged-access-Management-Best-Practices/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Asif Ali","url":"https://github.com/azifalix"},"dateModified":"2024-10-07T08:47:00+05:30","datePublished":"2024-10-07T08:47:00+05:30","description":"Agentless for Active Directory","headline":"Agentless MFA and Privileged Access for Active Directory","image":{"alt":"Agentless","url":"https://authnull.com/blog/assets/img/agentless.webp","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://authnull.com/blog/posts/active-directory-agentless-mfa/"},"url":"https://authnull.com/blog/posts/active-directory-agentless-mfa/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Privileged access Management Best Practices | 
+  <title>Agentless MFA and Privileged Access for Active Directory | 
   </title>
 
   <!--
@@ -640,7 +656,7 @@
         
           
             
-              <span>Privileged access Management Best Practices</span>
+              <span>Agentless MFA and Privileged Access for Active Directory</span>
             
 
           
@@ -708,6 +724,109 @@
 
 
 
+  
+  
+
+  <!-- CDN URL -->
+  
+
+  <!-- Add image path -->
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -752,6 +871,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -767,28 +897,6 @@
       
         
         
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
       
 
       
@@ -882,7 +990,7 @@
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>Privileged access Management Best Practices</h1>
+    <h1 data-toc-skip>Agentless MFA and Privileged Access for Active Directory</h1>
 
     <div class="post-meta text-muted">
       <!-- published date -->
@@ -898,43 +1006,29 @@
 
 <time
   
-  data-ts="1717557420"
+  data-ts="1728271020"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Jun  5, 2024
+  Oct  7, 2024
 </time>
 
       </span>
 
       <!-- lastmod date -->
       
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
 
-
-
-
-<time
-  
-  data-ts="1725777152"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Sep  7, 2024
-</time>
-
-        </span>
       
+        
+        
+        
 
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/blog/assets/img/agentless.webp" class="popup img-link preview-img"><img src="/blog/assets/img/agentless.webp"  alt="Agentless" width="1200" height="630"  loading="lazy"></a><figcaption class="text-center pt-2 pb-2">Agentless</figcaption></div>
       
 
       <div class="d-flex justify-content-between">
@@ -975,9 +1069,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1382 words"
+  title="282 words"
 >
-  <em>7 min</em> read</span>
+  <em>1 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -986,127 +1080,36 @@
   </header>
 
   <div class="content">
-    <p>The critical role of privileged accounts in managing IT environments and facilitating administrative tasks is vital for organizations to adopt PAM best practices to mitigate the risks associated with these accounts in both traditional and cloud infrastructures. Privileged accounts are ubiquitous, and because they are essential for IT management, they are also prime targets for cybercriminals. By compromising these accounts, attackers can penetrate networks, access sensitive information, alter data, and disrupt operations.</p>
+    <h2 id="agentless-for-active-directory"><span class="me-2">Agentless for Active Directory</span><a href="#agentless-for-active-directory" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>To protect against these threats, organizations must prioritize securing privileged accounts, including Domain Admins, Local Administrators, Root Accounts, Service Accounts, Network Accounts such as CISCO Enable, Application Accounts, and Automation Accounts used for running workloads. Despite the significant risks, many organizations still fall short in implementing basic PAM security measures.</p>
+<p>We’re announcing the launch of Agentless MFA and Privileged Access for Active Directory</p>
 
-<h3 id="pam-best-practices"><span class="me-2">PAM best practices</span><a href="#pam-best-practices" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Agentless MFA and Privileged Access for Active Directory (AD) implements Privileged Access and Multi-Factor Authentication (MFA) without requiring agents or additional software to be installed endpoints.  Instead, it leverages existing authentication protocols and integrations to provide MFA capabilities.</p>
 
-<p><strong>Understand Your Internal PAM Landscape</strong></p>
+<h2 id="features"><span class="me-2">Features</span><a href="#features" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<ul>
-  <li>
-    <p>To effectively manage privileged access, organizations must first identify where privileged accounts exist within their infrastructure. Failing to do so can result in backdoor accounts remaining in place, which allow users to bypass security controls and auditing processes. Additionally, external attackers may create accounts for future access, often going undetected for extended periods.</p>
-  </li>
-  <li>
-    <p>The initial step in adopting PAM best practices is to define what constitutes a privileged account within the organization, as this can vary between companies. It’s essential to map out critical business functions that depend on privileged accounts, including associated data, systems, and access points. Developing a thorough understanding of who has access to these accounts and when they are used is vital, as one cannot manage what one does not know exists. As many organizations increasingly adopt cloud services, it’s equally important to extend PAM best practices to cover cloud environments.</p>
-  </li>
-</ul>
+<h3 id="no-agents-required"><span class="me-2">No Agents Required:</span><a href="#no-agents-required" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>As the name implies, there is no need to install agents on endpoints. This reduces the complexity of deployment and lowers the risk of interfering with Active Directory’s core functionality.</p>
 
-<h2 id="establish-a-formal-privileged-account-password-policy"><span class="me-2">Establish a Formal Privileged Account Password Policy</span><a href="#establish-a-formal-privileged-account-password-policy" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="centralized-management"><span class="me-2">Centralized Management:</span><a href="#centralized-management" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>These solutions often come with a centralized management console to manage policies, view logs, and monitor user activity.</p>
 
-<ul>
-  <li>
-    <p>Implementing privileged account password protection policies is essential for preventing unauthorized access and ensuring security compliance. One can utilize the Privileged Access Management Policy Template, which aligns with best practice standards from SANS, NIST, GLBA, ISO17799, and ISO9000.When developing or updating PAM best practices, it is crucial to have a clear definition of what privileged access management entails for the organization.One’s policy should address requirements for both human and non-human accounts. For human accounts, consider using passphrases—passwords that are complex yet easier to remember.The National Institute of Standards and Technology (NIST) recently updated its guidelines, removing recommendations for strict complexity requirements for human accounts.</p>
-  </li>
-  <li>
-    <p>Enforcing complex passwords and frequent rotations can lead to cyber fatigue and user frustration, often resulting in the reuse of similar passwords across multiple accounts, thereby increasing the risk of successful brute-force attacks if credentials are compromised. Compromised accounts heighten the risk of additional accounts being breached.A key aspect of PAM best practices is shifting passwords into the background to enhance the authentication and authorization experience for employees. This can be achieved by integrating password-less authentication with a robust privileged access management solution.</p>
-  </li>
-  <li>
-    <p>Best practices for privileged access management include determining the appropriate frequency for changing privileged passwords. Typically, non-human or system-based account passwords should be changed frequently, while human accounts protected by Multi-Factor Authentication (MFA) may require less frequent changes, potentially only when a risk or breach is identified. It is vital to update all privileged account passwords automatically and simultaneously, both on a regular schedule to comply with mandates and on an ad-hoc basis, such as when an administrator departs or in response to a security incident or data breach.</p>
-  </li>
-</ul>
+<h3 id="multi-protocol-support"><span class="me-2">Multi-Protocol Support:</span><a href="#multi-protocol-support" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>These solutions often support common authentication protocols such as RADIUS, Kerberos, and LDAP to integrate seamlessly with a wide range of enterprise infrastructure.</p>
 
-<h3 id="change-default-usernames-and-passwords"><span class="me-2">Change Default Usernames and Passwords</span><a href="#change-default-usernames-and-passwords" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="real-time-risk-based-authentication"><span class="me-2">Real-Time Risk-Based Authentication:</span><a href="#real-time-risk-based-authentication" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>The platform continuously monitors all authentication requests and uses a risk engine to assess suspicious behavior, applying adaptive MFA when necessary. This real-time analysis helps prevent lateral movement within the network by attackers. This works in conjunction with our conditional access system</p>
 
-<ul>
-  <li>
-    <p>While it may seem straightforward, retaining default usernames and passwords poses a significant security risk, making them easy targets for cybercriminals. Default software configurations for systems, devices, and applications often come with simple, publicly documented passwords. These passwords are usually the same across all systems from a specific vendor or product line and are intended solely for initial installation, configuration, and testing.</p>
-  </li>
-  <li>
-    <p>Since many of these systems lack a user interface for managing these passwords, it is crucial to change them before deploying the system in a production environment to mitigate security vulnerabilities.</p>
-  </li>
-</ul>
+<h3 id="broad-coverage"><span class="me-2">Broad coverage:</span><a href="#broad-coverage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>AuthNull extends MFA protection to resources and applications that typically don’t support MFA, such as legacy systems, file shares, and command-line access to workstations and servers.  This supports on-prem infrastructure. Coverage for cloud infrastructure is coming soon.</p>
 
-<h3 id="manage-shared-accounts"><span class="me-2">Manage Shared Accounts</span><a href="#manage-shared-accounts" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="protecting-interactive-and-service-accounts"><span class="me-2">Protecting interactive and service accounts:</span><a href="#protecting-interactive-and-service-accounts" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>AuthNull provides protection to interactive and non interactive (service accounts) with MFA and privileged access. AuthNull offers visibility and protection for service accounts. It monitors these accounts’ behavior and can trigger MFA, use M2M authentication or block access when abnormal activity is detected.</p>
 
-<ul>
-  <li>
-    <p>Shared accounts present an easy target for cybercriminals and offer little to no accountability. Since these accounts lack access control, it is difficult to attribute specific activities to individual users, increasing security risks.</p>
-  </li>
-  <li>
-    <p>Implementing PAM security solutions is essential for managing shared accounts, as they provide comprehensive auditing of access and usage, ensuring better control and accountability.</p>
-  </li>
-</ul>
+<h2 id="read-the-full-solution-brief"><span class="me-2">Read the full solution brief</span><a href="#read-the-full-solution-brief" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h3 id="monitor-activity-on-privileged-accounts"><span class="me-2">Monitor Activity on Privileged Accounts</span><a href="#monitor-activity-on-privileged-accounts" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><a href="https://authnull.com/assets/pdf/Active_directory_agentless_mfa.pdf" target="_blank">Download</a> the active Directory Agentless MFA and Privileged Access solution brief.</p>
 
-<ul>
-  <li>
-    <p>Protecting privileged accounts requires rigorous session monitoring, recording, and auditing. This ensures proper behavior, adherence to security protocols, and minimizes the risk of mistakes, as users are aware that their actions are being tracked. Security teams need quick visibility into implemented policies and any exceptions that require additional attention or user education.</p>
-  </li>
-  <li>
-    <p>In the event of a breach, monitoring privileged account activity assists digital forensics in identifying the root cause and improving critical controls to mitigate future cybersecurity threats. Managing and securing Privileged Accounts and Session Management (PASM) is an essential aspect of PAM solutions and a best practice for PAM strategies.</p>
-  </li>
-  <li>
-    <p>Auditing privileged accounts also provides valuable cybersecurity metrics that inform executives, such as the Chief Information Security Officer (CISO), enabling more informed business decisions. Additionally, auditors can use this information to determine who accessed specific data and the reasons for such access.</p>
-  </li>
-</ul>
-
-<h3 id="implement-least-privilege"><span class="me-2">Implement Least Privilege</span><a href="#implement-least-privilege" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>
-    <p>The least privilege security model limits a user’s access to only what is necessary to perform their specific tasks or job functions. If a user needs additional access beyond what is granted by policy rules, the elevation of privileges is tightly controlled and monitored. This approach eliminates full local administrator access to endpoints, significantly reducing the risk associated with compromised endpoints, which are common entry points for attacks.</p>
-  </li>
-  <li>
-    <p>By removing local administrative privileges, organizations can block a frequent attack vector and decrease their overall attack surface. Application control ensures that users can access the applications they need to perform their jobs without productivity loss, making the least privilege model effective. Privileged Elevation and Delegation Management (PEDM) is a vital component of privileged access solutions, enabling users to elevate privileges on demand for necessary administrative tasks.</p>
-  </li>
-</ul>
-
-<h3 id="establish-privileged-access-governance"><span class="me-2">Establish Privileged Access Governance</span><a href="#establish-privileged-access-governance" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>
-    <p>Effective governance ensures that privileged account access is appropriately controlled and monitored throughout its entire lifecycle. It involves defining roles, policies, and mechanisms for access requests, along with the workflow for privileged access approvals and delivery. Governance also ensures that account permissions remain suitable over time.</p>
-  </li>
-  <li>
-    <p>Additionally, PAM governance can integrate with other IT security systems, such as IT ticketing systems, identity governance tools, and identity and access management solutions.</p>
-  </li>
-</ul>
-
-<h3 id="ensure-organization-wide-buy-in"><span class="me-2">Ensure Organization-Wide Buy-In</span><a href="#ensure-organization-wide-buy-in" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>
-    <p>For effective cybersecurity and Privileged Access Management (PAM), it is crucial to make these initiatives visible and positively received across all departments, including the executive team. Conducting comprehensive security awareness training helps communicate organization’s security policies and the risks of non-compliance. Such training empowers employees, enhancing their ability to perform their jobs effectively.</p>
-  </li>
-  <li>
-    <p>Recognizing that PAM is not a simple solution, and that best practices and strategies can vary between organizations, the PAM Best Practices and PAM Lifecycle approach offers a framework for managing privileged access as an ongoing process.</p>
-  </li>
-</ul>
-
-<h3 id="the-key-stages-of-the-pam-lifecycle"><span class="me-2">The key stages of the PAM Lifecycle</span><a href="#the-key-stages-of-the-pam-lifecycle" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<p><strong>Define</strong> Establish what ‘privileged access’ means and identify privileged accounts specific to the organization.</p>
-
-<p><strong>Discover</strong> Locate all privileged accounts and implement continuous discovery to prevent account sprawl, detect potential insider abuse, and uncover external threats.</p>
-
-<p><strong>Manage and Protect</strong> Actively manage and control access to privileged accounts, schedule regular password rotations, audit and analyze activities, and oversee individual privileged sessions.</p>
-
-<p><strong>Monitor</strong> Continuously monitor and record the activity of privileged accounts.</p>
-
-<p><strong>Detect Usage</strong> Maintain real-time visibility into the access and activity of privileged accounts to identify suspected compromises and potential user abuse.</p>
-
-<p><strong>Respond</strong> Act promptly to protect compromised accounts and systems based on predefined policies and breach intelligence.</p>
-
-<p><strong>Review and Audit</strong> Conduct ongoing observation and auditing of privileged account usage to identify unusual behaviors that may indicate breaches or misuse</p>
-
-<h2 id="conclusion"><span class="me-2">Conclusion</span><a href="#conclusion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p>Implementing privileged access management best practices is vital for safeguarding organizational assets and mitigating cybersecurity risks. By defining privileged access, discovering and managing privileged accounts, continuously monitoring activities, promptly detecting suspicious usage, and responding effectively to incidents, organizations can strengthen their security posture and protect against potential breaches or misuse.</p>
-
-<p>Through adherence to these practices, businesses can enhance their resilience in the face of evolving cyber threats and ensure the integrity of their systems and data.</p>
 
   </div>
 
@@ -1116,7 +1119,7 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/blog/categories/general/">general</a>
+          <a href="/blog/categories/engineering/">engineering</a>
       </div>
     
 
@@ -1129,6 +1132,21 @@
             href="/blog/tags/service-accounts/"
             class="post-tag no-text-decoration"
           >service-accounts</a>
+        
+          <a
+            href="/blog/tags/privileged-access/"
+            class="post-tag no-text-decoration"
+          >privileged-access</a>
+        
+          <a
+            href="/blog/tags/mfa/"
+            class="post-tag no-text-decoration"
+          >mfa</a>
+        
+          <a
+            href="/blog/tags/agentless/"
+            class="post-tag no-text-decoration"
+          >agentless</a>
         
       </div>
     
@@ -1164,21 +1182,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Privileged%20access%20Management%20Best%20Practices%20-%20&url=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2FPrivileged-access-Management-Best-Practices%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Agentless%20MFA%20and%20Privileged%20Access%20for%20Active%20Directory%20-%20&url=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2Factive-directory-agentless-mfa%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Privileged%20access%20Management%20Best%20Practices%20-%20&u=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2FPrivileged-access-Management-Best-Practices%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Agentless%20MFA%20and%20Privileged%20Access%20for%20Active%20Directory%20-%20&u=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2Factive-directory-agentless-mfa%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2FPrivileged-access-Management-Best-Practices%2F&text=Privileged%20access%20Management%20Best%20Practices%20-%20" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fauthnull.com%2Fblog%2Fposts%2Factive-directory-agentless-mfa%2F&text=Agentless%20MFA%20and%20Privileged%20Access%20for%20Active%20Directory%20-%20" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1654,175 +1672,7 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
@@ -2042,45 +1892,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/blog/posts/Advantages-of-decentralized-platforms/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1717211820"
-  data-df="ll"
-  
->
-  Jun  1, 2024
-</time>
-
-              <h4 class="pt-0 my-2">Advantages of decentralized platforms</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  What is a decentralized platform?
-
-A decentralized platform is a type of network architecture that operates without authority. It does not rely on a single centralized entity to manage activities, ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/blog/posts/What-you-need-to-know-about-NIST-800-53,-least-privilege,-and-PAM/" class="post-preview card h-100">
+          <a href="/blog/posts/Privileged-access-Management-Best-Practices/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2099,7 +1911,7 @@ A decentralized platform is a type of network architecture that operates without
   Jun  5, 2024
 </time>
 
-              <h4 class="pt-0 my-2">What you need to know about NIST 800-53, least privilege, and PAM</h4>
+              <h4 class="pt-0 my-2">Privileged access Management Best Practices</h4>
               <div class="text-muted">
                 <p>
                   
@@ -2108,7 +1920,7 @@ A decentralized platform is a type of network architecture that operates without
 
 
 
-                  The NIST Joint Task Force crafted NIST 800-53 to establish standards and best practices aimed at safeguarding sensitive information of the U.S. government and individuals’ personal data from cyber ...
+                  The critical role of privileged accounts in managing IT environments and facilitating administrative tasks is vital for organizations to adopt PAM best practices to mitigate the risks associated wi...
                 </p>
               </div>
             </div>
@@ -2116,7 +1928,7 @@ A decentralized platform is a type of network architecture that operates without
         </article>
       
         <article class="col">
-          <a href="/blog/posts/active-directory-agentless-mfa/" class="post-preview card h-100">
+          <a href="/blog/posts/Extended-PAM-for-Integrated,-Multi-Layered-Cybersecurity-Defense/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2128,14 +1940,14 @@ A decentralized platform is a type of network architecture that operates without
 
 <time
   
-  data-ts="1728271020"
+  data-ts="1717557420"
   data-df="ll"
   
 >
-  Oct  7, 2024
+  Jun  5, 2024
 </time>
 
-              <h4 class="pt-0 my-2">Agentless MFA and Privileged Access for Active Directory</h4>
+              <h4 class="pt-0 my-2">Extended PAM for Integrated, Multi-Layered Cybersecurity Defense</h4>
               <div class="text-muted">
                 <p>
                   
@@ -2144,11 +1956,49 @@ A decentralized platform is a type of network architecture that operates without
 
 
 
-                  Agentless for Active Directory
+                  With the growing complexity of IT systems and the increase of IAM and cybersecurity tools, effectively tackling privileged account attacks has become increasingly challenging.
 
-We’re announcing the launch of Agentless MFA and Privileged Access for Active Directory
+Why is Extended PAM ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/blog/posts/Top-5-Secrets-Management-Practices/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
 
-Agentless MFA and Privileged Access for Active Directory (AD) implements Pri...
+
+
+
+<time
+  
+  data-ts="1718767020"
+  data-df="ll"
+  
+>
+  Jun 19, 2024
+</time>
+
+              <h4 class="pt-0 my-2">Top 5 Secrets Management Practices</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  What is Secrets Management?
+
+
+  
+    Secrets management is the practice of securely handling digital authentication credentials such as passwords, API keys, tokens, and other sensitive information....
                 </p>
               </div>
             </div>
@@ -2170,22 +2020,18 @@ Agentless MFA and Privileged Access for Active Directory (AD) implements Pri...
 
   
     <a
-      href="/blog/posts/Cybersecurity-Incident-Response-Plan-Template/"
+      href="/blog/posts/release-notes-oct-24/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Cybersecurity Incident Response Plan Template</p>
+      <p>AuthNull Release Notes Week of Oct, 2024</p>
     </a>
   
 
   
-    <a
-      href="/blog/posts/Extended-PAM-for-Integrated,-Multi-Layered-Cybersecurity-Defense/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Extended PAM for Integrated, Multi-Layered Cybersecurity Defense</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
