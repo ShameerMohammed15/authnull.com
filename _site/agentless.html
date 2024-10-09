@@ -423,42 +423,268 @@
     </div>
   </nav>
 </header>
-
-
-
-
- 
-
+<script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <section>
 
-      <div class="overflow-hidden py-6 sm:py-6  bg-slate-50 bg-gradient-to-r  from-slate-50 to-gray-200  min-h-screen">
+      <div class="overflow-hidden py-6 sm:py-6  bg-slate-50">
         <div class="mx-auto max-w-screen-xl px-5 lg:px-5">
          
-      <div class="mx-auto grid max-w-4xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-        <div class="lg:pr-8 lg:pt-4">
-          <div class="lg:max-w-lg">
+          <div class="flex flex-col items-start">
             <h2 class=" font-semibold leading-7 text-black">Agentless Authentication</h2>
-            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Deliver Agentless MFA for all of your privileged infrastructure </p>
-            <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull delivers agentless MFA for - Active Directory, Azure Active Directory, Radius devices and more,
+            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Deliver Agentless MFA and Privileged access for Active directory</p>
+            <p class="mt-6 text-lg leading-8 text-gray-900">  AuthNull delivers agentless MFA for - Active Directory. Azure Active Directory, Radius devices and more coming soon,
             <p class="mt-6 text-lg leading-8 text-gray-900">  
 
               
- 
-             <a href="/contactus"><button class=" text-white btn btn-active btn-primary"> Request a Demo</button></a> 
+            <button  class=" text-white btn btn-active btn-neutral" onclick="startTour()">See Interactive In-Browser Demo</button>
+
+             <a href="/contactus"><button class=" text-white btn btn-active btn-primary"> Get in touch</button></a> 
           </div>
         </div>
-        <div style="position: relative; padding-top: 56.25%;">
-          
-        </div>
+      
+
+
+     
+         
+         
       </div>
  
+<section class="bg-slate-200">
+<br/><br/>
+  <div class="mx-auto w-full max-w-7xl" > 
+    <h2 class="text-xl font-bold md:text-1xl">How does this work?</h2>
+<A name="Tour"></A>
+<div x-data="{ activeTab: 1 }" > 
+  <div class="flex space-x-4">
+    <button id="section1" @click="activeTab = 1" :class="activeTab === 1 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+  Configure Active Directory
+    </button>
+    <button id="section2" @click="activeTab = 2" :class="activeTab === 2 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+  AD Bridge Install
+    </button>
+    <button id="section3" @click="activeTab = 3" :class="activeTab === 3 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+Wallet Install
+    </button>
+    <button id="section4" @click="activeTab = 4" :class="activeTab === 4 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+User Status
+    </button>
+    <button id="section5" @click="activeTab = 5" :class="activeTab === 5 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+ Policy
+    </button>
+
+    <button id="section6" @click="activeTab = 6" :class="activeTab === 6 ? 'border-b-2 border-blue-500' : ''" class="px-4 py-2">
+  Agentless MFA Logon
+        </button>
+  </div>
+
+  <div class="mt-4 py-10">
+    <div x-show="activeTab === 1">
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1652 915">
+        <image width="1652" height="915" xlink:href="/assets/images/agentless1.png"></image> <a xlink:href="#">
+          <rect id="area1" x="295" y="76" fill="#fff" opacity="0" width="940" height="687"></rect>
+        </a><a xlink:href="#">
+          <rect id="area2"  x="293" y="607" fill="#fff" opacity="0" width="470" height="154"></rect>
+        </a>
+      </svg>
+
+    </div>
+    <div x-show="activeTab === 2">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1652 909">
+        <image width="1652" height="909" xlink:href="/assets/images/agentless2.png"></image> <a xlink:href="#">
+          <rect id="area3" x="302" y="204" fill="#fff" opacity="0" width="958" height="458"></rect>
+        </a>
+      </svg>
+    </div>
+    <div x-show="activeTab === 3">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1658 918">
+        <image width="1658" height="918" xlink:href="/assets/images/agentless3.png"></image> <a xlink:href="#">
+          <rect id="area4" x="298" y="76" fill="#fff" opacity="0" width="1079" height="730"></rect>
+        </a><a xlink:href="#">
+          <rect id="area5" x="1139" y="229" fill="#fff" opacity="0" width="154" height="579"></rect>
+        </a>
+      </svg>    
+    </div>
+
+    <div x-show="activeTab==4">
+
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1661 914">
+        <image width="1661" height="914" xlink:href="/assets/images/agentless4.png"></image> <a xlink:href="#">
+          <rect id="area6" x="271" y="70" fill="#fff" opacity="0" width="1387" height="730"></rect>
+        </a>
+      </svg>
+      
+
+
+    </div>
+    <div x-show="activeTab==5">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1659 917">
+        <image width="1659" height="917" xlink:href="/assets/images/agentless6.png"></image> <a xlink:href="#">
+          <rect id="area7" x="383" y="97" fill="#fff" opacity="0" width="898" height="775"></rect>
+        </a><a xlink:href="#">
+          <rect id="area8" x="401" y="599" fill="#fff" opacity="0" width="607" height="76"></rect>
+        </a><a xlink:href="#">
+          <rect id="area9" x="843" y="301" fill="#fff" opacity="0" width="419" height="93"></rect>
+        </a><a xlink:href="#">
+          <rect id="area10" x="398" y="694" fill="#fff" opacity="0" width="366" height="112"></rect>
+        </a><a xlink:href="#">
+          <rect id="area11" x="1167" y="817" fill="#fff" opacity="0" width="95" height="50"></rect>
+        </a>
+      </svg>
 
 
 
+
+
+    </div>
+    <div x-show="activeTab==6">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1661 914">
+        <image width="1661" height="914" xlink:href="/assets/images/agentless5.png"></image> <a xlink:href="#">
+          <rect  id="area12" x="271" y="70" fill="#fff" opacity="0" width="1387" height="730"></rect>
+        </a>
+      </svg>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+ 
+
+<script>
+
+const driver = window.driver.js.driver;
+
+
+  function startTour() {
+    location.href="#Tour";
+    //move to the first element in case the user has moved out
+    document.getElementById('section1').click();
+
+    const driver = window.driver.js.driver ({
+       overlayColor: 'black',
+       overlayOpacity: '0.5',
+      onNextClick:() => {
+              console.log(driver.getActiveStep().element); // Gets the active step configuration)
+              
+            
+              
+              
+              if (driver.getActiveStep().element=="#section2") {
+                document.getElementById("section2").click();
+              }
+
+              if (driver.getActiveStep().element=="#section2") {
+                document.getElementById("section2").click();
+              }
+
+              if (driver.getActiveStep().element=="#section3") {
+                document.getElementById("section3").click();
+              }
+
+              if (driver.getActiveStep().element=="#section4") {
+                document.getElementById("section4").click();
+              }
+              if (driver.getActiveStep().element=="#section5") {
+                document.getElementById("section5").click();
+              }
+              if (driver.getActiveStep().element=="#section6") {
+                document.getElementById("section6").click();
+              }
+
+
+              // Implement your own functionality here
+              driver.moveNext();
+      },
+
+      onPrevClick:() => {
+              console.log(driver.getActiveStep().element); // Gets the active step configuration)
+              
+                
+
+              if (driver.getActiveStep().element=="#area3") {
+                document.getElementById("section1").click();
+            
+              }
+
+              if (driver.getActiveStep().element=="#area4") {
+                document.getElementById("section2").click();
+              }
+
+              if (driver.getActiveStep().element=="#area6") {
+                document.getElementById("section3").click();
+              }
+
+              if (driver.getActiveStep().element=="#area7") {
+                document.getElementById("section4").click();
+              }
+              if (driver.getActiveStep().element=="#area12") {
+                document.getElementById("section5").click();
+              }
+              // Implement your own functionality here
+              driver.movePrevious();
+      },
+
+
+  showProgress: true,
+  steps: [
+  { element: '#section1', popover: { title: 'Configure Active Directory', description: 'The first step is to configure Active Directory', side: "bottom", align: 'start'}},
+  { element: '#area1', popover: { title: 'Configure AD > Provide necessary information', description: 'Configure an existing Domain server by providing necessary information to AuthNull. ', side: "left", align: 'start' }},
+    { element: '#area2', popover: { title: 'Select Agentless', description: 'Select Agentless MFA in the options given', side: "bottom", align: 'start' }},
+    { element: '#section2', popover: { title: 'Install AD Bridge', description: 'The next step requires an installation of a server side Active Directory Bridge, preferably on a machine on the same network as your Domain controller.', side: "bottom", align: 'start'}},
+    { element: '#area3', popover: { title: 'Download Install Script', description: 'Download and execute the given script using powershell.' }, },
+    { element: '#section3', popover: { title: 'Wallet Onboarding', description: 'Users are sent an invite to join the AuthNull platform and to setup an authenticator wallet.' } },
+    { element: '#area4', popover: { title: 'Wallet user list', description: 'This shows the list of users who have successfully installed required wallet.', side: "bottom", align: 'start'}},
+    { element: '#area5', popover: { title: 'Status of users', description: 'This shows individual status of each users' } },
+    { element: '#section4', popover: { title: 'Check User Status', description: 'Check whether AuthNull has synchronized AD users and onboarded them' } },
+    { element: '#area6', popover: { title: 'User List', description: 'This shows the list of all users that have been onboarded to AuthNull' } },
+    { element: '#section5', popover: { title: 'Policy', description: 'Next Step: Create Necessary Policies for Access' } },
+    { element: '#area7', popover: { title: 'Create Policy', description: 'This screen enables creation of policies for AD users' } },
+    { element: '#area8', popover: { title: 'Who is this policy for?', description: 'Select the wallet user who will receive this policy' } },
+    { element: '#area9', popover: { title: 'What endpoints can the user access?', description: 'Select the endpoints that this user can access' } },
+    { element: '#area10', popover: { title: 'What is the policy Action', description: 'Select Allow, or Deny' } },
+    { element: '#area11', popover: { title: 'Activate the policy', description: 'Set the policy live when ready.' } },
+    { element: '#section6', popover: { title: 'Authenticate with agentless MFA', description: 'Now you can log on from any client machine connected to AD without agents' } },
+    { element: '#area12', popover: { title: 'Type in with your AD username and password', description: 'No agents required.' } },
+
+
+
+
+    ]});
+
+    // Initialize Driver.js
+     
+
+    // Define the tour steps
+  
+
+    // Start the tutorial
+    driver.drive();
+  }
 
   
+</script>
+
+
+
+
 <style> 
+
+.driver-popover {
+  background-color: #1701dc;
+  color:white;
+  
+}
+
+.driver-popover-prev-btn {
+  background-color: yellow;
+  color:black;
+}
+
   .a {
     color: black;
   }
@@ -840,64 +1066,83 @@
     background-color: rgb(125, 70, 150)
   }
   </style>
-  
-    <script>
-    window.console = window.console || function(t) {};
-  </script>
-  
-    
+   
      
       
 
               
+</div>
 
-             <div class="mx-auto w-full max-w-7xl">
+
+
+             <div class="mx-auto w-full max-w-7xl py-12">
+              <h2 class="text-3xl font-bold md:text-5xl">Features</h2>
+
               <br/> 
               <label class="text-xl">Show &nbsp;&nbsp; </label>
 
               <label for="all" class="text-lg padding-right"><input type="checkbox" id="all" checked> All &nbsp;&nbsp;</label> 
               <label for="platform" class="text-lg padding-right"> <input type="checkbox" id="platform" class="filter" checked> Platform &nbsp;&nbsp;</label>
               <label for="usecases"class="text-lg"><input type="checkbox" id="usecases" class="filter" checked> Use Cases &nbsp;&nbsp; </label>
-              <label for="differentiation"class="text-lg"><input type="checkbox" id="differentiation" class="filter" checked> Differentiation &nbsp;&nbsp;</label>
+              <label for="downloads"class="text-lg"><input type="checkbox" id="downloads" class="filter" checked> Downloads &nbsp;&nbsp;</label>
 
               <br/><br/>  
               <!-- Title -->
               
               <!-- Content -->
               <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6 ">
-
- <!-- <div class="mx-auto w-full max-w-7xl text-center">-->
-     
-             
-        
+  
       
-        <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-          <img src="/assets/images/active_directoryu.png" alt="" class="inline-block h-16" />
-          <h3 class="text-xl text-black  font-semibold">Agentless Privileged Access for Active Directory</h3> <br/>
-          <p class="text-base text-black">AuthNull can deliver agentless privileged access for your on-prem Active Directory Domain services infrastructure </p>
-          <!-- <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> -->
-  
-        </div>
-
- 
-        <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-          <img src="/assets/images/radius.avif" alt="" class="inline-block h-16" />
-          <h3 class="text-xl text-black font-semibold">Agentless - Radius MFA for Clearpass, Cisco ISE and NPS </h3><br/>
-          <p class="text-base text-black">Authenticate to your radius devices with AuthNull's agentless MFA</p>
-          <br/> </p>
-        </div>
-
-   
-
+                <div name="content-box" id="1"  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+                  <img src="/assets/images/active-directory-service.png" alt="" class="inline-block h-12" />
+                  <h3 class="text-xl text-black  font-semibold">Agentless Privileged Access for Active Directory</h3> <br/>
+                  <p class="text-base text-black">AuthNull can deliver agentless privileged access for your on-prem Active Directory Domain services infrastructure </p>
+                  <!-- <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> -->
+          
+                </div>
         
- 
-        <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-          <img src="/assets/images/id-card.png" alt="" class="inline-block h-16" />
-          <h3 class="text-xl   text-black font-semibold">Delivered on all infrastructure on all devices</h3><br/> 
-          <p class="text-base text-black">Agentless MFA is delivered on all devices that connect to Active Directory (Linux, Windows) as well as all devices that connect to Radius servers</p>
-          <br/>  </p>
-  
-        </div>
+                <div name="content-box " id="2"  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+                  <img src="/assets/images/wifi.png" alt="" class="inline-block h-16" />
+                  <h3 class="text-xl text-black font-semibold">Agentless - Radius MFA for Clearpass, Cisco ISE and NPS </h3><br/>
+                  <p class="text-base text-black">Authenticate to your radius devices with AuthNull's agentless MFA</p>
+                  <br/> </p>
+                </div>
+
+                <div name="content-box" id="3" class=" item downloads content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-200 to-blue-300 p-8 md:p-10">
+                  <img src="/assets/images/download.png" alt="" class="inline-block h-16" />
+                  <h3 class="text-xl   text-black font-semibold">Solution Brief - Agentless for Active Directory</h3><br/> 
+                  <p class="text-base text-black">Download the free solution brief - Agentless for Active Directory</p>
+                  <br/>
+                  <button  class=" text-white btn btn-active btn-neutral"><a target='_blank' href='/resources/2024-10-05-active-directory-agentless-mfa'>Download</a></button>
+                  
+
+                  <br/>  </p>
+          
+                </div>
+
+
+                <div name="content-box" id="1"  class=" item usecases  content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+                  <img src="/assets/images/layers.png" alt="" class="inline-block h-16" />
+                  <h3 class="text-xl text-black  font-semibold">Protect Service Accounts</h3> <br/>
+                  <p class="text-base text-black"> AuthNull can automatically detect and protect service accounts through policies. Force interactive MFA, enable non-interactive passwordless authentication and more. </p>
+                  <p class="text-base text-black"><a class="underline text-blue-800" href="/service-accounts">Learn more</a></p> 
+          
+                </div>
+        
+                <div name="content-box " id="2"  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+                  <img src="/assets/images/coding1.png" alt="" class="inline-block h-16" />
+                  <h3 class="text-xl text-black font-semibold">No agents required for the endpoints </h3><br/>
+                  <p class="text-base text-black">AuthNull enables agentless MFA and Privileged access to Endpoints. This means no additional software is required on windows or linux endpoints.</p>
+                  <br/> 
+                </div>
+
+                <div name="content-box " id="3" class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
+                  <img src="/assets/images/compliant.png" alt="" class="inline-block h-16" />
+                  <h3 class="text-xl   text-black font-semibold">Policy based access control</h3><br/> 
+                  <p class="text-base text-black">AuthNull provides comprehensive policy based access control with Automated discovery of policies.</p>
+                  <br/>  <p class="text-base text-black"><a class="underline text-blue-800"  href='/blog/posts/jan-01-policy-discovery/'>Read More</a></p>
+          
+                </div>
 
        
 
@@ -911,33 +1156,37 @@
   
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
   <script src='https://assets.codepen.io/16327/Flip.min.js'></script>
+
+
         <script id="rendered-js" >
-  "use strict";
-  const allCheckbox = document.querySelector('#all'), filters = gsap.utils.toArray('.filter'), items = gsap.utils.toArray('.item');
-  function updateFilters() {
-      const state = Flip.getState(items), // get the current state
-      classes = filters.filter(checkbox => checkbox.checked).map(checkbox => "." + checkbox.id), matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
-      // adjust the display property of each item ("none" for filtered ones, "inline-flex" for matching ones)
-      items.forEach(item => item.style.display = matches.indexOf(item) === -1 ? "none" : "block");
-      // animate from the previous state
-      Flip.from(state, {
-          duration: 0.7,
-          scale: true,
-          ease: "power1.inOut",
-          stagger: 0.08,
-          absolute: true,
-          onEnter: elements => gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
-          onLeave: elements => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 })
-      });
-      // Update the all checkbox:
-      allCheckbox.checked = matches.length === items.length;
-  }
-  filters.forEach(btn => btn.addEventListener('click', updateFilters));
-  allCheckbox.addEventListener('click', () => {
-      filters.forEach(checkbox => checkbox.checked = allCheckbox.checked);
-      updateFilters();
-  });
-  //# sourceURL=pen.js
+
+          //This is for GSAP interactions.
+          "use strict";
+          const allCheckbox = document.querySelector('#all'), filters = gsap.utils.toArray('.filter'), items = gsap.utils.toArray('.item');
+          function updateFilters() {
+              const state = Flip.getState(items), // get the current state
+              classes = filters.filter(checkbox => checkbox.checked).map(checkbox => "." + checkbox.id), matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
+              // adjust the display property of each item ("none" for filtered ones, "inline-flex" for matching ones)
+              items.forEach(item => item.style.display = matches.indexOf(item) === -1 ? "none" : "block");
+              // animate from the previous state
+              Flip.from(state, {
+                  duration: 0.7,
+                  scale: true,
+                  ease: "power1.inOut",
+                  stagger: 0.08,
+                  absolute: true,
+                  onEnter: elements => gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
+                  onLeave: elements => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 })
+              });
+              // Update the all checkbox:
+              allCheckbox.checked = matches.length === items.length;
+          }
+          filters.forEach(btn => btn.addEventListener('click', updateFilters));
+          allCheckbox.addEventListener('click', () => {
+              filters.forEach(checkbox => checkbox.checked = allCheckbox.checked);
+              updateFilters();
+          });
+          //# sourceURL=pen.js
       </script>
    
 
@@ -963,61 +1212,10 @@
 
 
 
-
-
-<!-- Section Features  -->
-
-
- 
-  <!-- Hero Container -->
-  
  
 
 
-<section class="bg-slate-50"> 
-  <!-- Container -->
-  <div class="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12">
-    <!-- Component -->
-    <div class="flex flex-col gap-14">
-      <!-- Title -->
-      <div class="flex max-w-5xl flex-col items-start gap-2.5 lg:flex-row lg:items-center">
-        <h2 class="text-3xl font-bold md:text-5xl">Approach</h2>
-        <p class="max-w-lg text-base sm:text-base"> </p>
-      </div>
-      <!-- Item -->
-      <div class="relative flex cursor-pointer flex-col gap-4 p-5 [border-top:1px_solid_rgb(0,_0,_0)] sm:px-6 md:py-10 lg:flex-row lg:gap-28">
-        <div class="flex items-center gap-4 pr-8 lg:w-1/3 lg:gap-20">
-          <p class="p-2.5 text-sm sm:text-sm">01</p>
-          <h3 class="text-2xl font-bold md:text-3xl">Zero Trust service account policies</h3>
-        </div>
-        <p class="max-w-md text-base text-lg"> Create and manage zero trust, service account policies that actually enable authentication and authorization for Machine to machine (M2M) use cases.</p>
-      </div>
-      <!-- Item -->
-      <div class="relative flex cursor-pointer flex-col gap-4 p-5 [border-top:1px_solid_rgb(0,_0,_0)] sm:px-6 md:py-10 lg:flex-row lg:gap-28">
-        <div class="flex items-center gap-4 pr-8 lg:w-1/3 lg:gap-20">
-          <p class="p-2.5 text-sm sm:text-sm">02</p>
-          <h3 class="text-2xl font-bold md:text-3xl">Authentication without the hassle of passwords, SSH Keys or secrets</h3>
-        </div>
-        <p class="max-w-md text-base text-lg">Eliminate the need to use passwords, SSH keys or secrets by introducing passwordless credentials. Rotate credentials without having to store in a secrets server.</p>
-        <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b54f87cbaf0d4c216bb7a5_dropdown-icon.svg" alt="" class="absolute right-0 top-3 h-8 w-8 rounded-full border border-solid border-[#e2e2e2] p-2 sm:mr-6 sm:h-12 sm:w-7 sm:min-w-[48px] md:w-12 md:p-3" />
-      </div>
-      <!-- Item -->
-      <div class="relative flex cursor-pointer flex-col gap-4 p-5 [border-top:1px_solid_rgb(0,_0,_0)] sm:px-6 md:py-10 lg:flex-row lg:gap-28">
-        <div class="flex items-center gap-4 pr-8 lg:w-1/3 lg:gap-20">
-          <p class="p-2.5 text-sm sm:text-sm">03</p>
-          <h3 class="text-2xl font-bold md:text-3xl"> Identity linked M2M authentication</h3>
-        </div>
-        <p class="max-w-md text-base text-lg">AuthNull enables service accounts to be managed by a human identity who is able to delegate claims for authentication.</p>
-      </div>
-      <!-- Item -->
-      
-    
-    </div>
-  </div>
-</section>
 
-
- 
 
 <main class="custom-bg-dark-blue  min-h-screen">
   <script>

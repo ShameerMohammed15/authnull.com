@@ -6,6 +6,8 @@ excerpt: "AuthNull SSO Video"
 categories: resources
 author: asif
 poster: /assets/images/decentralized-identity.png
+tags: "video"
+
 ---
 
 
