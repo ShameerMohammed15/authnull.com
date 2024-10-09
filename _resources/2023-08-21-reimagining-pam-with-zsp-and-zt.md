@@ -6,6 +6,8 @@ excerpt: "Reimagining PAM with Zero Standing Privilege (ZSP) & Zero Trust (ZT)"
 category: webinar
 author: asif
 poster: /assets/images/webinar-zsp-zt.png
+tags: "webinar"
+
 ---
 
 

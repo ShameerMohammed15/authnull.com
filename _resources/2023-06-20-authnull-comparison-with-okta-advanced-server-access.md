@@ -6,5 +6,7 @@ excerpt: "Comparison with OKTA Advanced Server Access & CyberArk"
 category: datasheet
 author: asif
 date: '2024-01-01 00:00'
+tags: "okta, cyberark, authnull"
+
 ---
 <embed src="/assets/resources/comparison-with-okta-advanced-server-access-and-cyberark.pdf" width="1000px" height="1300px"  />
