@@ -1,7 +1,7 @@
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+title: AuthNull - privileged access management with agentless, mfa, 1fa passwordless for all critical infrastructure.
 plugins:
   - jekyll-postcss-v2
   - admin
@@ -46,13 +46,7 @@ architecture:
   asif:
     name: asif
     display_name: Asif
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-    avatar: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
-   
+     
 # Plugins
 plugins:
   - jekyll-paginate
