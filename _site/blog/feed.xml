@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://authnull.com/blog/</id>
+  <id>http://localhost:4001/blog/</id>
   <title></title>
   <subtitle>AuthNull official blog</subtitle>
-  <updated>2024-10-22T23:11:09+05:30</updated>
+  <updated>2024-11-15T02:21:57+05:30</updated>
   <author>
     <name>Asif</name>
-    <uri>https://authnull.com/blog/</uri>
+    <uri>http://localhost:4001/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4001/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://authnull.com/blog/"/>
+    href="http://localhost:4001/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 Asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,52 @@
 
   
   <entry>
+    <title>Support for Radius MFA with passwordless, and decentralized credentials</title>
+    <link href="http://localhost:4001/blog/posts/support-for-radius-mfa/" rel="alternate" type="text/html" title="Support for Radius MFA with passwordless, and decentralized credentials" />
+    <published>2024-11-13T06:30:00+05:30</published>
+  
+    <updated>2024-11-13T06:30:00+05:30</updated>
+  
+    <id>http://localhost:4001/blog/posts/support-for-radius-mfa/</id>
+    <content src="http://localhost:4001/blog/posts/support-for-radius-mfa/" />
+    <author>
+      <name>asif</name>
+    </author>
+
+  
+    
+    <category term="general" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Support for MFA and Privileged Access to Radius Devices with Passwordless and Decentralized Credentials.
+
+We’re announcing public preview support for Radius Privileged Access and MFA with the use of a FreeRadius based Radius Authentication Bridge (here after referred as a Radius Bridge). Previously Radius MFA was an internal preview available to select customers.
+
+The Radius Bridge by AuthNull ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Agentless MFA and Privileged Access for Active Directory</title>
-    <link href="https://authnull.com/blog/posts/active-directory-agentless-mfa/" rel="alternate" type="text/html" title="Agentless MFA and Privileged Access for Active Directory" />
+    <link href="http://localhost:4001/blog/posts/active-directory-agentless-mfa/" rel="alternate" type="text/html" title="Agentless MFA and Privileged Access for Active Directory" />
     <published>2024-10-07T08:47:00+05:30</published>
   
     <updated>2024-10-07T08:47:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/active-directory-agentless-mfa/</id>
-    <content src="https://authnull.com/blog/posts/active-directory-agentless-mfa/" />
+    <id>http://localhost:4001/blog/posts/active-directory-agentless-mfa/</id>
+    <content src="http://localhost:4001/blog/posts/active-directory-agentless-mfa/" />
     <author>
       <name>asif</name>
     </author>
@@ -59,13 +97,13 @@ Agentless MFA and Privileged Access for Active Directory (AD) implements Privile
   
   <entry>
     <title>AuthNull Release Notes Week of Oct, 2024</title>
-    <link href="https://authnull.com/blog/posts/release-notes-oct-24/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of Oct, 2024" />
+    <link href="http://localhost:4001/blog/posts/release-notes-oct-24/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of Oct, 2024" />
     <published>2024-10-06T06:30:00+05:30</published>
   
     <updated>2024-10-06T06:30:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/release-notes-oct-24/</id>
-    <content src="https://authnull.com/blog/posts/release-notes-oct-24/" />
+    <id>http://localhost:4001/blog/posts/release-notes-oct-24/</id>
+    <content src="http://localhost:4001/blog/posts/release-notes-oct-24/" />
     <author>
       <name>asif</name>
     </author>
@@ -103,13 +141,13 @@ Kerberos authentication is being verified and will be launched soon.
   
   <entry>
     <title>Service accounts – discover, manage and authenticate without secrets</title>
-    <link href="https://authnull.com/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
+    <link href="http://localhost:4001/blog/posts/service-accounts-m2m-authentication/" rel="alternate" type="text/html" title="Service accounts – discover, manage and authenticate without secrets" />
     <published>2024-09-02T08:47:00+05:30</published>
   
     <updated>2024-09-02T08:47:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/service-accounts-m2m-authentication/</id>
-    <content src="https://authnull.com/blog/posts/service-accounts-m2m-authentication/" />
+    <id>http://localhost:4001/blog/posts/service-accounts-m2m-authentication/</id>
+    <content src="http://localhost:4001/blog/posts/service-accounts-m2m-authentication/" />
     <author>
       <name>asif</name>
     </author>
@@ -139,13 +177,13 @@ Service accounts are special user accounts specifically created and used by Wind
   
   <entry>
     <title>AuthNull Release Notes Week of Sept, 2024</title>
-    <link href="https://authnull.com/blog/posts/release-notes-for-sept-24/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of Sept, 2024" />
+    <link href="http://localhost:4001/blog/posts/release-notes-for-sept-24/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of Sept, 2024" />
     <published>2024-09-02T06:30:00+05:30</published>
   
     <updated>2024-10-10T05:22:43+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/release-notes-for-sept-24/</id>
-    <content src="https://authnull.com/blog/posts/release-notes-for-sept-24/" />
+    <id>http://localhost:4001/blog/posts/release-notes-for-sept-24/</id>
+    <content src="http://localhost:4001/blog/posts/release-notes-for-sept-24/" />
     <author>
       <name>asif</name>
     </author>
@@ -176,52 +214,6 @@ We have made significant upgrades to the Active directory agent in September 202
   Rotation of passwords and automated distribution to user wallets based on set credential rotation policy
   Automated extraction of Active Directory policies from existing group memberships
   User lifecycle management - revocation upon removal from active directory, disa...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AuthNull Release Notes Week of August, 2024</title>
-    <link href="https://authnull.com/blog/posts/release-notes-for-august/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of August, 2024" />
-    <published>2024-08-02T06:30:00+05:30</published>
-  
-    <updated>2024-10-10T05:22:43+05:30</updated>
-  
-    <id>https://authnull.com/blog/posts/release-notes-for-august/</id>
-    <content src="https://authnull.com/blog/posts/release-notes-for-august/" />
-    <author>
-      <name>asif</name>
-    </author>
-
-  
-    
-    <category term="general" />
-    
-    <category term="release-notes" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Secrets Management - UI
-
-We’re announcing the availability of Secrets management screen which allows users to lookup their secrets from their current secret store - which today defaults to the wallet.
-
-
-  
-
-
-When a user visits the secrets screen to view the secrets, the wallet is notified and upon user’s permission, the secrets are retrieved from the wallet and displayed on screen.
-
-This curren...
     </summary>
   
 
