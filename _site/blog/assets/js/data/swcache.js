@@ -46,7 +46,7 @@ const allowedDomains = [
     'www.google-analytics.com',
   
 
-  'localhost:4001',
+  'authnull.com',
 
   
 

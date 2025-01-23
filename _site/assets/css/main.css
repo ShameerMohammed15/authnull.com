@@ -4617,10 +4617,6 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -4864,10 +4860,6 @@ details.collapse summary::-webkit-details-marker {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -4927,6 +4919,10 @@ details.collapse summary::-webkit-details-marker {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -5648,12 +5644,6 @@ h6 {
 
 .hover\:bg-\[length\:400\%_400\%\]:hover {
   background-size: 400% 400%;
-}
-
-
-.hover\:text-black:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 
