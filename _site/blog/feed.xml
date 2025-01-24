@@ -2,34 +2,34 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://authnull.com/blog/</id>
-  <title>Privileged Access</title>
-  <subtitle>This blog provides product and other updates relating to authnull</subtitle>
-  <updated>2024-08-14T01:27:24+05:30</updated>
+  <title></title>
+  <subtitle>AuthNull official blog</subtitle>
+  <updated>2025-01-24T07:17:06+05:30</updated>
   <author>
-    <name>Asif</name>
+    <name>asif</name>
     <uri>https://authnull.com/blog/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://authnull.com/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://authnull.com/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 Asif </rights>
+  <rights> © 2025 asif </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>Understanding Cyber Insurance and Its Importance</title>
-    <link href="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Cyber Insurance and Its Importance" />
-    <published>2024-07-15T08:47:00+05:30</published>
+    <title>Automated Policy Generation</title>
+    <link href="https://authnull.com/blog/posts/automated-policy-generation/" rel="alternate" type="text/html" title="Automated Policy Generation" />
+    <published>2025-01-23T06:30:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2025-01-23T06:30:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/</id>
-    <content src="https://authnull.com/blog/posts/Understanding-Cyber-Insurance-and-Its-Importance/" />
+    <id>https://authnull.com/blog/posts/automated-policy-generation/</id>
+    <content src="https://authnull.com/blog/posts/automated-policy-generation/" />
     <author>
-      <name>asif</name>
+      <name>apoorva</name>
     </author>
 
   
@@ -46,9 +46,13 @@
 
 
 
-      
-  
-    The insurance industry is adapting to help business manage risk, with cyber insurance advancing rapidly. Cyber insurance serves as a crucial safeguard for businesses facing insider cybercrime and external threats like ransomware. Although cyber insurance has been a dependable safety net for years, with the rise in insider cybercrime and ransomware attacks, the landscape is quickly chang...
+      Introductions
+
+AuthNull has a new feature of automated policy generation now. This feature does the following automated policy generation for all types of policies that we can discover without human intervention required to create fine grained access policies.
+
+How does this work? And what does this work against?
+
+This works against all infrastructure we protect – Radius, Active Directory, Endp...
     </summary>
   
 
@@ -56,16 +60,16 @@
 
   
   <entry>
-    <title>20 password management best practices</title>
-    <link href="https://authnull.com/blog/posts/20-password-management-best-practices/" rel="alternate" type="text/html" title="20 password management best practices" />
-    <published>2024-07-10T08:47:00+05:30</published>
+    <title>Announcing AI Agents for Privileged Access Security </title>
+    <link href="https://authnull.com/blog/posts/AI-agents-for-privileged-access/" rel="alternate" type="text/html" title="Announcing AI Agents for Privileged Access Security " />
+    <published>2025-01-23T06:30:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2025-01-23T06:30:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/20-password-management-best-practices/</id>
-    <content src="https://authnull.com/blog/posts/20-password-management-best-practices/" />
+    <id>https://authnull.com/blog/posts/AI-agents-for-privileged-access/</id>
+    <content src="https://authnull.com/blog/posts/AI-agents-for-privileged-access/" />
     <author>
-      <name>asif</name>
+      <name>apoorva</name>
     </author>
 
   
@@ -82,9 +86,9 @@
 
 
 
-      Within the enterprise ecosystem, the task of managing passwords often falls upon the shoulders of business users, laden with significant responsibility. However, a more effective approach to mitigating this burden lies in the centralization and automation of numerous password management best practices.
+      Introducing AuthNull’s AI-powered SecOps automation, a breakthrough in security operations that replaces traditionally human-operated tasks with intelligent agents. Our initial focus centers on privileged access management, where we’re deploying our first autonomous agent to transform how organizations handle security policies.
 
-By implementing such measures, IT operations and security teams can alleviate the weight pla...
+This first agent revolutionizes policy automation through three co...
     </summary>
   
 
@@ -92,14 +96,14 @@ By implementing such measures, IT operations and security teams can alleviate th
 
   
   <entry>
-    <title>Understanding Secrets Management and Its Importance</title>
-    <link href="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" rel="alternate" type="text/html" title="Understanding Secrets Management and Its Importance" />
-    <published>2024-07-05T08:47:00+05:30</published>
+    <title>Support for Radius MFA with passwordless, and decentralized credentials</title>
+    <link href="https://authnull.com/blog/posts/support-for-radius-mfa/" rel="alternate" type="text/html" title="Support for Radius MFA with passwordless, and decentralized credentials" />
+    <published>2024-11-13T06:30:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-11-13T06:30:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/</id>
-    <content src="https://authnull.com/blog/posts/Understanding-Secrets-Management-and-Its-Importance/" />
+    <id>https://authnull.com/blog/posts/support-for-radius-mfa/</id>
+    <content src="https://authnull.com/blog/posts/support-for-radius-mfa/" />
     <author>
       <name>asif</name>
     </author>
@@ -118,16 +122,11 @@ By implementing such measures, IT operations and security teams can alleviate th
 
 
 
-      In a digital enterprise, various types of secrets exist. In this post, we will explore the concept of secrets management and examine the lifecycle of a secret. First, we’ll define what a secret is, its functions, its significance, and how you can use this information to safeguard your organization.
+      Support for MFA and Privileged Access to Radius Devices with Passwordless and Decentralized Credentials.
 
-What is a Secret?
+We’re announcing public preview support for Radius Privileged Access and MFA with the use of a FreeRadius based Radius Authentication Bridge (here after referred as a Radius Bridge). Previously Radius MFA was an internal preview available to select customers.
 
-
-  
-    A secret is a digital authentication credential.
-  
-  
-    Secrets ar...
+The Radius Bridge by AuthNull ...
     </summary>
   
 
@@ -135,21 +134,21 @@ What is a Secret?
 
   
   <entry>
-    <title>Risk-based authentication-A pillar of a zero-trust strategy</title>
-    <link href="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" rel="alternate" type="text/html" title="Risk-based authentication-A pillar of a zero-trust strategy" />
-    <published>2024-06-27T08:47:00+05:30</published>
+    <title>Agentless MFA and Privileged Access for Active Directory</title>
+    <link href="https://authnull.com/blog/posts/active-directory-agentless-mfa/" rel="alternate" type="text/html" title="Agentless MFA and Privileged Access for Active Directory" />
+    <published>2024-10-07T08:47:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2024-10-07T08:47:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/</id>
-    <content src="https://authnull.com/blog/posts/Risk-based-authentication-A-pillar-of-a-zero-trust-strategy/" />
+    <id>https://authnull.com/blog/posts/active-directory-agentless-mfa/</id>
+    <content src="https://authnull.com/blog/posts/active-directory-agentless-mfa/" />
     <author>
       <name>asif</name>
     </author>
 
   
     
-    <category term="general" />
+    <category term="engineering" />
     
   
 
@@ -161,12 +160,11 @@ What is a Secret?
 
 
 
-      
-  
-    In today’s dynamic organizational landscape, it’s evident that companies have undergone significant transformations within just a matter of years.
-  
-  
-    Similarly, the introduction of novel business ventures, tools, workflows, and personnel, with approximately one-third of the workforce transitioning roles annually. Additionally, the evolving tactics of cybercriminals pose new secur...
+      Agentless for Active Directory
+
+We’re announcing the launch of Agentless MFA and Privileged Access for Active Directory
+
+Agentless MFA and Privileged Access for Active Directory (AD) implements Privileged Access and Multi-Factor Authentication (MFA) without requiring agents or additional software to be installed endpoints.  Instead, it leverages existing authentication protocols and integration...
     </summary>
   
 
@@ -174,14 +172,14 @@ What is a Secret?
 
   
   <entry>
-    <title>Top 5 Secrets Management Practices</title>
-    <link href="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" rel="alternate" type="text/html" title="Top 5 Secrets Management Practices" />
-    <published>2024-06-19T08:47:00+05:30</published>
+    <title>AuthNull Release Notes Week of Oct, 2024</title>
+    <link href="https://authnull.com/blog/posts/release-notes-oct-24/" rel="alternate" type="text/html" title="AuthNull Release Notes Week of Oct, 2024" />
+    <published>2024-10-06T06:30:00+05:30</published>
   
-    <updated>2024-08-13T03:51:34+05:30</updated>
+    <updated>2025-01-24T02:37:00+05:30</updated>
   
-    <id>https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/</id>
-    <content src="https://authnull.com/blog/posts/Top-5-Secrets-Management-Practices/" />
+    <id>https://authnull.com/blog/posts/release-notes-oct-24/</id>
+    <content src="https://authnull.com/blog/posts/release-notes-oct-24/" />
     <author>
       <name>asif</name>
     </author>
@@ -189,6 +187,8 @@ What is a Secret?
   
     
     <category term="general" />
+    
+    <category term="release-notes" />
     
   
 
@@ -200,14 +200,15 @@ What is a Secret?
 
 
 
-      What is Secrets Management?
+      
 
+Active Directory Agentless
 
-  
-    Secrets management is the practice of securely handling digital authentication credentials such as passwords, API keys, tokens, and other sensitive information. This process involves the creation, storage, distribution, and auditing of credentials to ensure they remain secure and accessible only to authorized users and applications.
-  
-  
-    By implementing...
+New Active Directory Privileged Access and MFA available for LDAP, Radius (through NPS) but without agents on endpoints. What this means is that users can now authenticate, and you can provide privileged access without the need
+
+MFA is provided for LDAP authentication, and Radius Authentication. 
+Kerberos authentication is being verified and will be launched soon.
+...
     </summary>
   
 
