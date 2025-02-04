@@ -48,7 +48,7 @@
 
   </head>
   <body class="antialiased"> 
-
+<div>
  
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
@@ -154,6 +154,9 @@
                         </div>-->
                         <div class="card-actions justify-left text-black hover:text-blue-600 underline">
                           <a href="/service-accounts" >Service Account Protection </a>
+                        </div>
+                        <div class="card-actions justify-left text-black hover:text-blue-600 underline">
+                          <a href="/radius-infrastructure" >Radius Infrastructure </a>
                         </div>
                         
                         <!--<div class="card-actions justify-left hover:text-blue-600 underline">
@@ -426,555 +429,656 @@
   </nav>
 </header>
 
+<div class="bg-gradient-to-r from-white to-blue-200">
+  <style>
+  .a {
+    color: black;
+  }
 
+  .pad-s {
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+  }
 
-  
-<style> 
-    .a {
-      color: black;
-    }
+  .pad-m {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
 
-     
-    .pad-s {
-      padding-top: var(--space-s);
-      padding-bottom: var(--space-s);
-    }
-    
-    .pad-m {
-      padding-top: var(--space-m);
-      padding-bottom: var(--space-m);
-    }
-    
-    .pad-l {
-      padding-top: var(--space-l);
-      padding-bottom: var(--space-l);
-    }
-    
-    .pad-xl {
-      padding-top: var(--space-xl);
-      padding-bottom: var(--space-xl);
-    }
-    
-    .flow > * + * {
-      margin-top: 1em;
-    }
-    
-    .text-center {
-      text-align: center;
-    }
-    
-    .box {
-      width: 75px;
-      height: 75px;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background-color: var(--green);
-      font-weight: 600;
-      color: var(--dark);
-      line-height: 1.2;
-      will-change: transform;
-    }
-    
-    .circle {
-      width: 75px;
-      height: 75px;
-      border-radius: 99px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background-color: var(--green);
-      font-weight: 600;
-      color: var(--dark);
-      line-height: 1.2;
-      will-change: transform;
-    }
-    
-    /* always doing this */
-    .flex-row {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-    
-    /* and this */
-    
-    .center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    /* colors */
-    
-    .green {
-      background-color: var(--green);
-    }
-    .blue {
-      background-color: var(--blue);
-    }
-    .purple {
-      background-color: var(--purple);
-    }
-    .red {
-      background-color: var(--red);
-    }
-    .orange {
-      background-color: var(--orange);
-    }
-    
-    .dark {
-      background-color: var(--dark);
-      color: var(--light);
-    }
-    
-    .light {
-      background-color: var(--light);
-      color: var(--dark);
-    }
-    
-    .text-light {
-      color: var(--light);
-    }
-    
-    .text-dark {
-      color: var(--dark);
-    }
-    
-    .gray,
-    .grey {
-      background-color: var(--grey);
-    }
-     
-  
-     
-      
-    
-    /* panels  */
-    
-    .panel {
-      min-height: 100vh;
-      padding-left: 0.6rem;
-      padding-right: 0.6rem;
-    }
-    
-    .panel.gray {
-      background-color: #777;
-      background-image: var(--gradient-macha);
-    }
-    .panel.blue {
-      background-color: #2c7ad2;
-      background-image: var(--gradient-summer-fair);
-    }
-    .panel.orange {
-      background-color: #e77614;
-      background-image: var(--gradient-orange-crush);
-    }
-    
-    .panel.red {
-      background-color: #c82736;
-      background-image: var(--gradient-lipstick);
-    }
-    
-    .panel.purple {
-      background-color: #8d3dae;
-      background-image: var(--gradient-purple-haze);
-    }
-    .panel.green {
-      background-color: #28a92b;
-      background-image: var(--gradient-macha);
-    }
-    
-    /* SCROLL DOWN */
-    .scroll-down {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translate(-50%, 0);
-      color: black;
-      font-weight: 400;
-      text-transform: uppercase;
-      font-size: 16px;
-      overflow: visible;
-    }
-    .scroll-down .arrow {
-      position: relative;
-      top: -4px;
-      margin: 0 auto;
-      width: 20px;
-      height: 20px;
-      background-size: contain;
-    }
-    
-    /* h1, h2, p, li {
-      max-width: 800px;
-    breaking stuff
-    }
-     */   
-    
-    /* Hide elements visually, but not for screenreaders by clipping it */
-     
-    
-    /* checkboxes */
-        
-    .box.green, .gradient-green {
-      background: var(--gradient-macha),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .gradient-green-2 {
-      background: var(--gradient-emerald-city),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .box.orange, .gradient-orange {
-      background: var(--gradient-orange-crush),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .box.purple, .gradient-purple {
-      background: var(--gradient-purple-haze),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .gradient-blue-2 {
-      background: var(--gradient-summer-fair),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .box.blue, .gradient-blue {
-      background: var(--color-ui-gradient),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    .box.red, .gradient-red {
-      background: var(--gradient-lipstick),
-      url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
-          background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
-    }
-    
-    
-    
-    .noise {
-      position: relative;
-    }
-    .noise:after {
-      content: '';
-      position:absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      background: url('https://assets.codepen.io/16327/noise-e82662fe.png');
-      opacity: 0.4;
-      pointer-events: none;
-    }
-    .pad-s {
-      padding-top: var(--space-s);
-      padding-bottom: var(--space-s);
-    }
-    
-    .pad-m {
-      padding-top: var(--space-m);
-      padding-bottom: var(--space-m);
-    }
-    
-    .pad-l {
-      padding-top: var(--space-l);
-      padding-bottom: var(--space-l);
-    }
-    
-    .pad-xl {
-      padding-top: var(--space-xl);
-      padding-bottom: var(--space-xl);
-    }
-    
-    .flow > * + * {
-      margin-top: 1em;
-    }
-     
-    .box {
-      width: 75px;
-      height: 75px;
-      border-radius: 12px;
-      display: flex;
-      background-color: var(--green);
-      font-weight: 600;
-      color: var(--dark);
-      line-height: 1.2;
-      will-change: transform;
-    }
-    
-    .circle {
-      width: 75px;
-      height: 75px;
-      border-radius: 99px;
-      display: flex;
-      
-      background-color: var(--green);
-      font-weight: 600;
-      color: var(--dark);
-      line-height: 1.2;
-      will-change: transform;
-    }
-    
-    /* always doing this */
-    .flex-row {
-      width: 100%;
-      display: flex;
-    
-      justify-content: space-around;
-    }
-    
-    /* and this */
-     
-    /* colors */
-    
-        
-    
-    /* SCROLL DOWN */
-    .scroll-down {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translate(-50%, 0);
-    
-      font-weight: 400;
-      text-transform: uppercase;
-      font-size: 16px;
-      overflow: visible;
-    }
-    .scroll-down .arrow {
-      position: relative;
-      top: -4px;
-      margin: 0 auto;
-      width: 20px;
-      height: 20px;
-      background-size: contain;
-    }
-    
-    /* h1, h2, p, li {
+  .pad-l {
+    padding-top: var(--space-l);
+    padding-bottom: var(--space-l);
+  }
+
+  .pad-xl {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+
+  .flow > * + * {
+    margin-top: 1em;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .box {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+
+  .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+
+  /* always doing this */
+  .flex-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* and this */
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* colors */
+
+  .green {
+    background-color: var(--green);
+  }
+  .blue {
+    background-color: var(--blue);
+  }
+  .purple {
+    background-color: var(--purple);
+  }
+  .red {
+    background-color: var(--red);
+  }
+  .orange {
+    background-color: var(--orange);
+  }
+
+  .dark {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+
+  .light {
+    background-color: var(--light);
+    color: var(--dark);
+  }
+
+  .text-light {
+    color: var(--light);
+  }
+
+  .text-dark {
+    color: var(--dark);
+  }
+
+  .gray,
+  .grey {
+    background-color: var(--grey);
+  }
+
+  /* panels  */
+
+  .panel {
+    min-height: 100vh;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .panel.gray {
+    background-color: #777;
+    background-image: var(--gradient-macha);
+  }
+  .panel.blue {
+    background-color: #2c7ad2;
+    background-image: var(--gradient-summer-fair);
+  }
+  .panel.orange {
+    background-color: #e77614;
+    background-image: var(--gradient-orange-crush);
+  }
+
+  .panel.red {
+    background-color: #c82736;
+    background-image: var(--gradient-lipstick);
+  }
+
+  .panel.purple {
+    background-color: #8d3dae;
+    background-image: var(--gradient-purple-haze);
+  }
+  .panel.green {
+    background-color: #28a92b;
+    background-image: var(--gradient-macha);
+  }
+
+  /* SCROLL DOWN */
+  .scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    overflow: visible;
+  }
+  .scroll-down .arrow {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+
+  /* h1, h2, p, li {
       max-width: 800px;
     breaking stuff
     }
      */
-   
-    
-    /* prism */
-    
-    /* Hide elements visually, but not for screenreaders by clipping it */
-     
-    
-    /* checkboxes */
-     
-   
-     
-    
-    
-     
-    
-    .container {
-      margin-left: 2vw;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
+
+  /* Hide elements visually, but not for screenreaders by clipping it */
+
+  /* checkboxes */
+
+  .box.green,
+  .gradient-green {
+    background: var(--gradient-macha), url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .gradient-green-2 {
+    background: var(--gradient-emerald-city),
+      url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .box.orange,
+  .gradient-orange {
+    background: var(--gradient-orange-crush),
+      url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .box.purple,
+  .gradient-purple {
+    background: var(--gradient-purple-haze),
+      url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .gradient-blue-2 {
+    background: var(--gradient-summer-fair),
+      url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .box.blue,
+  .gradient-blue {
+    background: var(--color-ui-gradient), url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .box.red,
+  .gradient-red {
+    background: var(--gradient-lipstick), url("https://assets.codepen.io/16327/noise-e82662fe.png"); /* Replace with the path to your noise texture image */
+    background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+
+  .noise {
+    position: relative;
+  }
+  .noise:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("https://assets.codepen.io/16327/noise-e82662fe.png");
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .pad-s {
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+  }
+
+  .pad-m {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
+
+  .pad-l {
+    padding-top: var(--space-l);
+    padding-bottom: var(--space-l);
+  }
+
+  .pad-xl {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+
+  .flow > * + * {
+    margin-top: 1em;
+  }
+
+  .box {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+
+  .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 99px;
+    display: flex;
+
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+
+  /* always doing this */
+  .flex-row {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+  }
+
+  /* and this */
+
+  /* colors */
+
+  /* SCROLL DOWN */
+  .scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    overflow: visible;
+  }
+  .scroll-down .arrow {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+
+  /* h1, h2, p, li {
+      max-width: 800px;
+    breaking stuff
     }
-    
-    .item {
-      display: block;
-      width: 400px;
-      height: 350px;
-      margin: 5px;
-       
-    }
-     
-    .logo {
-      position: absolute;
-      width: 60px;
-      bottom: 20px;
-      right: 30px;
-    }
-    
-    .purple {
-      background-color: rgb(125, 70, 150)
-    }
-    </style>
-    
-      <script>
-      window.console = window.console || function(t) {};
-    </script>
-    
-      
-      
-    <section>
+     */
 
-        <div class="overflow-hidden py-6 sm:py-6  bg-slate-50">
-          <div class="mx-auto max-w-screen-xl px-5 lg:px-5">
-           
-            <div class="flex flex-col items-start">
-                  <h2 class=" font-semibold leading-7 text-black">A radically better approach to Privileged Access</h2>
-                  <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl">Advanced Identity Protection &  Privileged Access<br/> </p>
-                  <p class="mt-2 text-lg leading-8 text-gray-900">AuthNull is how privileged access should be - without agents, passwords or vaults. Secure your privileged infrastructure with AuthNull. </p> 
-                    <br/>  
-                    
-                    <a href="/contactus#sales"> <button class="btn btn-primary text-white hover:bg-black "> Get in touch</button> </a> 
-                  </div> 
-        
+  /* prism */
 
-                
+  /* Hide elements visually, but not for screenreaders by clipping it */
 
-               <div class="mx-auto w-full max-w-7xl">
-                <br/> 
-                <label class="text-xl text-black ">Show &nbsp;&nbsp; </label>
+  /* checkboxes */
 
-                <label for="all" class="text-lg text-black padding-right"><input type="checkbox" id="all" checked> All &nbsp;&nbsp;</label> 
-                <label for="platform" class="text-lg text-black  padding-right"> <input type="checkbox" id="platform" class="filter" checked> Platform &nbsp;&nbsp;</label>
-                <label for="usecases"class="text-lg text-black  "><input type="checkbox" id="usecases" class="filter" checked> Use Cases &nbsp;&nbsp; </label>
-                <label for="differentiation"class="text-lg text-black "><input type="checkbox" id="differentiation" class="filter" checked> Differentiation &nbsp;&nbsp;</label>
+  .container {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-                <br/><br/>  
-                <!-- Title -->
-                
-                <!-- Content -->
-                <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6 ">
+  .item {
+    display: block;
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+  }
 
-   <!-- <div class="mx-auto w-full max-w-7xl text-center">-->
-       
-               
+  .logo {
+    position: absolute;
+    width: 60px;
+    bottom: 20px;
+    right: 30px;
+  }
+
+  .purple {
+    background-color: rgb(125, 70, 150);
+  }
+</style>
+
+<script>
+  window.console = window.console || function (t) {};
+</script>
+
+<section>
+  <div class="overflow-hidden py-6 sm:py-6 w-full">
+    <div class="mx-auto max-w-screen-xl px-5 lg:px-5 mt-5">
+      <div
+        class="mx-auto grid max-w-full grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+      >
+        <div class="lg:pr-8 lg:pt-4 col-span-5 ">
+          <div class="lg:max-w-3xl">
+            <h2 class="font-semibold leading-7 text-black mt-5">
+              A radically better approach to Privileged Access
+            </h2>
+            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl ">
+              Advanced Identity Protection & Privileged Access
+            </p>
+            <p class="mt-6 text-lg leading-8 text-gray-900 line-clamp-2">
+              AuthNull is how privileged access should be - without agents, passwords or vaults.
+              Secure your privileged infrastructure with AuthNull.
+            </p>
+            <p class="mt-6 text-lg leading-8 text-gray-900">
+              <a href="/contactus#sales">
+                <button class="btn btn-primary text-white hover:bg-black py-2 px-4 sm:py-1 sm:px-2">
+                  Get in touch
+                </button>
+              </a>
+            </p>
+          </div>
+        </div>
+        <!-- <div class="relative pt-[56.25%] mt-12">
+          <iframe
+            src="https://customer-4qbnzcoswj67r0b2.cloudflarestream.com/deb78b61fae9bac8e68a2d4e8b617487/iframe?poster=https%3A%2F%2Fcustomer-4qbnzcoswj67r0b2.cloudflarestream.com%2Fdeb78b61fae9bac8e68a2d4e8b617487%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+            loading="lazy"
+            style="
+              border: none;
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              border-radius: 2%;
+            "
+            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+            allowfullscreen="true"
+          ></iframe>
+        </div> -->
+      </div>
+
+      <div class="mx-auto w-full max-w-7xl">
+        <br />
+        <div class="mt-10">
           
+        <label class="text-xl text-black">Show &nbsp;&nbsp; </label>
+
+        <label for="all" class="text-lg text-black padding-right"
+          ><input type="checkbox" id="all" checked /> All &nbsp;&nbsp;</label
+        >
+        <label for="platform" class="text-lg text-black padding-right">
+          <input type="checkbox" id="platform" class="filter" checked /> Platform
+          &nbsp;&nbsp;</label
+        >
+        <label for="usecases" class="text-lg text-black"
+          ><input type="checkbox" id="usecases" class="filter" checked /> Use Cases &nbsp;&nbsp;
+        </label>
+        <label for="differentiation" class="text-lg text-black"
+          ><input type="checkbox" id="differentiation" class="filter" checked /> Differentiation
+          &nbsp;&nbsp;</label
+        >
+      </div>
+
+        <br /><br />
+        <!-- Title -->
+
+        <!-- Content -->
+        <h1 class="text-3xl font-bold  text-black ">What We Do</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         
-          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/remote-access.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl text-black  font-semibold"> Agentless Privileged Access for Active Directory</h3> <br/>
-            <p class="text-base text-black">Quickly and easily secure Active Directory privileged users, for LDAP, and Radius without agents. Provide credential rotation and distribution. Discovery of service accounts and more. </p>
-            <p class="text-base text-black"><a class="underline text-blue-800" href="/agentless">Learn more</a></p> 
-    
+          <div
+            name="content-box"
+            class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/remote-access.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Agentless Privileged Access for Active Directory
+            </h3>
+            <p class="text-base text-black mt-2">
+              Quickly and easily secure Active Directory privileged users, for LDAP, and Radius
+              without agents. Provide credential rotation and distribution. Discovery of service
+              accounts and more.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/agentless">Learn more</a>
+            </p>
           </div>
-
-          <div name="content-box "  class=" item platform content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/sshicon.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl text-black  font-semibold">Privileged Account and Session Management</h3><br/>
-            <p class="text-base text-black"> AuthNull enables you to provide privileged account discovery, credential management and session management for all of your infrastructure.</p>
-            <br/><p class="text-base text-black"><a class="underline text-blue-800" href="/pasm">Learn more</a></p> 
-    
+          <div
+            name="content-box"
+            class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/sshicon.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Privileged Account and Session Management
+            </h3>
+            <p class="text-base text-black mt-2">
+              AuthNull enables you to provide privileged account discovery, credential management
+              and session management for all of your infrastructure.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/pasm">Learn more</a>
+            </p>
           </div>
-
-
-          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/server.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl text-black font-semibold">Machine to Machine Authentication without passwords or secrets</h3><br/>
-            <p class="text-base text-black">AuthNull deliver M2M authentication - without passwords or secrets.</p>
-            <br/><p class="text-base text-black"><a class="underline text-blue-800" href="/service-accounts">Learn more</a></p>
+          <div
+            name="content-box"
+            class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/server.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Machine to Machine Authentication without passwords or secrets
+            </h3>
+            <p class="text-base text-black mt-2">
+              AuthNull deliver M2M authentication - without passwords or secrets.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/service-accounts">Learn more</a>
+            </p>
           </div>
-
-          <div name="content-box "  class=" item platform content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/reset-password.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl   text-black font-semibold">Secrets Management for Privileged Infrastructure </h3><br/>
-            <p class="text-base text-black">AuthNull provides a decentralized infrastructure to protect your secrets</p>
-            <br/><p class="text-base text-black"><a class="underline text-blue-800" href="/mfa">Learn more</a></p>
-    
+          <div
+            name="content-box"
+            class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/reset-password.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Secrets Management for Privileged Infrastructure
+            </h3>
+            <p class="text-base text-black mt-2">
+              A AuthNull provides a decentralized infrastructure to protect your secrets
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/mfa">Learn more</a>
+            </p>
           </div>
-
-          
-
-
-          <div name="content-box "  class=" item platform content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/server.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl text-black font-semibold">Discover and Protect Service Accounts</h3><br/>
-            <p class="text-base text-black">AuthNull can discover, and manage service accounts.  Authenticate service account applications without using passwords, SSH Keys or secrets.</p>
-            <br/><p class="text-base text-black"><a class="underline text-blue-800" href="/service-accounts">Learn more</a></p>
+          <div
+            name="content-box"
+            class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/server.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-lg sm:text-xl text-black font-semibold mt-4">
+              Discover and Protect Service Accounts
+            </h3>
+            <p class="text-base text-black mt-2">
+              AuthNull can discover, and manage service accounts. Authenticate service account
+              applications without using passwords, SSH Keys or secrets.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/service-accounts">Learn more</a>
+            </p>
           </div>
-            
-          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/windows.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl text-black  font-semibold">Protect Windows & Linux local privilege accounts</h3><br/>
-            <p class="text-base text-black">Quickly and easily secure local privileged Windows and Linux accounts. Setup root bypass, credential rotation and JIT checkouts.</p>
-            <br/> <p class="text-base text-black"><a class="underline text-blue-800" href="/pam">Learn more</a></p> 
-    
+          <div
+            name="content-box"
+            class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/windows.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Protect Windows & Linux local privilege accounts
+            </h3>
+            <p class="text-base text-black mt-2">
+              Quickly and easily secure local privileged Windows and Linux accounts. Setup root
+              bypass, credential rotation and JIT checkouts.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/pam">Learn more</a>
+            </p>
           </div>
-
-          <div name="content-box "  class=" item differentiation content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/vault.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl   text-black font-semibold">Vaultless </h3><br/>
-            <p class="text-base text-black">AuthNull provides vaultless secrets and credential management without the use of a centralized vault</p>
-            <br/> <p class="text-base text-black"><a class="underline text-blue-800" href="/vaultless">Learn more</a></p>
-    
+          <div
+            name="content-box"
+            class="boxs differentiation content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/vault.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-lg sm:text-xl text-black font-semibold mt-4">Vaultless</h3>
+            <p class="text-base text-black mt-2">
+              AuthNull provides vaultless secrets and credential management without the use of a
+              centralized vault
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/vaultless">Learn more</a>
+            </p>
           </div>
-          <div name="content-box "  class=" item usecases content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/id-card.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl   text-black font-semibold">Protection against Identity Attacks </h3><br/> 
-            <p class="text-base text-black">AuthNull provides built in protection against identity attacks - through biometric MFA and dynamic authorization.</p>
-            <br/>  <p class="text-base text-black"><a class="underline text-blue-800" href="/dynamic-authorization-platform">Learn more</a></p>
-    
+          <div
+            name="content-box"
+            class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/id-card.png" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Protection against Identity Attacks
+            </h3>
+            <p class="text-base text-black mt-2">
+              AuthNull provides built in protection against identity attacks - through biometric MFA
+              and dynamic authorization.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/dynamic-authorization-platform"
+                >Learn more</a
+              >
+            </p>
           </div>
-
-          <div name="content-box "  class=" item differentiation content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/decentralized-icon.png" alt="" class="inline-block h-16" />
-            <h3 class="text-xl   text-black font-semibold">Uses Decentralized Identity Infrastructure </h3><br/>
-            <p class="text-base text-black">AuthNull uses a decentralized identity intrastructure to create multiple roots of trust, leveraging self sovereign identity and by delivering a more secure solution.</p>
-            <br/> <p class="text-base text-black"><a class="underline text-blue-800" href="/decentralid">Learn more</a></p>
-    
+          <div
+            name="content-box"
+            class="boxs differentiation content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img
+              src="/assets/images/decentralized-icon.png"
+              alt=""
+              class="items-center h-16 mx-auto"
+            />
+            <h3 class="text-xl text-black font-semibold mt-4">
+              Uses Decentralized Identity Infrastructure
+            </h3>
+            <p class="text-base text-black mt-2">
+              AuthNull uses a decentralized identity intrastructure to create multiple roots of
+              trust, leveraging self sovereign identity and by delivering a more secure solution.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/decentralid">Learn more</a>
+            </p>
           </div>
-
-          <div name="content-box "  class=" item differentiation content-box grid gap-6 rounded-md  border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-8 md:p-10">
-            <img src="/assets/images/Passwordless.svg" alt="" class="inline-block h-16" />
-            <h3 class="text-xl   text-black font-semibold">Passwordless</h3><br/> 
-            <p class="text-base text-black">AuthNull provides passwordless access to several key parts of your infrastructure.</p>
-            <br/> <p class="text-base text-black"><a class="underline text-blue-800" href="/passwordless">Learn more</a></p>
-    
+          <div
+            name="content-box"
+            class="boxs differentiation content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+          >
+            <img src="/assets/images/Passwordless.svg" alt="" class="items-center h-16 mx-auto" />
+            <h3 class="text-lg sm:text-xl text-black font-semibold mt-4">Passwordless</h3>
+            <p class="text-base text-black mt-2">
+              AuthNull provides passwordless access to several key parts of your infrastructure.
+            </p>
+            <p class="text-base mt-3">
+              <a class="underline text-blue-800" href="/passwordless">Learn more</a>
+            </p>
           </div>
-    
-
-       
+        </div>
+      </div>
     </div>
-    
-    </div>
-    </div>
-    
-      <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
-    <script src='https://assets.codepen.io/16327/Flip.min.js'></script>
-          <script id="rendered-js" >
-    "use strict";
-    const allCheckbox = document.querySelector('#all'), filters = gsap.utils.toArray('.filter'), items = gsap.utils.toArray('.item');
-    function updateFilters() {
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://assets.codepen.io/16327/Flip.min.js"></script>
+    <script id="rendered-js">
+      "use strict";
+      const allCheckbox = document.querySelector("#all"),
+        filters = gsap.utils.toArray(".filter"),
+        items = gsap.utils.toArray(".boxs");
+      function updateFilters() {
         const state = Flip.getState(items), // get the current state
-        classes = filters.filter(checkbox => checkbox.checked).map(checkbox => "." + checkbox.id), matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
+          classes = filters
+            .filter((checkbox) => checkbox.checked)
+            .map((checkbox) => "." + checkbox.id),
+          matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
         // adjust the display property of each item ("none" for filtered ones, "inline-flex" for matching ones)
-        items.forEach(item => item.style.display = matches.indexOf(item) === -1 ? "none" : "block");
+        items.forEach(
+          (item) => (item.style.display = matches.indexOf(item) === -1 ? "none" : "block")
+        );
         // animate from the previous state
         Flip.from(state, {
-            duration: 0.7,
-            scale: true,
-            ease: "power1.inOut",
-            stagger: 0.08,
-            absolute: true,
-            onEnter: elements => gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
-            onLeave: elements => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 })
+          duration: 0.7,
+          scale: true,
+          ease: "power1.inOut",
+          stagger: 0.08,
+          absolute: true,
+          onEnter: (elements) =>
+            gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
+          onLeave: (elements) => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 }),
         });
         // Update the all checkbox:
         allCheckbox.checked = matches.length === items.length;
-    }
-    filters.forEach(btn => btn.addEventListener('click', updateFilters));
-    allCheckbox.addEventListener('click', () => {
-        filters.forEach(checkbox => checkbox.checked = allCheckbox.checked);
+      }
+      filters.forEach((btn) => btn.addEventListener("click", updateFilters));
+      allCheckbox.addEventListener("click", () => {
+        filters.forEach((checkbox) => (checkbox.checked = allCheckbox.checked));
         updateFilters();
-    });
-    //# sourceURL=pen.js
-        </script>
-     
-<!--
+      });
+      //# sourceURL=pen.js
+    </script>
+
+    <!--
 
 <section >
   <!-- 
@@ -1002,21 +1106,21 @@
 </section>
 
 -->
- 
-=
+  </div>
+</section>
 
+  
 <!-- Section CTA -->
-<!-- Testimonials -->
+  <!-- Testimonials -->
 
 <!--
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="bg-white min-h-screen bg-slate-50">
+<div class=" min-h-screen">
     <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+      <h2 class="text-3xl leading-9 font-bold tracking-tight text-gray-900  sm:leading-10">
        Here's what our customers say:
-        <br>
        
       </h2>
       
@@ -1025,7 +1129,7 @@
 
   
 
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-[-3rem]">
     <!-- Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Card -->
@@ -1101,6 +1205,8 @@
   <!-- End Testimonials -->
 
 </div>
+</div>
+
 
 
  
@@ -1164,7 +1270,7 @@
   
       <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
         <div class="flex justify-between items-center">
-          <p class="text-sm text-gray-400">© 2024 Authnull. All rights reserved.</p>
+          <p class="text-sm text-gray-400">© 2025 Authnull. All rights reserved.</p>
         </div>
         <!-- End Col -->
   
@@ -1185,7 +1291,7 @@
               <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
             </svg>
           </a>
-          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="#">
+          <a class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition" href="https://github.com/authnull0" target="_blank" rel="noopener noreferrer">
             <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
             </svg>

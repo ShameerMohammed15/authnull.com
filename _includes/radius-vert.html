@@ -1,0 +1,63 @@
+<a name="recording"></a>
+<section class=""> 
+  <!-- Container -->
+  <div class="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-12">
+    
+    <!-- Component -->
+    <div class="relative pt-60">
+      
+      <!-- Item 01 -->
+      <div class="sticky bottom-20 z-[3] -mt-48 mb-36 grid items-center gap-4 rounded-xl bg-white shadow-lg px-5 py-10 sm:px-12 lg:grid-cols-2 lg:gap-12">
+        <div class="max-w-2xl lg:grid lg:gap-16">
+          <h2 class="mb-4 text-3xl font-bold md:text-4xl lg:m-0">A Deep Dive into Modern Authentication</h2>
+          <p class="max-w-md text-lg text-base">
+            It creates a seamless authentication flow while maintaining robust security through multiple validation layers.
+          </p>
+          <p class="hidden text-2xl font-bold lg:block">// 01</p>
+        </div>
+        <div class="flex h-[480px] w-full items-center justify-center text-[#858585]">
+          <img class="border rounded-lg shadow-md" src="/assets/images/radius-bridge.jpg">
+        </div>
+        <p class="block text-2xl font-bold lg:hidden">// 01</p>
+      </div>
+
+      <!-- Item 02 -->
+      <div class="sticky bottom-36 top-auto z-[2] -mt-24 mb-12 grid items-center gap-8 rounded-xl bg-white shadow-lg px-5 py-10 sm:px-12 lg:grid-cols-2 lg:gap-20">
+        <div class="max-w-2xl lg:grid lg:gap-16">
+          <h2 class="mb-4 text-3xl font-bold md:text-4xl lg:m-0">Authentication Flow</h2>
+          <p class="max-w-md text-lg text-base">
+            Once AD validation is successful, NPS forwards the request to FreeRADIUS:
+            <br> - Communication is encrypted using shared secrets
+            <br> - Uses UDP ports 1812 (authentication) and 1813 (accounting)
+            <br> - Includes relevant RADIUS attributes
+          </p>
+          <p class="hidden text-2xl font-bold lg:block">// 02</p>
+        </div>
+        <div class="flex h-[480px] w-full items-center justify-center text-[#858585]">
+          <img class="border rounded-lg shadow-md" src="/assets/images/authentication-flow.jpg" />
+        </div>
+        <p class="block text-2xl font-bold lg:hidden">// 02</p>
+      </div>
+
+      <!-- Item 03 -->
+      <div class="sticky bottom-12 top-auto mb-12 grid items-center gap-8 rounded-xl bg-white shadow-lg px-5 py-10 sm:px-12 lg:grid-cols-2 lg:gap-20">
+        <div class="max-w-2xl lg:grid lg:gap-16">
+          <h2 class="mb-4 text-3xl font-bold md:text-4xl lg:m-0">Final Authorization</h2>
+          <p class="max-w-md text-lg text-base">
+            The system completes the authentication chain:
+            <br> - AuthNull returns MFA results
+            <br> - FreeRADIUS makes final access decision
+            <br> - NPS enforces the decision
+            <br> - User receives access grant or denial
+          </p>
+          <p class="hidden text-2xl font-bold lg:block">// 03</p>
+        </div>
+        <div class="flex h-[480px] w-full items-center justify-center text-[#858585]">
+          <img class="border rounded-lg shadow-md" src="/assets/images/Authorization.jpg" />
+        </div>
+        <p class="block text-2xl font-bold lg:hidden">// 03</p>
+      </div>
+
+    </div>
+  </div>
+</section>

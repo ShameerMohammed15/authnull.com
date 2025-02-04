@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}" class="bg-white">
+  <head>
+
+    {% include ga.html %} 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="A better privileged access platform. AuthNull is a radical departure from the privileged access systems of the past. Features include: Agentless, passwordless, and vaultless.">
+      <meta name="robots" content="index">
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+      <link rel="icon" type="image/png" href="{{ "/assets/images/favico.png" | relative_url }}" >
+
+      <link rel="canonical" href="https://authnull.com{{page.url}}" />
+
+  </head>
+  <body class="antialiased"> 
+<div>
+{% include header.html %}
+<div class="bg-slate-50 bg-gradient-to-r  from-slate-50 to-blue-200">
+{% include radius-infrastructure.html %}
+{% include radius-vert.html %}
+</div>
+{% include footer.html %}
+
+
+
+<script src="/preline/dist/preline.js"></script>
+  </body>
+</html>

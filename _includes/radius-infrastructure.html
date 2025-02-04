@@ -1,0 +1,633 @@
+
+
+
+
+ 
+
+
+    <section>
+
+      <div class="overflow-hidden py-6 sm:py-6    min-h-screen">
+        <div class="mx-auto max-w-screen-xl px-5 lg:px-5">
+         
+          <div class="flex flex-col ">
+        <div class="lg:pr-8 lg:pt-4 mt-7">
+          <div class="lg:max-w-full">
+            <p class="mt-2 text-6xl font-bold tracking-tight text-black sm:text-6xl flex justify-center ">Authnull Protects Radius Infrastructure</p>
+            <p class="mt-6 text-lg leading-8 text-gray-900 flex justify-center">  Secure your Radius infrastructure / TACACESS + Infrastructure using Authnull,Deliver MFA,Conditional Privileged access and more </p>
+          </div>
+        </div>
+        
+      </div>
+      <!-- <div style="position: relative; padding-top: 56.25%; margin-top: 5%;
+      display: flex;
+  justify-content: center; 
+  align-items: center; ">
+        <iframe
+          src="https://customer-4qbnzcoswj67r0b2.cloudflarestream.com/deb78b61fae9bac8e68a2d4e8b617487/iframe?poster=https%3A%2F%2Fcustomer-4qbnzcoswj67r0b2.cloudflarestream.com%2Fdeb78b61fae9bac8e68a2d4e8b617487%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+          loading="lazy"
+          style="border: none; position: absolute; top: 0;  height: 75%; width: 85%;border-radius: 2%;"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+          allowfullscreen="true"
+        ></iframe>
+      </div> -->
+
+
+
+  
+<style> 
+  .a {
+    color: black;
+  }
+
+   
+  .pad-s {
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+  }
+  
+  .pad-m {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
+  
+  .pad-l {
+    padding-top: var(--space-l);
+    padding-bottom: var(--space-l);
+  }
+  
+  .pad-xl {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+  
+  .flow > * + * {
+    margin-top: 1em;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .box {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+  
+  .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+  
+  /* always doing this */
+  .flex-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  /* and this */
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* colors */
+  
+  .green {
+    background-color: var(--green);
+  }
+  .blue {
+    background-color: var(--blue);
+  }
+  .purple {
+    background-color: var(--purple);
+  }
+  .red {
+    background-color: var(--red);
+  }
+  .orange {
+    background-color: var(--orange);
+  }
+  
+  .dark {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  
+  .light {
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  
+  .text-light {
+    color: var(--light);
+  }
+  
+  .text-dark {
+    color: var(--dark);
+  }
+  
+  .gray,
+  .grey {
+    background-color: var(--grey);
+  }
+   
+
+   
+    
+  
+  /* panels  */
+  
+  .panel {
+    min-height: 100vh;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  
+  .panel.gray {
+    background-color: #777;
+    background-image: var(--gradient-macha);
+  }
+  .panel.blue {
+    background-color: #2c7ad2;
+    background-image: var(--gradient-summer-fair);
+  }
+  .panel.orange {
+    background-color: #e77614;
+    background-image: var(--gradient-orange-crush);
+  }
+  
+  .panel.red {
+    background-color: #c82736;
+    background-image: var(--gradient-lipstick);
+  }
+  
+  .panel.purple {
+    background-color: #8d3dae;
+    background-image: var(--gradient-purple-haze);
+  }
+  .panel.green {
+    background-color: #28a92b;
+    background-image: var(--gradient-macha);
+  }
+  
+  /* SCROLL DOWN */
+  .scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    overflow: visible;
+  }
+  .scroll-down .arrow {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  
+  /* h1, h2, p, li {
+    max-width: 800px;
+  breaking stuff
+  }
+   */   
+  
+  /* Hide elements visually, but not for screenreaders by clipping it */
+   
+  
+  /* checkboxes */
+      
+  .box.green, .gradient-green {
+    background: var(--gradient-macha),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .gradient-green-2 {
+    background: var(--gradient-emerald-city),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .box.orange, .gradient-orange {
+    background: var(--gradient-orange-crush),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .box.purple, .gradient-purple {
+    background: var(--gradient-purple-haze),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .gradient-blue-2 {
+    background: var(--gradient-summer-fair),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .box.blue, .gradient-blue {
+    background: var(--color-ui-gradient),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  .box.red, .gradient-red {
+    background: var(--gradient-lipstick),
+    url('https://assets.codepen.io/16327/noise-e82662fe.png'); /* Replace with the path to your noise texture image */
+        background-blend-mode: color-dodge; /* Blend the noise texture with the gradient */
+  }
+  
+  
+  
+  .noise {
+    position: relative;
+  }
+  .noise:after {
+    content: '';
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('https://assets.codepen.io/16327/noise-e82662fe.png');
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .pad-s {
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-s);
+  }
+  
+  .pad-m {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
+  
+  .pad-l {
+    padding-top: var(--space-l);
+    padding-bottom: var(--space-l);
+  }
+  
+  .pad-xl {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+  
+  .flow > * + * {
+    margin-top: 1em;
+  }
+   
+  .box {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+  
+  .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 99px;
+    display: flex;
+    
+    background-color: var(--green);
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.2;
+    will-change: transform;
+  }
+  
+  /* always doing this */
+  .flex-row {
+    width: 100%;
+    display: flex;
+  
+    justify-content: space-around;
+  }
+  
+  /* and this */
+   
+  /* colors */
+  
+      
+  
+  /* SCROLL DOWN */
+  .scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    overflow: visible;
+  }
+  .scroll-down .arrow {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+  
+  /* h1, h2, p, li {
+    max-width: 800px;
+  breaking stuff
+  }
+   */
+ 
+  
+  /* prism */
+  
+  /* Hide elements visually, but not for screenreaders by clipping it */
+   
+  
+  /* checkboxes */
+   
+ 
+   
+  
+  
+   
+  
+  .container {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    display: block;
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+     
+  }
+   
+  .logo {
+    position: absolute;
+    width: 60px;
+    bottom: 20px;
+    right: 30px;
+  }
+  
+  .purple {
+    background-color: rgb(125, 70, 150)
+  }
+  </style>
+  
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+     
+      
+
+              
+
+             <div class="mx-auto w-full max-w-7xl">
+              <br/> 
+              <label class="text-xl">Show &nbsp;&nbsp; </label>
+
+              <label for="all" class="text-lg padding-right"><input type="checkbox" id="all" checked> All &nbsp;&nbsp;</label> 
+              <label for="platform" class="text-lg padding-right"> <input type="checkbox" id="platform" class="filter" checked> Platform &nbsp;&nbsp;</label>
+              <label for="usecases"class="text-lg"><input type="checkbox" id="usecases" class="filter" checked> Use Cases &nbsp;&nbsp; </label>
+              <label for="differentiation"class="text-lg"><input type="checkbox" id="differentiation" class="filter" checked> Differentiation &nbsp;&nbsp;</label>
+
+              <br/><br/>  
+              <!-- Title -->
+              
+              <!-- Content -->
+               
+
+
+
+
+              
+
+ <!-- <div class="mx-auto w-full max-w-7xl text-center">-->
+     
+             
+  <h1 class="text-3xl font-bold  text-black ">Features</h1>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+    <div
+      name="content-box"
+      class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/remote-access.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-xl text-black font-semibold mt-4">
+        RADIUS Policy Enforcement
+      </h3>
+      <p class="text-base text-black mt-2">
+        A Remote Authentication Dial-In User Service (RADIUS)  is an authentication server for network access control and policy enforcement. It can use various user attributes, such as credentials or anything you can include on a certificate template.
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/sshicon.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-xl text-black font-semibold mt-4">
+        Understanding RADIUS Bridge
+      </h3>
+      <p class="text-base text-black mt-2">
+        In today's interconnected world, secure authentication is more crucial than ever. RADIUS Bridge represents a sophisticated approach to managing network access, combining traditional RADIUS authentication with modern multi-factor authentication (MFA). 
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/server.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-xl text-black font-semibold mt-4">
+        What is RADIUS Bridge
+      </h3>
+      <p class="text-base text-black mt-2">
+        RADIUS Bridge is an authentication framework that connects multiple authentication systems  Network Policy Server (NPS) ,FreeRADIUS ,AuthNull (MFA service) ,Active Directory
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/reset-password.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-xl text-black font-semibold mt-4">
+        Authentication Flow 
+      </h3>
+      <p class="text-base text-black mt-2">
+        When a user attempts to access network resources, their device sends an authentication request to the NPS server. This request includes: Username and password ,Device information ,Connection parameters
+        
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs content-box platform flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/server.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-lg sm:text-xl text-black font-semibold mt-4">
+        Active Directory Validation
+      </h3>
+      <p class="text-base text-black mt-2">
+        The NPS server first validates the user's credentials against Active Directory: Verifies username and password ,Checks group memberships ,Applies access policies ,Confirms account status
+        
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs usecases content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/windows.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-xl text-black font-semibold mt-4">
+        Multi-Factor Authentication
+      </h3>
+      <p class="text-base text-black mt-2">
+        FreeRADIUS initiates the MFA process through AuthNull: Triggers push notification to user's mobile device ,Awaits user response ,Manages timeout scenarios     
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+    <div
+      name="content-box"
+      class="boxs differentiation content-box flex flex-col shadow-md rounded-xl border border-solid border-gray-300 bg-gradient-to-r from-blue-50 to-blue-50 p-6 sm:p-8 md:p-10"
+    >
+      <img src="/assets/images/vault.png" alt="" class="items-center h-16 mx-auto" />
+      <h3 class="text-lg sm:text-xl text-black font-semibold mt-4"> Modern Authentication with MFA Security</h3>
+      <p class="text-base text-black mt-2">
+        RADIUS Bridge represents a modern approach to authentication, combining the reliability of RADIUS with the security of MFA. Its layered approach provides robust security while maintaining user-friendly access controls.
+      </p>
+      <p class="text-base mt-3">
+        <a class="underline text-blue-800" href="#">Learn more</a>
+      </p>
+    </div>
+   
+  </div>
+  </div>
+  
+  
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+  <script src='https://assets.codepen.io/16327/Flip.min.js'></script>
+        <script id="rendered-js" >
+  "use strict";
+  const allCheckbox = document.querySelector('#all'), filters = gsap.utils.toArray('.filter'), items = gsap.utils.toArray('.boxs');
+  function updateFilters() {
+      const state = Flip.getState(items), // get the current state
+      classes = filters.filter(checkbox => checkbox.checked).map(checkbox => "." + checkbox.id), matches = classes.length ? gsap.utils.toArray(classes.join(",")) : classes;
+      // adjust the display property of each item ("none" for filtered ones, "inline-flex" for matching ones)
+      items.forEach(item => item.style.display = matches.indexOf(item) === -1 ? "none" : "block");
+      // animate from the previous state
+      Flip.from(state, {
+          duration: 0.7,
+          scale: true,
+          ease: "power1.inOut",
+          stagger: 0.08,
+          absolute: true,
+          onEnter: elements => gsap.fromTo(elements, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 1 }),
+          onLeave: elements => gsap.to(elements, { opacity: 0, scale: 0, duration: 1 })
+      });
+      // Update the all checkbox:
+      allCheckbox.checked = matches.length === items.length;
+  }
+  filters.forEach(btn => btn.addEventListener('click', updateFilters));
+  allCheckbox.addEventListener('click', () => {
+      filters.forEach(checkbox => checkbox.checked = allCheckbox.checked);
+      updateFilters();
+  });
+  //# sourceURL=pen.js
+      </script>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+</div>
+</div>
+</main> 
+
+
+
+
+
+
+<!-- Section Features  -->
+
+
+ 
+  <!-- Hero Container -->
+  
+ 
+
+
+
+ 
